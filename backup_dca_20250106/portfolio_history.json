@@ -1,0 +1,233 @@
+{
+    "positions": {
+        "MKRUSDT": {
+            "coins": 0.014449036239932994,
+            "total_invested": 25.155772093723343
+        },
+        "BTCUSDT": {
+            "coins": 0.000548110774945983,
+            "total_invested": 26.176936538151416
+        },
+        "1INCHUSDT": {
+            "coins": 40.85486036791586,
+            "total_invested": 19.753324987887318
+        },
+        "THETAUSDT": {
+            "coins": 14.483714193792895,
+            "total_invested": 16.69972246544321
+        },
+        "GRTUSDT": {
+            "coins": 85.63016911198322,
+            "total_invested": 15.807329218072102
+        },
+        "XLMUSDT": {
+            "coins": 235.08599130689726,
+            "total_invested": 103.60239636894963
+        },
+        "XRPUSDT": {
+            "coins": 1.8962087936370418,
+            "total_invested": 4.549763379452718
+        },
+        "DOGEUSDT": {
+            "coins": 9.96337263827106,
+            "total_invested": 3.8089973596110265
+        },
+        "AAVEUSDT": {
+            "coins": 0.01053650923222203,
+            "total_invested": 3.600325204650267
+        },
+        "ADAUSDT": {
+            "coins": 3.3391586727546883,
+            "total_invested": 3.6433560278426405
+        },
+        "ALGOUSDT": {
+            "coins": 7.851088309571681,
+            "total_invested": 3.1812609830384453
+        },
+        "SUSHIUSDT": {
+            "coins": 1.4481809746404821,
+            "total_invested": 2.592243944606463
+        }
+    },
+    "transactions": [
+        {
+            "timestamp": "2025-01-06T03:49:42.221581",
+            "symbol": "MKRUSDT",
+            "type": "buy",
+            "amount": 25.155772093723343,
+            "price": 1741.0,
+            "coins": 0.014449036239932994
+        },
+        {
+            "timestamp": "2025-01-06T03:49:42.221581",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 22.583851234874025,
+            "price": 44145.11,
+            "coins": 0.0005115821714992674
+        },
+        {
+            "timestamp": "2025-01-06T03:49:42.221581",
+            "symbol": "1INCHUSDT",
+            "type": "buy",
+            "amount": 19.753324987887318,
+            "price": 0.4835,
+            "coins": 40.85486036791586
+        },
+        {
+            "timestamp": "2025-01-06T03:49:42.221581",
+            "symbol": "THETAUSDT",
+            "type": "buy",
+            "amount": 16.69972246544321,
+            "price": 1.153,
+            "coins": 14.483714193792895
+        },
+        {
+            "timestamp": "2025-01-06T03:49:42.221581",
+            "symbol": "GRTUSDT",
+            "type": "buy",
+            "amount": 15.807329218072102,
+            "price": 0.1846,
+            "coins": 85.63016911198322
+        },
+        {
+            "timestamp": "2025-01-06T03:50:38.863738",
+            "symbol": "XLMUSDT",
+            "type": "buy",
+            "amount": 100.0,
+            "price": 0.4407,
+            "coins": 226.91173133651012
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 2.274881689726359,
+            "price": 2.3994,
+            "coins": 0.9481043968185209
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "XLMUSDT",
+            "type": "buy",
+            "amount": 1.8011981844748115,
+            "price": 0.4407,
+            "coins": 4.087129985193582
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 1.9044986798055132,
+            "price": 0.3823,
+            "coins": 4.98168631913553
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "AAVEUSDT",
+            "type": "buy",
+            "amount": 1.8001626023251336,
+            "price": 341.7,
+            "coins": 0.005268254616111015
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 1.8216780139213202,
+            "price": 1.0911,
+            "coins": 1.6695793363773441
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "ALGOUSDT",
+            "type": "buy",
+            "amount": 1.5906304915192226,
+            "price": 0.4052,
+            "coins": 3.9255441547858405
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 1.796542651638696,
+            "price": 98363.61,
+            "coins": 1.8264301723357816e-05
+        },
+        {
+            "timestamp": "2025-01-06T03:53:08.507122",
+            "symbol": "SUSHIUSDT",
+            "type": "buy",
+            "amount": 1.2961219723032316,
+            "price": 1.79,
+            "coins": 0.7240904873202411
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 2.274881689726359,
+            "price": 2.3994,
+            "coins": 0.9481043968185209
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "XLMUSDT",
+            "type": "buy",
+            "amount": 1.8011981844748115,
+            "price": 0.4407,
+            "coins": 4.087129985193582
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 1.9044986798055132,
+            "price": 0.3823,
+            "coins": 4.98168631913553
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "AAVEUSDT",
+            "type": "buy",
+            "amount": 1.8001626023251336,
+            "price": 341.7,
+            "coins": 0.005268254616111015
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 1.8216780139213202,
+            "price": 1.0911,
+            "coins": 1.6695793363773441
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "ALGOUSDT",
+            "type": "buy",
+            "amount": 1.5906304915192226,
+            "price": 0.4052,
+            "coins": 3.9255441547858405
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 1.796542651638696,
+            "price": 98363.61,
+            "coins": 1.8264301723357816e-05
+        },
+        {
+            "timestamp": "2025-01-06T03:55:38.262410",
+            "symbol": "SUSHIUSDT",
+            "type": "buy",
+            "amount": 1.2961219723032316,
+            "price": 1.79,
+            "coins": 0.7240904873202411
+        }
+    ],
+    "daily_performance": [],
+    "total_invested": 228.57142857142856,
+    "last_update": "2025-01-06T03:55:38.262410"
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-01-16T15:45:49.715358",
+  "metrics": {
+    "execution_times": [],
+    "cpu_usage": [
+      22.9,
+      0.0
+    ],
+    "memory_usage": [
+      82.7,
+      82.7
+    ],
+    "success_rates": []
+  },
+  "operation_times": {
+    "system_initialization": [
+      78.8910231590271
+    ],
+    "market_analysis": [
+      0.6374683380126953
+    ],
+    "risk_assessment": [
+      0.06562399864196777
+    ],
+    "portfolio_update": [
+      0.001027822494506836
+    ],
+    "dca_execution": [
+      27.27710509300232
+    ],
+    "database_update": [
+      0.013484001159667969
+    ],
+    "backup": [
+      0.1651301383972168
+    ],
+    "full_cycle": [
+      28.160983085632324
+    ]
+  },
+  "alerts": [
+    "Alto uso de memoria: 82.7%"
+  ]
+}

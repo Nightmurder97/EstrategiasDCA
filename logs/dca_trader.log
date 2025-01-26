@@ -1,0 +1,1460 @@
+2025-01-07 20:16:42,022 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 20:16:42,714 - INFO - Datos guardados en caché para DOGEUSDT
+2025-01-07 20:16:42,714 - INFO - Datos guardados en caché para ADAUSDT
+2025-01-07 20:16:42,714 - INFO - Datos descargados y guardados para DOGEUSDT
+2025-01-07 20:16:42,714 - INFO - Datos guardados en caché para DOTUSDT
+2025-01-07 20:16:42,714 - INFO - Datos descargados y guardados para ADAUSDT
+2025-01-07 20:16:42,715 - INFO - Datos descargados y guardados para DOTUSDT
+2025-01-07 20:16:43,053 - INFO - Datos guardados en caché para XRPUSDT
+2025-01-07 20:16:43,053 - INFO - Datos descargados y guardados para XRPUSDT
+2025-01-07 20:16:43,220 - INFO - Datos guardados en caché para BTCUSDT
+2025-01-07 20:16:43,220 - INFO - Datos descargados y guardados para BTCUSDT
+2025-01-07 20:16:43,224 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:16:43,249 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:18:25,051 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 20:18:25,064 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 20:18:25,065 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 20:18:25,065 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 20:18:25,066 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 20:18:25,067 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 20:18:25,070 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:18:25,086 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:18:44,064 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 20:18:44,075 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 20:18:44,076 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 20:18:44,076 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 20:18:44,077 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 20:18:44,077 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 20:18:44,080 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:18:44,096 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:19:16,110 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 20:19:16,122 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 20:19:16,123 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 20:19:16,124 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 20:19:16,125 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 20:19:16,126 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 20:19:16,129 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:19:16,148 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:30:22,727 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 20:30:22,740 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 20:30:22,740 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 20:30:22,741 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 20:30:22,742 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 20:30:22,742 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 20:30:22,745 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:30:22,767 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:46:34,006 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 20:46:34,019 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 20:46:34,019 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 20:46:34,019 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 20:46:34,020 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 20:46:34,021 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 20:46:34,023 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 20:46:34,039 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 21:05:24,791 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 21:05:24,802 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 21:05:24,802 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 21:05:24,803 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 21:05:24,804 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 21:05:24,804 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 21:05:24,807 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 21:05:24,824 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 21:09:17,315 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 21:09:17,327 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 21:09:17,328 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 21:09:17,329 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 21:09:17,330 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 21:09:17,330 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 21:09:17,333 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 21:09:17,349 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 21:10:26,418 - INFO - Iniciando descarga de datos de mercado
+2025-01-07 21:10:26,429 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-07 21:10:26,430 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-07 21:10:26,431 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-07 21:10:26,431 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-07 21:10:26,432 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-07 21:10:26,435 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-07 21:10:26,450 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-08 16:17:16,170 - INFO - Iniciando descarga de datos de mercado
+2025-01-08 16:17:16,185 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-08 16:17:16,185 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-08 16:17:16,186 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-08 16:17:16,186 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-08 16:17:16,187 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-08 16:17:16,191 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-08 16:17:16,206 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-08 18:08:13,483 - INFO - Iniciando descarga de datos de mercado
+2025-01-08 18:08:13,492 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-08 18:08:13,494 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-08 18:08:13,494 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-08 18:08:13,494 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-08 18:08:13,495 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-08 18:08:13,498 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-08 18:08:13,514 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-08 23:01:03,564 - INFO - Iniciando descarga de datos de mercado
+2025-01-08 23:01:03,576 - INFO - Datos cargados de caché para DOTUSDT
+2025-01-08 23:01:03,577 - INFO - Datos cargados de caché para BTCUSDT
+2025-01-08 23:01:03,579 - INFO - Datos cargados de caché para DOGEUSDT
+2025-01-08 23:01:03,579 - INFO - Datos cargados de caché para ADAUSDT
+2025-01-08 23:01:03,580 - INFO - Datos cargados de caché para XRPUSDT
+2025-01-08 23:01:03,585 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-08 23:01:03,666 - ERROR - Error al calcular pesos HRP: 'Series' object has no attribute 'append'
+2025-01-16 16:04:57,181 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:04:57,181 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:04:57,333 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:04:57,333 - __main__ - INFO - Iniciando componentes del sistema...
+2025-01-16 16:04:57,341 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:04:57,341 - src.dca_live_trader - WARNING - Configuración de email incompleta. Las notificaciones estarán deshabilitadas.
+2025-01-16 16:04:57,778 - src.dca_live_trader - INFO - Precio actual de BTCUSDT: 97567.75
+2025-01-16 16:04:58,135 - src.dca_live_trader - INFO - Precio actual de XRPUSDT: 3.2561
+2025-01-16 16:04:58,493 - src.dca_live_trader - INFO - Precio actual de ADAUSDT: 1.0766
+2025-01-16 16:04:58,904 - src.dca_live_trader - INFO - Precio actual de DOTUSDT: 7.093
+2025-01-16 16:04:59,263 - src.dca_live_trader - INFO - Precio actual de DOGEUSDT: 0.37524
+2025-01-16 16:04:59,621 - src.dca_live_trader - INFO - Precio actual de AAVEUSDT: 309.8
+2025-01-16 16:04:59,621 - src.market_analysis - INFO - Inicializando MarketAnalyzer...
+2025-01-16 16:04:59,622 - src.market_analysis - INFO - Cargando datos de CoinMarketCap...
+2025-01-16 16:05:00,483 - src.market_analysis - INFO - Status Code: 200
+2025-01-16 16:05:00,484 - src.market_analysis - INFO - Datos recibidos de CMC: 100 criptomonedas
+2025-01-16 16:05:00,484 - src.market_analysis - INFO - Procesadas 100 criptomonedas
+2025-01-16 16:05:00,485 - src.market_analysis - INFO - Cargando datos históricos de Binance...
+2025-01-16 16:05:00,969 - src.market_analysis - INFO - Datos cargados para BTCUSDT
+2025-01-16 16:05:01,382 - src.market_analysis - INFO - Datos cargados para ETHUSDT
+2025-01-16 16:05:01,778 - src.market_analysis - INFO - Datos cargados para XRPUSDT
+2025-01-16 16:05:02,106 - src.market_analysis - WARNING - Error al obtener datos de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDTUSDT&interval=1d&limit=100
+2025-01-16 16:05:02,108 - src.market_analysis - WARNING - No se pudieron cargar datos para USDTUSDT
+2025-01-16 16:05:02,482 - src.market_analysis - INFO - Datos cargados para BNBUSDT
+2025-01-16 16:05:02,840 - src.market_analysis - INFO - Datos cargados para SOLUSDT
+2025-01-16 16:05:03,211 - src.market_analysis - INFO - Datos cargados para DOGEUSDT
+2025-01-16 16:05:03,581 - src.market_analysis - INFO - Datos cargados para USDCUSDT
+2025-01-16 16:05:04,030 - src.market_analysis - INFO - Datos cargados para ADAUSDT
+2025-01-16 16:05:04,444 - src.market_analysis - INFO - Datos cargados para TRXUSDT
+2025-01-16 16:05:04,802 - src.market_analysis - INFO - Datos cargados para AVAXUSDT
+2025-01-16 16:05:05,133 - src.market_analysis - INFO - Datos cargados para XLMUSDT
+2025-01-16 16:05:05,507 - src.market_analysis - INFO - Datos cargados para LINKUSDT
+2025-01-16 16:05:05,874 - src.market_analysis - INFO - Datos cargados para SUIUSDT
+2025-01-16 16:05:06,235 - src.market_analysis - INFO - Datos cargados para TONUSDT
+2025-01-16 16:05:06,589 - src.market_analysis - INFO - Datos cargados para HBARUSDT
+2025-01-16 16:05:07,000 - src.market_analysis - INFO - Datos cargados para SHIBUSDT
+2025-01-16 16:05:07,411 - src.market_analysis - INFO - Datos cargados para DOTUSDT
+2025-01-16 16:05:07,774 - src.market_analysis - INFO - Datos cargados para BCHUSDT
+2025-01-16 16:05:08,103 - src.market_analysis - WARNING - Error al obtener datos de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=LEOUSDT&interval=1d&limit=100
+2025-01-16 16:05:08,105 - src.market_analysis - WARNING - No se pudieron cargar datos para LEOUSDT
+2025-01-16 16:05:08,535 - src.market_analysis - INFO - Datos cargados para LTCUSDT
+2025-01-16 16:05:08,882 - src.market_analysis - INFO - Datos cargados para UNIUSDT
+2025-01-16 16:05:09,209 - src.market_analysis - WARNING - Error al obtener datos de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BGBUSDT&interval=1d&limit=100
+2025-01-16 16:05:09,210 - src.market_analysis - WARNING - No se pudieron cargar datos para BGBUSDT
+2025-01-16 16:05:09,540 - src.market_analysis - WARNING - Error al obtener datos de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=HYPEUSDT&interval=1d&limit=100
+2025-01-16 16:05:09,542 - src.market_analysis - WARNING - No se pudieron cargar datos para HYPEUSDT
+2025-01-16 16:05:09,972 - src.market_analysis - INFO - Datos cargados para PEPEUSDT
+2025-01-16 16:05:10,379 - src.market_analysis - INFO - Datos cargados para NEARUSDT
+2025-01-16 16:05:10,784 - src.market_analysis - WARNING - Error al obtener datos de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDeUSDT&interval=1d&limit=100
+2025-01-16 16:05:10,786 - src.market_analysis - WARNING - No se pudieron cargar datos para USDeUSDT
+2025-01-16 16:05:11,215 - src.market_analysis - INFO - Datos cargados para DAIUSDT
+2025-01-16 16:05:11,609 - src.market_analysis - INFO - Datos cargados para APTUSDT
+2025-01-16 16:05:11,958 - src.market_analysis - INFO - Datos cargados para ICPUSDT
+2025-01-16 16:05:12,339 - src.market_analysis - INFO - Datos cargados para AAVEUSDT
+2025-01-16 16:05:12,731 - src.market_analysis - INFO - Datos cargados para POLUSDT
+2025-01-16 16:05:13,144 - src.market_analysis - INFO - Datos cargados para ETCUSDT
+2025-01-16 16:05:13,491 - src.market_analysis - INFO - Datos cargados para VETUSDT
+2025-01-16 16:05:13,874 - src.market_analysis - INFO - Datos cargados para XMRUSDT
+2025-01-16 16:05:14,272 - src.market_analysis - INFO - Datos cargados para ALGOUSDT
+2025-01-16 16:05:14,673 - src.market_analysis - WARNING - Error al obtener datos de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KASUSDT&interval=1d&limit=100
+2025-01-16 16:05:14,674 - src.market_analysis - WARNING - No se pudieron cargar datos para KASUSDT
+2025-01-16 16:05:15,083 - src.market_analysis - WARNING - Error al obtener datos de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=CROUSDT&interval=1d&limit=100
+2025-01-16 16:05:15,085 - src.market_analysis - WARNING - No se pudieron cargar datos para CROUSDT
+2025-01-16 16:05:15,501 - src.market_analysis - INFO - Datos cargados para RENDERUSDT
+2025-01-16 16:05:15,902 - src.market_analysis - WARNING - Error al obtener datos de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=MNTUSDT&interval=1d&limit=100
+2025-01-16 16:05:15,904 - src.market_analysis - WARNING - No se pudieron cargar datos para MNTUSDT
+2025-01-16 16:05:16,320 - src.market_analysis - INFO - Datos cargados para OMUSDT
+2025-01-16 16:05:16,732 - src.market_analysis - INFO - Datos cargados para TAOUSDT
+2025-01-16 16:05:17,138 - src.market_analysis - INFO - Datos cargados para FILUSDT
+2025-01-16 16:05:17,487 - src.market_analysis - INFO - Datos cargados para FETUSDT
+2025-01-16 16:05:17,881 - src.market_analysis - INFO - Datos cargados para ARBUSDT
+2025-01-16 16:05:18,259 - src.market_analysis - WARNING - Error al obtener datos de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=OKBUSDT&interval=1d&limit=100
+2025-01-16 16:05:18,261 - src.market_analysis - WARNING - No se pudieron cargar datos para OKBUSDT
+2025-01-16 16:05:18,675 - src.market_analysis - INFO - Datos cargados para ENAUSDT
+2025-01-16 16:05:19,082 - src.market_analysis - INFO - Datos cargados para ATOMUSDT
+2025-01-16 16:05:19,495 - src.market_analysis - INFO - Datos cargados para OPUSDT
+2025-01-16 16:05:19,902 - src.market_analysis - INFO - Datos cargados para TIAUSDT
+2025-01-16 16:05:20,313 - src.market_analysis - INFO - Datos cargados para THETAUSDT
+2025-01-16 16:05:20,744 - src.market_analysis - INFO - Datos cargados para STXUSDT
+2025-01-16 16:05:21,121 - src.market_analysis - WARNING - Error al obtener datos de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=VIRTUALUSDT&interval=1d&limit=100
+2025-01-16 16:05:21,122 - src.market_analysis - WARNING - No se pudieron cargar datos para VIRTUALUSDT
+2025-01-16 16:05:21,464 - src.market_analysis - INFO - Datos cargados para IMXUSDT
+2025-01-16 16:05:21,954 - src.market_analysis - INFO - Datos cargados para INJUSDT
+2025-01-16 16:05:22,355 - src.market_analysis - INFO - Datos cargados para SUSDT
+2025-01-16 16:05:22,771 - src.market_analysis - INFO - Datos cargados para BONKUSDT
+2025-01-16 16:05:23,173 - src.market_analysis - WARNING - Error al obtener datos de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XDCUSDT&interval=1d&limit=100
+2025-01-16 16:05:23,175 - src.market_analysis - WARNING - No se pudieron cargar datos para XDCUSDT
+2025-01-16 16:05:23,517 - src.market_analysis - INFO - Datos cargados para PENGUUSDT
+2025-01-16 16:05:23,910 - src.market_analysis - INFO - Datos cargados para GRTUSDT
+2025-01-16 16:05:24,304 - src.market_analysis - INFO - Datos cargados para WLDUSDT
+2025-01-16 16:05:24,661 - src.market_analysis - INFO - Datos cargados para FDUSDUSDT
+2025-01-16 16:05:25,038 - src.market_analysis - INFO - Datos cargados para SEIUSDT
+2025-01-16 16:05:25,433 - src.market_analysis - INFO - Datos cargados para LDOUSDT
+2025-01-16 16:05:25,843 - src.market_analysis - INFO - Datos cargados para MOVEUSDT
+2025-01-16 16:05:26,253 - src.market_analysis - INFO - Datos cargados para WIFUSDT
+2025-01-16 16:05:26,657 - src.market_analysis - WARNING - Error al obtener datos de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=GTUSDT&interval=1d&limit=100
+2025-01-16 16:05:26,660 - src.market_analysis - WARNING - No se pudieron cargar datos para GTUSDT
+2025-01-16 16:05:26,993 - src.market_analysis - WARNING - Error al obtener datos de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=ONDOUSDT&interval=1d&limit=100
+2025-01-16 16:05:26,995 - src.market_analysis - WARNING - No se pudieron cargar datos para ONDOUSDT
+2025-01-16 16:05:27,375 - src.market_analysis - INFO - Datos cargados para FLOKIUSDT
+2025-01-16 16:05:27,728 - src.market_analysis - INFO - Datos cargados para RAYUSDT
+2025-01-16 16:05:28,082 - src.market_analysis - INFO - Datos cargados para JASMYUSDT
+2025-01-16 16:05:28,408 - src.market_analysis - WARNING - Error al obtener datos de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AI16ZUSDT&interval=1d&limit=100
+2025-01-16 16:05:28,410 - src.market_analysis - WARNING - No se pudieron cargar datos para AI16ZUSDT
+2025-01-16 16:05:28,794 - src.market_analysis - INFO - Datos cargados para SANDUSDT
+2025-01-16 16:05:29,127 - src.market_analysis - WARNING - Error al obtener datos de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FLRUSDT&interval=1d&limit=100
+2025-01-16 16:05:29,129 - src.market_analysis - WARNING - No se pudieron cargar datos para FLRUSDT
+2025-01-16 16:05:29,493 - src.market_analysis - INFO - Datos cargados para IOTAUSDT
+2025-01-16 16:05:29,842 - src.market_analysis - INFO - Datos cargados para GALAUSDT
+2025-01-16 16:05:30,215 - src.market_analysis - INFO - Datos cargados para QNTUSDT
+2025-01-16 16:05:30,571 - src.market_analysis - INFO - Datos cargados para DEXEUSDT
+2025-01-16 16:05:30,962 - src.market_analysis - INFO - Datos cargados para XTZUSDT
+2025-01-16 16:05:31,272 - src.market_analysis - WARNING - Error al obtener datos de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KCSUSDT&interval=1d&limit=100
+2025-01-16 16:05:31,273 - src.market_analysis - WARNING - No se pudieron cargar datos para KCSUSDT
+2025-01-16 16:05:31,632 - src.market_analysis - INFO - Datos cargados para EOSUSDT
+2025-01-16 16:05:31,977 - src.market_analysis - INFO - Datos cargados para KAIAUSDT
+2025-01-16 16:05:32,335 - src.market_analysis - INFO - Datos cargados para MKRUSDT
+2025-01-16 16:05:32,676 - src.market_analysis - WARNING - Error al obtener datos de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FARTCOINUSDT&interval=1d&limit=100
+2025-01-16 16:05:32,677 - src.market_analysis - WARNING - No se pudieron cargar datos para FARTCOINUSDT
+2025-01-16 16:05:33,107 - src.market_analysis - WARNING - Error al obtener datos de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BRETTUSDT&interval=1d&limit=100
+2025-01-16 16:05:33,109 - src.market_analysis - WARNING - No se pudieron cargar datos para BRETTUSDT
+2025-01-16 16:05:33,465 - src.market_analysis - INFO - Datos cargados para PYTHUSDT
+2025-01-16 16:05:33,807 - src.market_analysis - INFO - Datos cargados para RUNEUSDT
+2025-01-16 16:05:34,163 - src.market_analysis - INFO - Datos cargados para FLOWUSDT
+2025-01-16 16:05:34,536 - src.market_analysis - INFO - Datos cargados para CRVUSDT
+2025-01-16 16:05:34,953 - src.market_analysis - INFO - Datos cargados para ENSUSDT
+2025-01-16 16:05:35,307 - src.market_analysis - INFO - Datos cargados para NEOUSDT
+2025-01-16 16:05:35,647 - src.market_analysis - INFO - Datos cargados para BEAMUSDT
+2025-01-16 16:05:35,989 - src.market_analysis - WARNING - Error al obtener datos de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AIOZUSDT&interval=1d&limit=100
+2025-01-16 16:05:35,991 - src.market_analysis - WARNING - No se pudieron cargar datos para AIOZUSDT
+2025-01-16 16:05:36,388 - src.market_analysis - INFO - Datos cargados para ARUSDT
+2025-01-16 16:05:36,745 - src.market_analysis - INFO - Datos cargados para BTTUSDT
+2025-01-16 16:05:37,071 - src.market_analysis - WARNING - Error al obtener datos de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BSVUSDT&interval=1d&limit=100
+2025-01-16 16:05:37,072 - src.market_analysis - WARNING - No se pudieron cargar datos para BSVUSDT
+2025-01-16 16:05:37,409 - src.market_analysis - INFO - Datos cargados para JUPUSDT
+2025-01-16 16:05:37,822 - src.market_analysis - INFO - Datos cargados para STRKUSDT
+2025-01-16 16:05:38,184 - src.market_analysis - INFO - Datos cargados para AXSUSDT
+2025-01-16 16:05:38,543 - src.market_analysis - INFO - Datos cargados para MANAUSDT
+2025-01-16 16:05:38,544 - src.market_analysis - INFO - Datos históricos cargados para 80 símbolos
+2025-01-16 16:05:40,049 - src.market_analysis - WARNING - Error al obtener precio actual de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDTUSDT
+2025-01-16 16:05:46,314 - src.market_analysis - WARNING - Error al obtener precio actual de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=LEOUSDT
+2025-01-16 16:05:47,544 - src.market_analysis - WARNING - Error al obtener precio actual de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BGBUSDT
+2025-01-16 16:05:47,955 - src.market_analysis - WARNING - Error al obtener precio actual de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=HYPEUSDT
+2025-01-16 16:05:49,182 - src.market_analysis - WARNING - Error al obtener precio actual de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDeUSDT
+2025-01-16 16:05:52,664 - src.market_analysis - WARNING - Error al obtener precio actual de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KASUSDT
+2025-01-16 16:05:53,074 - src.market_analysis - WARNING - Error al obtener precio actual de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=CROUSDT
+2025-01-16 16:05:53,790 - src.market_analysis - WARNING - Error al obtener precio actual de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=MNTUSDT
+2025-01-16 16:05:56,044 - src.market_analysis - WARNING - Error al obtener precio actual de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=OKBUSDT
+2025-01-16 16:05:58,625 - src.market_analysis - WARNING - Error al obtener precio actual de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=VIRTUALUSDT
+2025-01-16 16:06:00,650 - src.market_analysis - WARNING - Error al obtener precio actual de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=XDCUSDT
+2025-01-16 16:06:04,235 - src.market_analysis - WARNING - Error al obtener precio actual de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=GTUSDT
+2025-01-16 16:06:04,565 - src.market_analysis - WARNING - Error al obtener precio actual de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=ONDOUSDT
+2025-01-16 16:06:05,978 - src.market_analysis - WARNING - Error al obtener precio actual de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AI16ZUSDT
+2025-01-16 16:06:06,728 - src.market_analysis - WARNING - Error al obtener precio actual de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FLRUSDT
+2025-01-16 16:06:08,712 - src.market_analysis - WARNING - Error al obtener precio actual de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KCSUSDT
+2025-01-16 16:06:10,071 - src.market_analysis - WARNING - Error al obtener precio actual de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FARTCOINUSDT
+2025-01-16 16:06:10,400 - src.market_analysis - WARNING - Error al obtener precio actual de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BRETTUSDT
+2025-01-16 16:06:13,364 - src.market_analysis - WARNING - Error al obtener precio actual de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AIOZUSDT
+2025-01-16 16:06:14,458 - src.market_analysis - WARNING - Error al obtener precio actual de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BSVUSDT
+2025-01-16 16:06:16,039 - src.performance_monitor - INFO - Operación system_initialization completada en 78.71 segundos
+2025-01-16 16:06:16,040 - __main__ - INFO - Componentes del sistema iniciados exitosamente
+2025-01-16 16:06:16,041 - __main__ - INFO - Iniciando análisis de mercado...
+2025-01-16 16:06:16,041 - src.market_analysis - INFO - Analizando mercado...
+2025-01-16 16:06:16,065 - src.market_analysis - ERROR - Error al analizar DAIUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:06:16,075 - src.market_analysis - ERROR - Error al analizar SUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:06:16,112 - src.market_analysis - INFO - Recomendaciones actualizadas exitosamente
+2025-01-16 16:06:16,112 - src.market_analysis - INFO - Análisis completado para 78 criptomonedas
+2025-01-16 16:06:16,606 - src.performance_monitor - INFO - Operación market_analysis completada en 0.56 segundos
+2025-01-16 16:06:16,606 - __main__ - INFO - Evaluando riesgos...
+2025-01-16 16:06:16,671 - src.performance_monitor - INFO - Operación risk_assessment completada en 0.06 segundos
+2025-01-16 16:06:16,671 - __main__ - INFO - Actualizando pesos del portfolio...
+2025-01-16 16:06:16,672 - src.performance_monitor - INFO - Operación portfolio_update completada en 0.00 segundos
+2025-01-16 16:06:16,672 - __main__ - INFO - Ejecutando estrategia DCA...
+2025-01-16 16:06:17,136 - src.dca_live_trader - INFO - Precio actual de ETHUSDT: 3277.36
+2025-01-16 16:06:17,547 - src.dca_live_trader - INFO - Precio actual de BNBUSDT: 703.5
+2025-01-16 16:06:17,956 - src.dca_live_trader - INFO - Precio actual de SOLUSDT: 209.04
+2025-01-16 16:06:18,368 - src.dca_live_trader - INFO - Precio actual de USDCUSDT: 1.0004
+2025-01-16 16:06:18,777 - src.dca_live_trader - INFO - Precio actual de TRXUSDT: 0.236
+2025-01-16 16:06:19,188 - src.dca_live_trader - INFO - Precio actual de AVAXUSDT: 39.27
+2025-01-16 16:06:19,595 - src.dca_live_trader - INFO - Precio actual de XLMUSDT: 0.4883
+2025-01-16 16:06:20,004 - src.dca_live_trader - INFO - Precio actual de LINKUSDT: 22.74
+2025-01-16 16:06:20,411 - src.dca_live_trader - INFO - Precio actual de SUIUSDT: 4.6784
+2025-01-16 16:06:20,760 - src.dca_live_trader - INFO - Precio actual de TONUSDT: 5.503
+2025-01-16 16:06:21,070 - src.dca_live_trader - INFO - Precio actual de HBARUSDT: 0.35214
+2025-01-16 16:06:21,437 - src.dca_live_trader - INFO - Precio actual de SHIBUSDT: 2.199e-05
+2025-01-16 16:06:21,758 - src.dca_live_trader - INFO - Precio actual de BCHUSDT: 451.9
+2025-01-16 16:06:22,097 - src.dca_live_trader - INFO - Precio actual de LTCUSDT: 116.69
+2025-01-16 16:06:22,427 - src.dca_live_trader - INFO - Precio actual de UNIUSDT: 14.153
+2025-01-16 16:06:22,754 - src.dca_live_trader - INFO - Precio actual de PEPEUSDT: 1.82e-05
+2025-01-16 16:06:23,179 - src.dca_live_trader - INFO - Precio actual de NEARUSDT: 5.206
+2025-01-16 16:06:23,589 - src.dca_live_trader - INFO - Precio actual de APTUSDT: 9.15
+2025-01-16 16:06:23,926 - src.dca_live_trader - INFO - Precio actual de ICPUSDT: 10.742
+2025-01-16 16:06:24,309 - src.dca_live_trader - INFO - Precio actual de POLUSDT: 0.4737
+2025-01-16 16:06:24,716 - src.dca_live_trader - INFO - Precio actual de ETCUSDT: 26.45
+2025-01-16 16:06:25,228 - src.dca_live_trader - INFO - Precio actual de VETUSDT: 0.04898
+2025-01-16 16:06:25,560 - src.dca_live_trader - INFO - Precio actual de XMRUSDT: 118.7
+2025-01-16 16:06:25,943 - src.dca_live_trader - INFO - Precio actual de ALGOUSDT: 0.4606
+2025-01-16 16:06:26,355 - src.dca_live_trader - INFO - Precio actual de RENDERUSDT: 7.347
+2025-01-16 16:06:26,688 - src.dca_live_trader - INFO - Precio actual de OMUSDT: 3.8394
+2025-01-16 16:06:27,069 - src.dca_live_trader - INFO - Precio actual de TAOUSDT: 451.5
+2025-01-16 16:06:27,479 - src.dca_live_trader - INFO - Precio actual de FILUSDT: 5.484
+2025-01-16 16:06:28,093 - src.dca_live_trader - INFO - Precio actual de FETUSDT: 1.324
+2025-01-16 16:06:28,423 - src.dca_live_trader - INFO - Precio actual de ARBUSDT: 0.7563
+2025-01-16 16:06:28,761 - src.dca_live_trader - INFO - Precio actual de ENAUSDT: 0.8958
+2025-01-16 16:06:29,092 - src.dca_live_trader - INFO - Precio actual de ATOMUSDT: 6.53
+2025-01-16 16:06:29,421 - src.dca_live_trader - INFO - Precio actual de OPUSDT: 1.852
+2025-01-16 16:06:29,764 - src.dca_live_trader - INFO - Precio actual de TIAUSDT: 4.936
+2025-01-16 16:06:30,099 - src.dca_live_trader - INFO - Precio actual de THETAUSDT: 2.392
+2025-01-16 16:06:30,424 - src.dca_live_trader - INFO - Precio actual de STXUSDT: 1.549
+2025-01-16 16:06:30,756 - src.dca_live_trader - INFO - Precio actual de IMXUSDT: 1.32
+2025-01-16 16:06:31,081 - src.dca_live_trader - INFO - Precio actual de INJUSDT: 22.61
+2025-01-16 16:06:31,472 - src.dca_live_trader - INFO - Precio actual de BONKUSDT: 2.88e-05
+2025-01-16 16:06:31,792 - src.dca_live_trader - INFO - Precio actual de PENGUUSDT: 0.032172
+2025-01-16 16:06:32,135 - src.dca_live_trader - INFO - Precio actual de GRTUSDT: 0.2107
+2025-01-16 16:06:32,498 - src.dca_live_trader - INFO - Precio actual de WLDUSDT: 2.146
+2025-01-16 16:06:32,907 - src.dca_live_trader - INFO - Precio actual de FDUSDUSDT: 0.9999
+2025-01-16 16:06:33,236 - src.dca_live_trader - INFO - Precio actual de SEIUSDT: 0.403
+2025-01-16 16:06:33,567 - src.dca_live_trader - INFO - Precio actual de LDOUSDT: 1.966
+2025-01-16 16:06:33,896 - src.dca_live_trader - INFO - Precio actual de MOVEUSDT: 0.771
+2025-01-16 16:06:34,225 - src.dca_live_trader - INFO - Precio actual de WIFUSDT: 1.763
+2025-01-16 16:06:34,647 - src.dca_live_trader - INFO - Precio actual de FLOKIUSDT: 0.0001677
+2025-01-16 16:06:34,976 - src.dca_live_trader - INFO - Precio actual de RAYUSDT: 5.557
+2025-01-16 16:06:35,303 - src.dca_live_trader - INFO - Precio actual de JASMYUSDT: 0.03139
+2025-01-16 16:06:35,634 - src.dca_live_trader - INFO - Precio actual de SANDUSDT: 0.6105
+2025-01-16 16:06:35,964 - src.dca_live_trader - INFO - Precio actual de IOTAUSDT: 0.3941
+2025-01-16 16:06:36,293 - src.dca_live_trader - INFO - Precio actual de GALAUSDT: 0.03848
+2025-01-16 16:06:36,697 - src.dca_live_trader - INFO - Precio actual de QNTUSDT: 117.0
+2025-01-16 16:06:37,105 - src.dca_live_trader - INFO - Precio actual de DEXEUSDT: 16.731
+2025-01-16 16:06:37,437 - src.dca_live_trader - INFO - Precio actual de XTZUSDT: 1.358
+2025-01-16 16:06:37,753 - src.dca_live_trader - INFO - Precio actual de EOSUSDT: 0.8678
+2025-01-16 16:06:38,091 - src.dca_live_trader - INFO - Precio actual de KAIAUSDT: 0.2249
+2025-01-16 16:06:38,540 - src.dca_live_trader - INFO - Precio actual de MKRUSDT: 1396.0
+2025-01-16 16:06:38,949 - src.dca_live_trader - INFO - Precio actual de PYTHUSDT: 0.3339
+2025-01-16 16:06:39,266 - src.dca_live_trader - INFO - Precio actual de RUNEUSDT: 3.411
+2025-01-16 16:06:39,666 - src.dca_live_trader - INFO - Precio actual de FLOWUSDT: 0.76
+2025-01-16 16:06:39,992 - src.dca_live_trader - INFO - Precio actual de CRVUSDT: 0.9307
+2025-01-16 16:06:40,328 - src.dca_live_trader - INFO - Precio actual de ENSUSDT: 32.89
+2025-01-16 16:06:40,692 - src.dca_live_trader - INFO - Precio actual de NEOUSDT: 16.2
+2025-01-16 16:06:41,094 - src.dca_live_trader - INFO - Precio actual de BEAMUSDT: 0.0652
+2025-01-16 16:06:41,451 - src.dca_live_trader - INFO - Precio actual de ARUSDT: 16.93
+2025-01-16 16:06:41,817 - src.dca_live_trader - INFO - Precio actual de BTTUSDT: 0.0
+2025-01-16 16:06:42,225 - src.dca_live_trader - INFO - Precio actual de JUPUSDT: 0.7899
+2025-01-16 16:06:42,552 - src.dca_live_trader - INFO - Precio actual de STRKUSDT: 0.4241
+2025-01-16 16:06:42,943 - src.dca_live_trader - INFO - Precio actual de AXSUSDT: 6.359
+2025-01-16 16:06:43,269 - src.dca_live_trader - INFO - Precio actual de MANAUSDT: 0.5167
+2025-01-16 16:06:43,272 - src.dca_live_trader - WARNING - No se puede enviar notificación: configuración de email incompleta
+2025-01-16 16:06:43,273 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:06:43,273 - src.performance_monitor - INFO - Operación dca_execution completada en 26.60 segundos
+2025-01-16 16:06:43,273 - __main__ - INFO - Guardando datos en base de datos...
+2025-01-16 16:06:43,297 - src.database_manager - INFO - Estado del portfolio guardado exitosamente
+2025-01-16 16:06:43,297 - src.performance_monitor - INFO - Operación database_update completada en 0.02 segundos
+2025-01-16 16:06:43,297 - __main__ - INFO - Iniciando backup...
+2025-01-16 16:06:43,299 - src.backup_portfolio - INFO - Backup diario completado para 2025-01-16
+2025-01-16 16:06:43,299 - __main__ - INFO - Backup completado exitosamente
+2025-01-16 16:06:43,299 - src.performance_monitor - INFO - Operación backup completada en 0.00 segundos
+2025-01-16 16:06:43,299 - __main__ - WARNING - Alertas de rendimiento detectadas:
+2025-01-16 16:06:43,299 - __main__ - WARNING - Alto uso de memoria: 82.8%
+2025-01-16 16:06:43,300 - __main__ - INFO - Reporte de rendimiento generado
+2025-01-16 16:06:43,300 - src.performance_monitor - INFO - Operación full_cycle completada en 27.26 segundos
+2025-01-16 16:06:43,300 - src.performance_monitor - INFO - Métricas guardadas en performance_metrics.json
+2025-01-16 16:12:59,187 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:12:59,188 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:12:59,350 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:12:59,350 - __main__ - INFO - Iniciando componentes del sistema...
+2025-01-16 16:12:59,362 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:12:59,362 - src.dca_live_trader - WARNING - Configuración de email incompleta. Las notificaciones estarán deshabilitadas.
+2025-01-16 16:12:59,780 - src.dca_live_trader - INFO - Precio actual de BTCUSDT: 97959.73
+2025-01-16 16:13:00,187 - src.dca_live_trader - INFO - Precio actual de XRPUSDT: 3.2568
+2025-01-16 16:13:00,518 - src.dca_live_trader - INFO - Precio actual de ADAUSDT: 1.0764
+2025-01-16 16:13:00,905 - src.dca_live_trader - INFO - Precio actual de DOTUSDT: 7.109
+2025-01-16 16:13:01,237 - src.dca_live_trader - INFO - Precio actual de DOGEUSDT: 0.37654
+2025-01-16 16:13:01,567 - src.dca_live_trader - INFO - Precio actual de AAVEUSDT: 310.29
+2025-01-16 16:13:01,568 - src.market_analysis - INFO - Inicializando MarketAnalyzer...
+2025-01-16 16:13:01,568 - src.market_analysis - INFO - Cargando datos de CoinMarketCap...
+2025-01-16 16:13:02,050 - src.market_analysis - INFO - Status Code: 200
+2025-01-16 16:13:02,052 - src.market_analysis - INFO - Datos recibidos de CMC: 100 criptomonedas
+2025-01-16 16:13:02,052 - src.market_analysis - INFO - Procesadas 100 criptomonedas
+2025-01-16 16:13:02,053 - src.market_analysis - INFO - Cargando datos históricos de Binance...
+2025-01-16 16:13:02,398 - src.market_analysis - INFO - Datos cargados y cacheados para BTCUSDT
+2025-01-16 16:13:02,753 - src.market_analysis - INFO - Datos cargados y cacheados para XRPUSDT
+2025-01-16 16:13:03,167 - src.market_analysis - INFO - Datos cargados y cacheados para ADAUSDT
+2025-01-16 16:13:03,558 - src.market_analysis - INFO - Datos cargados y cacheados para DOTUSDT
+2025-01-16 16:13:03,980 - src.market_analysis - INFO - Datos cargados y cacheados para DOGEUSDT
+2025-01-16 16:13:04,396 - src.market_analysis - INFO - Datos cargados y cacheados para AAVEUSDT
+2025-01-16 16:13:04,760 - src.market_analysis - INFO - Datos cargados y cacheados para ETHUSDT
+2025-01-16 16:13:05,106 - src.market_analysis - WARNING - Error al obtener datos de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDTUSDT&interval=1d&limit=100
+2025-01-16 16:13:05,107 - src.market_analysis - WARNING - No se pudieron cargar datos para USDTUSDT
+2025-01-16 16:13:05,458 - src.market_analysis - INFO - Datos cargados y cacheados para BNBUSDT
+2025-01-16 16:13:05,810 - src.market_analysis - INFO - Datos cargados y cacheados para SOLUSDT
+2025-01-16 16:13:06,163 - src.market_analysis - INFO - Datos cargados y cacheados para USDCUSDT
+2025-01-16 16:13:06,526 - src.market_analysis - INFO - Datos cargados y cacheados para TRXUSDT
+2025-01-16 16:13:06,885 - src.market_analysis - INFO - Datos cargados y cacheados para AVAXUSDT
+2025-01-16 16:13:07,244 - src.market_analysis - INFO - Datos cargados y cacheados para XLMUSDT
+2025-01-16 16:13:07,672 - src.market_analysis - INFO - Datos cargados y cacheados para LINKUSDT
+2025-01-16 16:13:08,075 - src.market_analysis - INFO - Datos cargados y cacheados para SUIUSDT
+2025-01-16 16:13:08,438 - src.market_analysis - INFO - Datos cargados y cacheados para TONUSDT
+2025-01-16 16:13:08,820 - src.market_analysis - INFO - Datos cargados y cacheados para HBARUSDT
+2025-01-16 16:13:09,238 - src.market_analysis - INFO - Datos cargados y cacheados para SHIBUSDT
+2025-01-16 16:13:09,621 - src.market_analysis - INFO - Datos cargados y cacheados para BCHUSDT
+2025-01-16 16:13:10,017 - src.market_analysis - WARNING - Error al obtener datos de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=LEOUSDT&interval=1d&limit=100
+2025-01-16 16:13:10,017 - src.market_analysis - WARNING - No se pudieron cargar datos para LEOUSDT
+2025-01-16 16:13:10,404 - src.market_analysis - INFO - Datos cargados y cacheados para LTCUSDT
+2025-01-16 16:13:10,844 - src.market_analysis - INFO - Datos cargados y cacheados para UNIUSDT
+2025-01-16 16:13:11,248 - src.market_analysis - WARNING - Error al obtener datos de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BGBUSDT&interval=1d&limit=100
+2025-01-16 16:13:11,250 - src.market_analysis - WARNING - No se pudieron cargar datos para BGBUSDT
+2025-01-16 16:13:11,575 - src.market_analysis - WARNING - Error al obtener datos de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=HYPEUSDT&interval=1d&limit=100
+2025-01-16 16:13:11,577 - src.market_analysis - WARNING - No se pudieron cargar datos para HYPEUSDT
+2025-01-16 16:13:11,932 - src.market_analysis - INFO - Datos cargados y cacheados para PEPEUSDT
+2025-01-16 16:13:12,277 - src.market_analysis - INFO - Datos cargados y cacheados para NEARUSDT
+2025-01-16 16:13:12,616 - src.market_analysis - WARNING - Error al obtener datos de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDeUSDT&interval=1d&limit=100
+2025-01-16 16:13:12,618 - src.market_analysis - WARNING - No se pudieron cargar datos para USDeUSDT
+2025-01-16 16:13:12,964 - src.market_analysis - INFO - Datos cargados y cacheados para DAIUSDT
+2025-01-16 16:13:13,408 - src.market_analysis - INFO - Datos cargados y cacheados para APTUSDT
+2025-01-16 16:13:13,767 - src.market_analysis - INFO - Datos cargados y cacheados para ICPUSDT
+2025-01-16 16:13:14,146 - src.market_analysis - INFO - Datos cargados y cacheados para POLUSDT
+2025-01-16 16:13:14,502 - src.market_analysis - INFO - Datos cargados y cacheados para ETCUSDT
+2025-01-16 16:13:14,946 - src.market_analysis - INFO - Datos cargados y cacheados para VETUSDT
+2025-01-16 16:13:15,288 - src.market_analysis - INFO - Datos cargados y cacheados para XMRUSDT
+2025-01-16 16:13:15,652 - src.market_analysis - INFO - Datos cargados y cacheados para ALGOUSDT
+2025-01-16 16:13:16,059 - src.market_analysis - WARNING - Error al obtener datos de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KASUSDT&interval=1d&limit=100
+2025-01-16 16:13:16,060 - src.market_analysis - WARNING - No se pudieron cargar datos para KASUSDT
+2025-01-16 16:13:16,479 - src.market_analysis - INFO - Datos cargados y cacheados para RENDERUSDT
+2025-01-16 16:13:16,809 - src.market_analysis - WARNING - Error al obtener datos de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=CROUSDT&interval=1d&limit=100
+2025-01-16 16:13:16,811 - src.market_analysis - WARNING - No se pudieron cargar datos para CROUSDT
+2025-01-16 16:13:17,187 - src.market_analysis - WARNING - Error al obtener datos de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=MNTUSDT&interval=1d&limit=100
+2025-01-16 16:13:17,189 - src.market_analysis - WARNING - No se pudieron cargar datos para MNTUSDT
+2025-01-16 16:13:17,599 - src.market_analysis - INFO - Datos cargados y cacheados para TAOUSDT
+2025-01-16 16:13:18,015 - src.market_analysis - INFO - Datos cargados y cacheados para OMUSDT
+2025-01-16 16:13:18,426 - src.market_analysis - INFO - Datos cargados y cacheados para FILUSDT
+2025-01-16 16:13:18,778 - src.market_analysis - INFO - Datos cargados y cacheados para FETUSDT
+2025-01-16 16:13:19,142 - src.market_analysis - INFO - Datos cargados y cacheados para ARBUSDT
+2025-01-16 16:13:19,541 - src.market_analysis - WARNING - Error al obtener datos de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=OKBUSDT&interval=1d&limit=100
+2025-01-16 16:13:19,543 - src.market_analysis - WARNING - No se pudieron cargar datos para OKBUSDT
+2025-01-16 16:13:19,883 - src.market_analysis - INFO - Datos cargados y cacheados para ENAUSDT
+2025-01-16 16:13:20,262 - src.market_analysis - INFO - Datos cargados y cacheados para ATOMUSDT
+2025-01-16 16:13:20,601 - src.market_analysis - INFO - Datos cargados y cacheados para OPUSDT
+2025-01-16 16:13:20,948 - src.market_analysis - INFO - Datos cargados y cacheados para TIAUSDT
+2025-01-16 16:13:21,302 - src.market_analysis - INFO - Datos cargados y cacheados para THETAUSDT
+2025-01-16 16:13:21,704 - src.market_analysis - INFO - Datos cargados y cacheados para STXUSDT
+2025-01-16 16:13:22,104 - src.market_analysis - WARNING - Error al obtener datos de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=VIRTUALUSDT&interval=1d&limit=100
+2025-01-16 16:13:22,107 - src.market_analysis - WARNING - No se pudieron cargar datos para VIRTUALUSDT
+2025-01-16 16:13:22,457 - src.market_analysis - INFO - Datos cargados y cacheados para IMXUSDT
+2025-01-16 16:13:22,853 - src.market_analysis - INFO - Datos cargados y cacheados para INJUSDT
+2025-01-16 16:13:22,901 - src.market_analysis - WARNING - Error al obtener datos de SUSDT: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-01-16 16:13:22,902 - src.market_analysis - WARNING - No se pudieron cargar datos para SUSDT
+2025-01-16 16:13:23,237 - src.market_analysis - INFO - Datos cargados y cacheados para BONKUSDT
+2025-01-16 16:13:23,639 - src.market_analysis - WARNING - Error al obtener datos de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XDCUSDT&interval=1d&limit=100
+2025-01-16 16:13:23,641 - src.market_analysis - WARNING - No se pudieron cargar datos para XDCUSDT
+2025-01-16 16:13:24,049 - src.market_analysis - INFO - Datos cargados y cacheados para PENGUUSDT
+2025-01-16 16:13:24,435 - src.market_analysis - INFO - Datos cargados y cacheados para GRTUSDT
+2025-01-16 16:13:24,878 - src.market_analysis - INFO - Datos cargados y cacheados para WLDUSDT
+2025-01-16 16:13:25,245 - src.market_analysis - INFO - Datos cargados y cacheados para FDUSDUSDT
+2025-01-16 16:13:25,606 - src.market_analysis - INFO - Datos cargados y cacheados para SEIUSDT
+2025-01-16 16:13:26,004 - src.market_analysis - INFO - Datos cargados y cacheados para MOVEUSDT
+2025-01-16 16:13:26,361 - src.market_analysis - INFO - Datos cargados y cacheados para LDOUSDT
+2025-01-16 16:13:26,732 - src.market_analysis - INFO - Datos cargados y cacheados para WIFUSDT
+2025-01-16 16:13:27,119 - src.market_analysis - WARNING - Error al obtener datos de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=GTUSDT&interval=1d&limit=100
+2025-01-16 16:13:27,121 - src.market_analysis - WARNING - No se pudieron cargar datos para GTUSDT
+2025-01-16 16:13:27,530 - src.market_analysis - WARNING - Error al obtener datos de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=ONDOUSDT&interval=1d&limit=100
+2025-01-16 16:13:27,531 - src.market_analysis - WARNING - No se pudieron cargar datos para ONDOUSDT
+2025-01-16 16:13:27,942 - src.market_analysis - INFO - Datos cargados y cacheados para RAYUSDT
+2025-01-16 16:13:28,299 - src.market_analysis - INFO - Datos cargados y cacheados para FLOKIUSDT
+2025-01-16 16:13:28,620 - src.market_analysis - WARNING - Error al obtener datos de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AI16ZUSDT&interval=1d&limit=100
+2025-01-16 16:13:28,621 - src.market_analysis - WARNING - No se pudieron cargar datos para AI16ZUSDT
+2025-01-16 16:13:28,965 - src.market_analysis - INFO - Datos cargados y cacheados para JASMYUSDT
+2025-01-16 16:13:29,324 - src.market_analysis - INFO - Datos cargados y cacheados para SANDUSDT
+2025-01-16 16:13:29,653 - src.market_analysis - WARNING - Error al obtener datos de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FLRUSDT&interval=1d&limit=100
+2025-01-16 16:13:29,654 - src.market_analysis - WARNING - No se pudieron cargar datos para FLRUSDT
+2025-01-16 16:13:29,996 - src.market_analysis - INFO - Datos cargados y cacheados para IOTAUSDT
+2025-01-16 16:13:30,350 - src.market_analysis - INFO - Datos cargados y cacheados para QNTUSDT
+2025-01-16 16:13:30,708 - src.market_analysis - INFO - Datos cargados y cacheados para GALAUSDT
+2025-01-16 16:13:31,051 - src.market_analysis - INFO - Datos cargados y cacheados para DEXEUSDT
+2025-01-16 16:13:31,399 - src.market_analysis - INFO - Datos cargados y cacheados para XTZUSDT
+2025-01-16 16:13:31,722 - src.market_analysis - WARNING - Error al obtener datos de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KCSUSDT&interval=1d&limit=100
+2025-01-16 16:13:31,724 - src.market_analysis - WARNING - No se pudieron cargar datos para KCSUSDT
+2025-01-16 16:13:32,073 - src.market_analysis - INFO - Datos cargados y cacheados para EOSUSDT
+2025-01-16 16:13:32,411 - src.market_analysis - INFO - Datos cargados y cacheados para KAIAUSDT
+2025-01-16 16:13:32,744 - src.market_analysis - WARNING - Error al obtener datos de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FARTCOINUSDT&interval=1d&limit=100
+2025-01-16 16:13:32,746 - src.market_analysis - WARNING - No se pudieron cargar datos para FARTCOINUSDT
+2025-01-16 16:13:33,078 - src.market_analysis - INFO - Datos cargados y cacheados para MKRUSDT
+2025-01-16 16:13:33,406 - src.market_analysis - WARNING - Error al obtener datos de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BRETTUSDT&interval=1d&limit=100
+2025-01-16 16:13:33,408 - src.market_analysis - WARNING - No se pudieron cargar datos para BRETTUSDT
+2025-01-16 16:13:33,799 - src.market_analysis - INFO - Datos cargados y cacheados para PYTHUSDT
+2025-01-16 16:13:34,181 - src.market_analysis - INFO - Datos cargados y cacheados para RUNEUSDT
+2025-01-16 16:13:34,543 - src.market_analysis - INFO - Datos cargados y cacheados para FLOWUSDT
+2025-01-16 16:13:34,927 - src.market_analysis - INFO - Datos cargados y cacheados para CRVUSDT
+2025-01-16 16:13:35,286 - src.market_analysis - INFO - Datos cargados y cacheados para ENSUSDT
+2025-01-16 16:13:35,626 - src.market_analysis - INFO - Datos cargados y cacheados para NEOUSDT
+2025-01-16 16:13:35,997 - src.market_analysis - INFO - Datos cargados y cacheados para BEAMUSDT
+2025-01-16 16:13:36,334 - src.market_analysis - WARNING - Error al obtener datos de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AIOZUSDT&interval=1d&limit=100
+2025-01-16 16:13:36,335 - src.market_analysis - WARNING - No se pudieron cargar datos para AIOZUSDT
+2025-01-16 16:13:36,664 - src.market_analysis - INFO - Datos cargados y cacheados para ARUSDT
+2025-01-16 16:13:36,990 - src.market_analysis - WARNING - Error al obtener datos de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BSVUSDT&interval=1d&limit=100
+2025-01-16 16:13:36,991 - src.market_analysis - WARNING - No se pudieron cargar datos para BSVUSDT
+2025-01-16 16:13:37,372 - src.market_analysis - INFO - Datos cargados y cacheados para BTTUSDT
+2025-01-16 16:13:37,725 - src.market_analysis - INFO - Datos cargados y cacheados para JUPUSDT
+2025-01-16 16:13:38,095 - src.market_analysis - INFO - Datos cargados y cacheados para STRKUSDT
+2025-01-16 16:13:38,490 - src.market_analysis - INFO - Datos cargados y cacheados para MANAUSDT
+2025-01-16 16:13:38,898 - src.market_analysis - INFO - Datos cargados y cacheados para AXSUSDT
+2025-01-16 16:13:38,899 - src.market_analysis - INFO - Datos históricos cargados para 79 símbolos
+2025-01-16 16:13:38,899 - __main__ - ERROR - Error inicializando componentes: 'MarketAnalyzer' object has no attribute '_update_current_prices'
+2025-01-16 16:13:38,899 - __main__ - ERROR - Error fatal en el sistema: 'MarketAnalyzer' object has no attribute '_update_current_prices'
+2025-01-16 16:14:05,948 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:14:05,948 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:14:06,096 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:14:06,096 - __main__ - INFO - Iniciando componentes del sistema...
+2025-01-16 16:14:06,103 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:14:06,104 - src.dca_live_trader - WARNING - Configuración de email incompleta. Las notificaciones estarán deshabilitadas.
+2025-01-16 16:14:06,429 - src.dca_live_trader - INFO - Precio actual de BTCUSDT: 97967.26
+2025-01-16 16:14:06,797 - src.dca_live_trader - INFO - Precio actual de XRPUSDT: 3.2603
+2025-01-16 16:14:07,124 - src.dca_live_trader - INFO - Precio actual de ADAUSDT: 1.0747
+2025-01-16 16:14:07,456 - src.dca_live_trader - INFO - Precio actual de DOTUSDT: 7.101
+2025-01-16 16:14:07,785 - src.dca_live_trader - INFO - Precio actual de DOGEUSDT: 0.37658
+2025-01-16 16:14:08,117 - src.dca_live_trader - INFO - Precio actual de AAVEUSDT: 309.94
+2025-01-16 16:14:08,117 - src.market_analysis - INFO - Inicializando MarketAnalyzer...
+2025-01-16 16:14:08,118 - src.market_analysis - INFO - Cargando datos de CoinMarketCap...
+2025-01-16 16:14:08,494 - src.market_analysis - INFO - Status Code: 200
+2025-01-16 16:14:08,496 - src.market_analysis - INFO - Datos recibidos de CMC: 100 criptomonedas
+2025-01-16 16:14:08,496 - src.market_analysis - INFO - Procesadas 100 criptomonedas
+2025-01-16 16:14:08,496 - src.market_analysis - INFO - Cargando datos históricos de Binance...
+2025-01-16 16:14:08,511 - src.market_analysis - INFO - Datos cargados desde caché para BTCUSDT
+2025-01-16 16:14:08,517 - src.market_analysis - INFO - Datos cargados desde caché para XRPUSDT
+2025-01-16 16:14:08,527 - src.market_analysis - INFO - Datos cargados desde caché para ADAUSDT
+2025-01-16 16:14:08,534 - src.market_analysis - INFO - Datos cargados desde caché para DOTUSDT
+2025-01-16 16:14:08,542 - src.market_analysis - INFO - Datos cargados desde caché para DOGEUSDT
+2025-01-16 16:14:08,545 - src.market_analysis - INFO - Datos cargados desde caché para AAVEUSDT
+2025-01-16 16:14:08,548 - src.market_analysis - INFO - Datos cargados desde caché para ETHUSDT
+2025-01-16 16:14:08,901 - src.market_analysis - WARNING - Error al obtener datos de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDTUSDT&interval=1d&limit=100
+2025-01-16 16:14:08,902 - src.market_analysis - WARNING - No se pudieron cargar datos para USDTUSDT
+2025-01-16 16:14:08,904 - src.market_analysis - INFO - Datos cargados desde caché para BNBUSDT
+2025-01-16 16:14:08,906 - src.market_analysis - INFO - Datos cargados desde caché para SOLUSDT
+2025-01-16 16:14:08,907 - src.market_analysis - INFO - Datos cargados desde caché para USDCUSDT
+2025-01-16 16:14:08,908 - src.market_analysis - INFO - Datos cargados desde caché para TRXUSDT
+2025-01-16 16:14:08,909 - src.market_analysis - INFO - Datos cargados desde caché para AVAXUSDT
+2025-01-16 16:14:08,910 - src.market_analysis - INFO - Datos cargados desde caché para XLMUSDT
+2025-01-16 16:14:08,911 - src.market_analysis - INFO - Datos cargados desde caché para LINKUSDT
+2025-01-16 16:14:08,912 - src.market_analysis - INFO - Datos cargados desde caché para SUIUSDT
+2025-01-16 16:14:08,913 - src.market_analysis - INFO - Datos cargados desde caché para TONUSDT
+2025-01-16 16:14:08,914 - src.market_analysis - INFO - Datos cargados desde caché para HBARUSDT
+2025-01-16 16:14:08,915 - src.market_analysis - INFO - Datos cargados desde caché para SHIBUSDT
+2025-01-16 16:14:08,916 - src.market_analysis - INFO - Datos cargados desde caché para BCHUSDT
+2025-01-16 16:14:08,917 - src.market_analysis - INFO - Datos cargados desde caché para LTCUSDT
+2025-01-16 16:14:09,237 - src.market_analysis - WARNING - Error al obtener datos de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=LEOUSDT&interval=1d&limit=100
+2025-01-16 16:14:09,239 - src.market_analysis - WARNING - No se pudieron cargar datos para LEOUSDT
+2025-01-16 16:14:09,243 - src.market_analysis - INFO - Datos cargados desde caché para UNIUSDT
+2025-01-16 16:14:09,582 - src.market_analysis - WARNING - Error al obtener datos de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BGBUSDT&interval=1d&limit=100
+2025-01-16 16:14:09,582 - src.market_analysis - WARNING - No se pudieron cargar datos para BGBUSDT
+2025-01-16 16:14:09,912 - src.market_analysis - WARNING - Error al obtener datos de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=HYPEUSDT&interval=1d&limit=100
+2025-01-16 16:14:09,912 - src.market_analysis - WARNING - No se pudieron cargar datos para HYPEUSDT
+2025-01-16 16:14:09,916 - src.market_analysis - INFO - Datos cargados desde caché para PEPEUSDT
+2025-01-16 16:14:09,917 - src.market_analysis - INFO - Datos cargados desde caché para NEARUSDT
+2025-01-16 16:14:10,254 - src.market_analysis - WARNING - Error al obtener datos de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDeUSDT&interval=1d&limit=100
+2025-01-16 16:14:10,254 - src.market_analysis - WARNING - No se pudieron cargar datos para USDeUSDT
+2025-01-16 16:14:10,615 - src.market_analysis - INFO - Datos cargados y cacheados para DAIUSDT
+2025-01-16 16:14:10,618 - src.market_analysis - INFO - Datos cargados desde caché para APTUSDT
+2025-01-16 16:14:10,621 - src.market_analysis - INFO - Datos cargados desde caché para ICPUSDT
+2025-01-16 16:14:10,623 - src.market_analysis - INFO - Datos cargados desde caché para POLUSDT
+2025-01-16 16:14:10,624 - src.market_analysis - INFO - Datos cargados desde caché para ETCUSDT
+2025-01-16 16:14:10,626 - src.market_analysis - INFO - Datos cargados desde caché para VETUSDT
+2025-01-16 16:14:10,978 - src.market_analysis - INFO - Datos cargados y cacheados para XMRUSDT
+2025-01-16 16:14:10,979 - src.market_analysis - INFO - Datos cargados desde caché para ALGOUSDT
+2025-01-16 16:14:11,360 - src.market_analysis - WARNING - Error al obtener datos de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KASUSDT&interval=1d&limit=100
+2025-01-16 16:14:11,362 - src.market_analysis - WARNING - No se pudieron cargar datos para KASUSDT
+2025-01-16 16:14:11,368 - src.market_analysis - INFO - Datos cargados desde caché para RENDERUSDT
+2025-01-16 16:14:11,701 - src.market_analysis - WARNING - Error al obtener datos de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=CROUSDT&interval=1d&limit=100
+2025-01-16 16:14:11,704 - src.market_analysis - WARNING - No se pudieron cargar datos para CROUSDT
+2025-01-16 16:14:12,049 - src.market_analysis - WARNING - Error al obtener datos de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=MNTUSDT&interval=1d&limit=100
+2025-01-16 16:14:12,050 - src.market_analysis - WARNING - No se pudieron cargar datos para MNTUSDT
+2025-01-16 16:14:12,054 - src.market_analysis - INFO - Datos cargados desde caché para TAOUSDT
+2025-01-16 16:14:12,057 - src.market_analysis - INFO - Datos cargados desde caché para OMUSDT
+2025-01-16 16:14:12,058 - src.market_analysis - INFO - Datos cargados desde caché para FILUSDT
+2025-01-16 16:14:12,060 - src.market_analysis - INFO - Datos cargados desde caché para FETUSDT
+2025-01-16 16:14:12,062 - src.market_analysis - INFO - Datos cargados desde caché para ARBUSDT
+2025-01-16 16:14:12,483 - src.market_analysis - WARNING - Error al obtener datos de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=OKBUSDT&interval=1d&limit=100
+2025-01-16 16:14:12,485 - src.market_analysis - WARNING - No se pudieron cargar datos para OKBUSDT
+2025-01-16 16:14:12,492 - src.market_analysis - INFO - Datos cargados desde caché para ENAUSDT
+2025-01-16 16:14:12,495 - src.market_analysis - INFO - Datos cargados desde caché para ATOMUSDT
+2025-01-16 16:14:12,498 - src.market_analysis - INFO - Datos cargados desde caché para OPUSDT
+2025-01-16 16:14:12,500 - src.market_analysis - INFO - Datos cargados desde caché para TIAUSDT
+2025-01-16 16:14:12,502 - src.market_analysis - INFO - Datos cargados desde caché para THETAUSDT
+2025-01-16 16:14:12,504 - src.market_analysis - INFO - Datos cargados desde caché para STXUSDT
+2025-01-16 16:14:12,830 - src.market_analysis - WARNING - Error al obtener datos de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=VIRTUALUSDT&interval=1d&limit=100
+2025-01-16 16:14:12,832 - src.market_analysis - WARNING - No se pudieron cargar datos para VIRTUALUSDT
+2025-01-16 16:14:12,837 - src.market_analysis - INFO - Datos cargados desde caché para IMXUSDT
+2025-01-16 16:14:12,839 - src.market_analysis - INFO - Datos cargados desde caché para INJUSDT
+2025-01-16 16:14:13,174 - src.market_analysis - INFO - Datos cargados y cacheados para SUSDT
+2025-01-16 16:14:13,177 - src.market_analysis - INFO - Datos cargados desde caché para BONKUSDT
+2025-01-16 16:14:13,539 - src.market_analysis - WARNING - Error al obtener datos de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XDCUSDT&interval=1d&limit=100
+2025-01-16 16:14:13,540 - src.market_analysis - WARNING - No se pudieron cargar datos para XDCUSDT
+2025-01-16 16:14:13,543 - src.market_analysis - INFO - Datos cargados desde caché para PENGUUSDT
+2025-01-16 16:14:13,544 - src.market_analysis - INFO - Datos cargados desde caché para GRTUSDT
+2025-01-16 16:14:13,546 - src.market_analysis - INFO - Datos cargados desde caché para WLDUSDT
+2025-01-16 16:14:13,547 - src.market_analysis - INFO - Datos cargados desde caché para FDUSDUSDT
+2025-01-16 16:14:13,552 - src.market_analysis - INFO - Datos cargados desde caché para SEIUSDT
+2025-01-16 16:14:13,553 - src.market_analysis - INFO - Datos cargados desde caché para MOVEUSDT
+2025-01-16 16:14:13,554 - src.market_analysis - INFO - Datos cargados desde caché para LDOUSDT
+2025-01-16 16:14:13,555 - src.market_analysis - INFO - Datos cargados desde caché para WIFUSDT
+2025-01-16 16:14:13,878 - src.market_analysis - WARNING - Error al obtener datos de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=GTUSDT&interval=1d&limit=100
+2025-01-16 16:14:13,880 - src.market_analysis - WARNING - No se pudieron cargar datos para GTUSDT
+2025-01-16 16:14:14,211 - src.market_analysis - WARNING - Error al obtener datos de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=ONDOUSDT&interval=1d&limit=100
+2025-01-16 16:14:14,212 - src.market_analysis - WARNING - No se pudieron cargar datos para ONDOUSDT
+2025-01-16 16:14:14,216 - src.market_analysis - INFO - Datos cargados desde caché para RAYUSDT
+2025-01-16 16:14:14,218 - src.market_analysis - INFO - Datos cargados desde caché para FLOKIUSDT
+2025-01-16 16:14:14,220 - src.market_analysis - INFO - Datos cargados desde caché para JASMYUSDT
+2025-01-16 16:14:14,552 - src.market_analysis - WARNING - Error al obtener datos de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AI16ZUSDT&interval=1d&limit=100
+2025-01-16 16:14:14,554 - src.market_analysis - WARNING - No se pudieron cargar datos para AI16ZUSDT
+2025-01-16 16:14:14,560 - src.market_analysis - INFO - Datos cargados desde caché para SANDUSDT
+2025-01-16 16:14:14,893 - src.market_analysis - WARNING - Error al obtener datos de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FLRUSDT&interval=1d&limit=100
+2025-01-16 16:14:14,894 - src.market_analysis - WARNING - No se pudieron cargar datos para FLRUSDT
+2025-01-16 16:14:14,899 - src.market_analysis - INFO - Datos cargados desde caché para IOTAUSDT
+2025-01-16 16:14:14,902 - src.market_analysis - INFO - Datos cargados desde caché para QNTUSDT
+2025-01-16 16:14:14,905 - src.market_analysis - INFO - Datos cargados desde caché para GALAUSDT
+2025-01-16 16:14:14,908 - src.market_analysis - INFO - Datos cargados desde caché para DEXEUSDT
+2025-01-16 16:14:14,911 - src.market_analysis - INFO - Datos cargados desde caché para XTZUSDT
+2025-01-16 16:14:15,235 - src.market_analysis - WARNING - Error al obtener datos de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KCSUSDT&interval=1d&limit=100
+2025-01-16 16:14:15,236 - src.market_analysis - WARNING - No se pudieron cargar datos para KCSUSDT
+2025-01-16 16:14:15,238 - src.market_analysis - INFO - Datos cargados desde caché para EOSUSDT
+2025-01-16 16:14:15,240 - src.market_analysis - INFO - Datos cargados desde caché para KAIAUSDT
+2025-01-16 16:14:15,563 - src.market_analysis - WARNING - Error al obtener datos de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FARTCOINUSDT&interval=1d&limit=100
+2025-01-16 16:14:15,563 - src.market_analysis - WARNING - No se pudieron cargar datos para FARTCOINUSDT
+2025-01-16 16:14:15,566 - src.market_analysis - INFO - Datos cargados desde caché para MKRUSDT
+2025-01-16 16:14:15,891 - src.market_analysis - WARNING - Error al obtener datos de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BRETTUSDT&interval=1d&limit=100
+2025-01-16 16:14:15,893 - src.market_analysis - WARNING - No se pudieron cargar datos para BRETTUSDT
+2025-01-16 16:14:15,898 - src.market_analysis - INFO - Datos cargados desde caché para PYTHUSDT
+2025-01-16 16:14:15,902 - src.market_analysis - INFO - Datos cargados desde caché para RUNEUSDT
+2025-01-16 16:14:15,905 - src.market_analysis - INFO - Datos cargados desde caché para FLOWUSDT
+2025-01-16 16:14:15,908 - src.market_analysis - INFO - Datos cargados desde caché para CRVUSDT
+2025-01-16 16:14:15,910 - src.market_analysis - INFO - Datos cargados desde caché para ENSUSDT
+2025-01-16 16:14:15,911 - src.market_analysis - INFO - Datos cargados desde caché para NEOUSDT
+2025-01-16 16:14:16,264 - src.market_analysis - INFO - Datos cargados y cacheados para BEAMUSDT
+2025-01-16 16:14:16,587 - src.market_analysis - WARNING - Error al obtener datos de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AIOZUSDT&interval=1d&limit=100
+2025-01-16 16:14:16,589 - src.market_analysis - WARNING - No se pudieron cargar datos para AIOZUSDT
+2025-01-16 16:14:16,594 - src.market_analysis - INFO - Datos cargados desde caché para ARUSDT
+2025-01-16 16:14:16,989 - src.market_analysis - WARNING - Error al obtener datos de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BSVUSDT&interval=1d&limit=100
+2025-01-16 16:14:16,991 - src.market_analysis - WARNING - No se pudieron cargar datos para BSVUSDT
+2025-01-16 16:14:17,331 - src.market_analysis - INFO - Datos cargados y cacheados para BTTUSDT
+2025-01-16 16:14:17,332 - src.market_analysis - INFO - Datos cargados desde caché para JUPUSDT
+2025-01-16 16:14:17,333 - src.market_analysis - INFO - Datos cargados desde caché para STRKUSDT
+2025-01-16 16:14:17,335 - src.market_analysis - INFO - Datos cargados desde caché para MANAUSDT
+2025-01-16 16:14:17,336 - src.market_analysis - INFO - Datos cargados desde caché para AXSUSDT
+2025-01-16 16:14:17,336 - src.market_analysis - INFO - Datos históricos cargados para 80 símbolos
+2025-01-16 16:14:17,336 - src.market_analysis - INFO - Actualizando precios actuales...
+2025-01-16 16:14:17,665 - src.market_analysis - INFO - Precio actual de BTCUSDT: 97906.93
+2025-01-16 16:14:18,000 - src.market_analysis - INFO - Precio actual de XRPUSDT: 3.257
+2025-01-16 16:14:18,357 - src.market_analysis - INFO - Precio actual de ADAUSDT: 1.0738
+2025-01-16 16:14:18,675 - src.market_analysis - INFO - Precio actual de DOTUSDT: 7.096
+2025-01-16 16:14:18,992 - src.market_analysis - INFO - Precio actual de DOGEUSDT: 0.37641
+2025-01-16 16:14:19,345 - src.market_analysis - INFO - Precio actual de AAVEUSDT: 309.84
+2025-01-16 16:14:19,677 - src.market_analysis - INFO - Precio actual de ETHUSDT: 3281.28
+2025-01-16 16:14:20,005 - src.market_analysis - WARNING - Error al obtener precio actual de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDTUSDT
+2025-01-16 16:14:20,330 - src.market_analysis - INFO - Precio actual de BNBUSDT: 704.53
+2025-01-16 16:14:20,661 - src.market_analysis - INFO - Precio actual de SOLUSDT: 208.71
+2025-01-16 16:14:20,987 - src.market_analysis - INFO - Precio actual de USDCUSDT: 1.0004
+2025-01-16 16:14:21,319 - src.market_analysis - INFO - Precio actual de TRXUSDT: 0.2356
+2025-01-16 16:14:21,699 - src.market_analysis - INFO - Precio actual de AVAXUSDT: 39.13
+2025-01-16 16:14:22,111 - src.market_analysis - INFO - Precio actual de XLMUSDT: 0.4891
+2025-01-16 16:14:22,447 - src.market_analysis - INFO - Precio actual de LINKUSDT: 22.77
+2025-01-16 16:14:22,781 - src.market_analysis - INFO - Precio actual de SUIUSDT: 4.6632
+2025-01-16 16:14:23,122 - src.market_analysis - INFO - Precio actual de TONUSDT: 5.497
+2025-01-16 16:14:23,492 - src.market_analysis - INFO - Precio actual de HBARUSDT: 0.3553
+2025-01-16 16:14:23,849 - src.market_analysis - INFO - Precio actual de SHIBUSDT: 2.195e-05
+2025-01-16 16:14:24,204 - src.market_analysis - INFO - Precio actual de BCHUSDT: 452.2
+2025-01-16 16:14:24,567 - src.market_analysis - INFO - Precio actual de LTCUSDT: 119.79
+2025-01-16 16:14:24,977 - src.market_analysis - WARNING - Error al obtener precio actual de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=LEOUSDT
+2025-01-16 16:14:25,307 - src.market_analysis - INFO - Precio actual de UNIUSDT: 14.166
+2025-01-16 16:14:25,631 - src.market_analysis - WARNING - Error al obtener precio actual de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BGBUSDT
+2025-01-16 16:14:26,001 - src.market_analysis - WARNING - Error al obtener precio actual de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=HYPEUSDT
+2025-01-16 16:14:26,324 - src.market_analysis - INFO - Precio actual de PEPEUSDT: 1.814e-05
+2025-01-16 16:14:26,650 - src.market_analysis - INFO - Precio actual de NEARUSDT: 5.191
+2025-01-16 16:14:27,025 - src.market_analysis - WARNING - Error al obtener precio actual de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDeUSDT
+2025-01-16 16:14:27,432 - src.market_analysis - INFO - Precio actual de DAIUSDT: 0.0
+2025-01-16 16:14:27,845 - src.market_analysis - INFO - Precio actual de APTUSDT: 9.13
+2025-01-16 16:14:28,236 - src.market_analysis - INFO - Precio actual de ICPUSDT: 10.719
+2025-01-16 16:14:28,563 - src.market_analysis - INFO - Precio actual de POLUSDT: 0.4727
+2025-01-16 16:14:28,885 - src.market_analysis - INFO - Precio actual de ETCUSDT: 26.43
+2025-01-16 16:14:29,215 - src.market_analysis - INFO - Precio actual de VETUSDT: 0.04893
+2025-01-16 16:14:29,541 - src.market_analysis - INFO - Precio actual de XMRUSDT: 118.7
+2025-01-16 16:14:29,863 - src.market_analysis - INFO - Precio actual de ALGOUSDT: 0.4615
+2025-01-16 16:14:30,187 - src.market_analysis - WARNING - Error al obtener precio actual de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KASUSDT
+2025-01-16 16:14:30,516 - src.market_analysis - INFO - Precio actual de RENDERUSDT: 7.349
+2025-01-16 16:14:30,851 - src.market_analysis - WARNING - Error al obtener precio actual de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=CROUSDT
+2025-01-16 16:14:31,222 - src.market_analysis - WARNING - Error al obtener precio actual de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=MNTUSDT
+2025-01-16 16:14:31,551 - src.market_analysis - INFO - Precio actual de TAOUSDT: 449.6
+2025-01-16 16:14:31,940 - src.market_analysis - INFO - Precio actual de OMUSDT: 3.8355
+2025-01-16 16:14:32,262 - src.market_analysis - INFO - Precio actual de FILUSDT: 5.469
+2025-01-16 16:14:32,658 - src.market_analysis - INFO - Precio actual de FETUSDT: 1.319
+2025-01-16 16:14:33,064 - src.market_analysis - INFO - Precio actual de ARBUSDT: 0.7547
+2025-01-16 16:14:33,474 - src.market_analysis - WARNING - Error al obtener precio actual de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=OKBUSDT
+2025-01-16 16:14:33,838 - src.market_analysis - INFO - Precio actual de ENAUSDT: 0.899
+2025-01-16 16:14:34,168 - src.market_analysis - INFO - Precio actual de ATOMUSDT: 6.518
+2025-01-16 16:14:34,505 - src.market_analysis - INFO - Precio actual de OPUSDT: 1.85
+2025-01-16 16:14:34,882 - src.market_analysis - INFO - Precio actual de TIAUSDT: 4.916
+2025-01-16 16:14:35,215 - src.market_analysis - INFO - Precio actual de THETAUSDT: 2.393
+2025-01-16 16:14:35,538 - src.market_analysis - INFO - Precio actual de STXUSDT: 1.547
+2025-01-16 16:14:35,864 - src.market_analysis - WARNING - Error al obtener precio actual de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=VIRTUALUSDT
+2025-01-16 16:14:36,242 - src.market_analysis - INFO - Precio actual de IMXUSDT: 1.315
+2025-01-16 16:14:36,649 - src.market_analysis - INFO - Precio actual de INJUSDT: 22.59
+2025-01-16 16:14:37,061 - src.market_analysis - INFO - Precio actual de SUSDT: 0.771
+2025-01-16 16:14:37,470 - src.market_analysis - INFO - Precio actual de BONKUSDT: 2.872e-05
+2025-01-16 16:14:37,881 - src.market_analysis - WARNING - Error al obtener precio actual de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=XDCUSDT
+2025-01-16 16:14:38,289 - src.market_analysis - INFO - Precio actual de PENGUUSDT: 0.032176
+2025-01-16 16:14:38,699 - src.market_analysis - INFO - Precio actual de GRTUSDT: 0.2104
+2025-01-16 16:14:39,107 - src.market_analysis - INFO - Precio actual de WLDUSDT: 2.145
+2025-01-16 16:14:39,435 - src.market_analysis - INFO - Precio actual de FDUSDUSDT: 1.0
+2025-01-16 16:14:39,830 - src.market_analysis - INFO - Precio actual de SEIUSDT: 0.4015
+2025-01-16 16:14:40,159 - src.market_analysis - INFO - Precio actual de MOVEUSDT: 0.7718
+2025-01-16 16:14:40,488 - src.market_analysis - INFO - Precio actual de LDOUSDT: 1.964
+2025-01-16 16:14:40,808 - src.market_analysis - INFO - Precio actual de WIFUSDT: 1.744
+2025-01-16 16:14:41,132 - src.market_analysis - WARNING - Error al obtener precio actual de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=GTUSDT
+2025-01-16 16:14:41,465 - src.market_analysis - WARNING - Error al obtener precio actual de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=ONDOUSDT
+2025-01-16 16:14:41,789 - src.market_analysis - INFO - Precio actual de RAYUSDT: 5.55
+2025-01-16 16:14:42,119 - src.market_analysis - INFO - Precio actual de FLOKIUSDT: 0.00016676
+2025-01-16 16:14:42,446 - src.market_analysis - INFO - Precio actual de JASMYUSDT: 0.03133
+2025-01-16 16:14:42,771 - src.market_analysis - WARNING - Error al obtener precio actual de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AI16ZUSDT
+2025-01-16 16:14:43,200 - src.market_analysis - INFO - Precio actual de SANDUSDT: 0.6082
+2025-01-16 16:14:43,532 - src.market_analysis - WARNING - Error al obtener precio actual de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FLRUSDT
+2025-01-16 16:14:43,922 - src.market_analysis - INFO - Precio actual de IOTAUSDT: 0.3933
+2025-01-16 16:14:44,273 - src.market_analysis - INFO - Precio actual de QNTUSDT: 117.0
+2025-01-16 16:14:44,607 - src.market_analysis - INFO - Precio actual de GALAUSDT: 0.0383
+2025-01-16 16:14:45,047 - src.market_analysis - INFO - Precio actual de DEXEUSDT: 16.663
+2025-01-16 16:14:45,371 - src.market_analysis - INFO - Precio actual de XTZUSDT: 1.356
+2025-01-16 16:14:45,696 - src.market_analysis - WARNING - Error al obtener precio actual de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KCSUSDT
+2025-01-16 16:14:46,031 - src.market_analysis - INFO - Precio actual de EOSUSDT: 0.8678
+2025-01-16 16:14:46,363 - src.market_analysis - INFO - Precio actual de KAIAUSDT: 0.2233
+2025-01-16 16:14:46,689 - src.market_analysis - WARNING - Error al obtener precio actual de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FARTCOINUSDT
+2025-01-16 16:14:47,097 - src.market_analysis - INFO - Precio actual de MKRUSDT: 1393.0
+2025-01-16 16:14:47,504 - src.market_analysis - WARNING - Error al obtener precio actual de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BRETTUSDT
+2025-01-16 16:14:47,915 - src.market_analysis - INFO - Precio actual de PYTHUSDT: 0.3334
+2025-01-16 16:14:48,240 - src.market_analysis - INFO - Precio actual de RUNEUSDT: 3.4
+2025-01-16 16:14:48,639 - src.market_analysis - INFO - Precio actual de FLOWUSDT: 0.759
+2025-01-16 16:14:48,966 - src.market_analysis - INFO - Precio actual de CRVUSDT: 0.9307
+2025-01-16 16:14:49,313 - src.market_analysis - INFO - Precio actual de ENSUSDT: 32.88
+2025-01-16 16:14:49,655 - src.market_analysis - INFO - Precio actual de NEOUSDT: 16.17
+2025-01-16 16:14:50,064 - src.market_analysis - INFO - Precio actual de BEAMUSDT: 0.0652
+2025-01-16 16:14:50,393 - src.market_analysis - WARNING - Error al obtener precio actual de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AIOZUSDT
+2025-01-16 16:14:50,720 - src.market_analysis - INFO - Precio actual de ARUSDT: 16.82
+2025-01-16 16:14:51,063 - src.market_analysis - WARNING - Error al obtener precio actual de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BSVUSDT
+2025-01-16 16:14:51,397 - src.market_analysis - INFO - Precio actual de BTTUSDT: 0.0
+2025-01-16 16:14:51,736 - src.market_analysis - INFO - Precio actual de JUPUSDT: 0.7868
+2025-01-16 16:14:52,114 - src.market_analysis - INFO - Precio actual de STRKUSDT: 0.4233
+2025-01-16 16:14:52,503 - src.market_analysis - INFO - Precio actual de MANAUSDT: 0.5153
+2025-01-16 16:14:52,833 - src.market_analysis - INFO - Precio actual de AXSUSDT: 6.345
+2025-01-16 16:14:52,833 - src.market_analysis - INFO - Precios actualizados para 80 símbolos
+2025-01-16 16:14:52,834 - src.performance_monitor - INFO - Operación system_initialization completada en 46.74 segundos
+2025-01-16 16:14:52,834 - __main__ - INFO - Componentes del sistema iniciados exitosamente
+2025-01-16 16:14:52,835 - __main__ - INFO - Iniciando análisis de mercado...
+2025-01-16 16:14:52,835 - src.market_analysis - INFO - Analizando mercado...
+2025-01-16 16:14:52,861 - src.market_analysis - ERROR - Error al analizar DAIUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:14:52,867 - src.market_analysis - ERROR - Error al analizar SUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:14:52,881 - src.market_analysis - ERROR - Error al generar reporte de mercado: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-01-16 16:14:52,881 - __main__ - ERROR - Error en la ejecución: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-01-16 16:14:52,881 - src.performance_monitor - INFO - Operación full_cycle completada en 0.05 segundos
+2025-01-16 16:14:52,881 - __main__ - ERROR - Error fatal en el sistema: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-01-16 16:15:04,356 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:15:04,357 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:15:04,566 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:15:04,566 - __main__ - INFO - Iniciando componentes del sistema...
+2025-01-16 16:15:04,575 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:15:04,575 - src.dca_live_trader - WARNING - Configuración de email incompleta. Las notificaciones estarán deshabilitadas.
+2025-01-16 16:15:05,013 - src.dca_live_trader - INFO - Precio actual de BTCUSDT: 97778.62
+2025-01-16 16:15:05,423 - src.dca_live_trader - INFO - Precio actual de XRPUSDT: 3.2578
+2025-01-16 16:15:05,751 - src.dca_live_trader - INFO - Precio actual de ADAUSDT: 1.073
+2025-01-16 16:15:06,076 - src.dca_live_trader - INFO - Precio actual de DOTUSDT: 7.092
+2025-01-16 16:15:06,447 - src.dca_live_trader - INFO - Precio actual de DOGEUSDT: 0.37581
+2025-01-16 16:15:06,856 - src.dca_live_trader - INFO - Precio actual de AAVEUSDT: 309.56
+2025-01-16 16:15:06,857 - src.market_analysis - INFO - Inicializando MarketAnalyzer...
+2025-01-16 16:15:06,857 - src.market_analysis - INFO - Cargando datos de CoinMarketCap...
+2025-01-16 16:15:07,149 - src.market_analysis - INFO - Status Code: 200
+2025-01-16 16:15:07,150 - src.market_analysis - INFO - Datos recibidos de CMC: 100 criptomonedas
+2025-01-16 16:15:07,150 - src.market_analysis - INFO - Procesadas 100 criptomonedas
+2025-01-16 16:15:07,150 - src.market_analysis - INFO - Cargando datos históricos de Binance...
+2025-01-16 16:15:07,165 - src.market_analysis - INFO - Datos cargados desde caché para BTCUSDT
+2025-01-16 16:15:07,166 - src.market_analysis - INFO - Datos cargados desde caché para XRPUSDT
+2025-01-16 16:15:07,166 - src.market_analysis - INFO - Datos cargados desde caché para ADAUSDT
+2025-01-16 16:15:07,167 - src.market_analysis - INFO - Datos cargados desde caché para DOTUSDT
+2025-01-16 16:15:07,168 - src.market_analysis - INFO - Datos cargados desde caché para DOGEUSDT
+2025-01-16 16:15:07,169 - src.market_analysis - INFO - Datos cargados desde caché para AAVEUSDT
+2025-01-16 16:15:07,169 - src.market_analysis - INFO - Datos cargados desde caché para ETHUSDT
+2025-01-16 16:15:07,507 - src.market_analysis - WARNING - Error al obtener datos de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDTUSDT&interval=1d&limit=100
+2025-01-16 16:15:07,508 - src.market_analysis - WARNING - No se pudieron cargar datos para USDTUSDT
+2025-01-16 16:15:07,510 - src.market_analysis - INFO - Datos cargados desde caché para BNBUSDT
+2025-01-16 16:15:07,512 - src.market_analysis - INFO - Datos cargados desde caché para SOLUSDT
+2025-01-16 16:15:07,513 - src.market_analysis - INFO - Datos cargados desde caché para USDCUSDT
+2025-01-16 16:15:07,514 - src.market_analysis - INFO - Datos cargados desde caché para TRXUSDT
+2025-01-16 16:15:07,515 - src.market_analysis - INFO - Datos cargados desde caché para AVAXUSDT
+2025-01-16 16:15:07,517 - src.market_analysis - INFO - Datos cargados desde caché para XLMUSDT
+2025-01-16 16:15:07,518 - src.market_analysis - INFO - Datos cargados desde caché para LINKUSDT
+2025-01-16 16:15:07,518 - src.market_analysis - INFO - Datos cargados desde caché para SUIUSDT
+2025-01-16 16:15:07,520 - src.market_analysis - INFO - Datos cargados desde caché para TONUSDT
+2025-01-16 16:15:07,520 - src.market_analysis - INFO - Datos cargados desde caché para HBARUSDT
+2025-01-16 16:15:07,522 - src.market_analysis - INFO - Datos cargados desde caché para SHIBUSDT
+2025-01-16 16:15:07,523 - src.market_analysis - INFO - Datos cargados desde caché para BCHUSDT
+2025-01-16 16:15:07,524 - src.market_analysis - INFO - Datos cargados desde caché para LTCUSDT
+2025-01-16 16:15:07,853 - src.market_analysis - WARNING - Error al obtener datos de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=LEOUSDT&interval=1d&limit=100
+2025-01-16 16:15:07,853 - src.market_analysis - WARNING - No se pudieron cargar datos para LEOUSDT
+2025-01-16 16:15:07,856 - src.market_analysis - INFO - Datos cargados desde caché para UNIUSDT
+2025-01-16 16:15:08,188 - src.market_analysis - WARNING - Error al obtener datos de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BGBUSDT&interval=1d&limit=100
+2025-01-16 16:15:08,190 - src.market_analysis - WARNING - No se pudieron cargar datos para BGBUSDT
+2025-01-16 16:15:08,599 - src.market_analysis - WARNING - Error al obtener datos de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=HYPEUSDT&interval=1d&limit=100
+2025-01-16 16:15:08,600 - src.market_analysis - WARNING - No se pudieron cargar datos para HYPEUSDT
+2025-01-16 16:15:08,603 - src.market_analysis - INFO - Datos cargados desde caché para PEPEUSDT
+2025-01-16 16:15:08,605 - src.market_analysis - INFO - Datos cargados desde caché para NEARUSDT
+2025-01-16 16:15:09,008 - src.market_analysis - WARNING - Error al obtener datos de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDeUSDT&interval=1d&limit=100
+2025-01-16 16:15:09,010 - src.market_analysis - WARNING - No se pudieron cargar datos para USDeUSDT
+2025-01-16 16:15:09,441 - src.market_analysis - INFO - Datos cargados y cacheados para DAIUSDT
+2025-01-16 16:15:09,444 - src.market_analysis - INFO - Datos cargados desde caché para APTUSDT
+2025-01-16 16:15:09,446 - src.market_analysis - INFO - Datos cargados desde caché para ICPUSDT
+2025-01-16 16:15:09,448 - src.market_analysis - INFO - Datos cargados desde caché para POLUSDT
+2025-01-16 16:15:09,450 - src.market_analysis - INFO - Datos cargados desde caché para ETCUSDT
+2025-01-16 16:15:09,452 - src.market_analysis - INFO - Datos cargados desde caché para VETUSDT
+2025-01-16 16:15:09,832 - src.market_analysis - INFO - Datos cargados y cacheados para XMRUSDT
+2025-01-16 16:15:09,834 - src.market_analysis - INFO - Datos cargados desde caché para ALGOUSDT
+2025-01-16 16:15:10,167 - src.market_analysis - WARNING - Error al obtener datos de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KASUSDT&interval=1d&limit=100
+2025-01-16 16:15:10,169 - src.market_analysis - WARNING - No se pudieron cargar datos para KASUSDT
+2025-01-16 16:15:10,175 - src.market_analysis - INFO - Datos cargados desde caché para RENDERUSDT
+2025-01-16 16:15:10,544 - src.market_analysis - WARNING - Error al obtener datos de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=CROUSDT&interval=1d&limit=100
+2025-01-16 16:15:10,545 - src.market_analysis - WARNING - No se pudieron cargar datos para CROUSDT
+2025-01-16 16:15:10,928 - src.market_analysis - WARNING - Error al obtener datos de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=MNTUSDT&interval=1d&limit=100
+2025-01-16 16:15:10,930 - src.market_analysis - WARNING - No se pudieron cargar datos para MNTUSDT
+2025-01-16 16:15:10,934 - src.market_analysis - INFO - Datos cargados desde caché para TAOUSDT
+2025-01-16 16:15:10,936 - src.market_analysis - INFO - Datos cargados desde caché para OMUSDT
+2025-01-16 16:15:10,938 - src.market_analysis - INFO - Datos cargados desde caché para FILUSDT
+2025-01-16 16:15:10,940 - src.market_analysis - INFO - Datos cargados desde caché para FETUSDT
+2025-01-16 16:15:10,942 - src.market_analysis - INFO - Datos cargados desde caché para ARBUSDT
+2025-01-16 16:15:11,264 - src.market_analysis - WARNING - Error al obtener datos de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=OKBUSDT&interval=1d&limit=100
+2025-01-16 16:15:11,265 - src.market_analysis - WARNING - No se pudieron cargar datos para OKBUSDT
+2025-01-16 16:15:11,268 - src.market_analysis - INFO - Datos cargados desde caché para ENAUSDT
+2025-01-16 16:15:11,270 - src.market_analysis - INFO - Datos cargados desde caché para ATOMUSDT
+2025-01-16 16:15:11,272 - src.market_analysis - INFO - Datos cargados desde caché para OPUSDT
+2025-01-16 16:15:11,274 - src.market_analysis - INFO - Datos cargados desde caché para TIAUSDT
+2025-01-16 16:15:11,275 - src.market_analysis - INFO - Datos cargados desde caché para THETAUSDT
+2025-01-16 16:15:11,277 - src.market_analysis - INFO - Datos cargados desde caché para STXUSDT
+2025-01-16 16:15:11,672 - src.market_analysis - WARNING - Error al obtener datos de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=VIRTUALUSDT&interval=1d&limit=100
+2025-01-16 16:15:11,674 - src.market_analysis - WARNING - No se pudieron cargar datos para VIRTUALUSDT
+2025-01-16 16:15:11,680 - src.market_analysis - INFO - Datos cargados desde caché para IMXUSDT
+2025-01-16 16:15:11,684 - src.market_analysis - INFO - Datos cargados desde caché para INJUSDT
+2025-01-16 16:15:11,686 - src.market_analysis - INFO - Datos cargados desde caché para SUSDT
+2025-01-16 16:15:11,689 - src.market_analysis - INFO - Datos cargados desde caché para BONKUSDT
+2025-01-16 16:15:12,084 - src.market_analysis - WARNING - Error al obtener datos de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XDCUSDT&interval=1d&limit=100
+2025-01-16 16:15:12,086 - src.market_analysis - WARNING - No se pudieron cargar datos para XDCUSDT
+2025-01-16 16:15:12,091 - src.market_analysis - INFO - Datos cargados desde caché para PENGUUSDT
+2025-01-16 16:15:12,095 - src.market_analysis - INFO - Datos cargados desde caché para GRTUSDT
+2025-01-16 16:15:12,098 - src.market_analysis - INFO - Datos cargados desde caché para WLDUSDT
+2025-01-16 16:15:12,100 - src.market_analysis - INFO - Datos cargados desde caché para FDUSDUSDT
+2025-01-16 16:15:12,103 - src.market_analysis - INFO - Datos cargados desde caché para SEIUSDT
+2025-01-16 16:15:12,107 - src.market_analysis - INFO - Datos cargados desde caché para MOVEUSDT
+2025-01-16 16:15:12,109 - src.market_analysis - INFO - Datos cargados desde caché para LDOUSDT
+2025-01-16 16:15:12,110 - src.market_analysis - INFO - Datos cargados desde caché para WIFUSDT
+2025-01-16 16:15:12,448 - src.market_analysis - WARNING - Error al obtener datos de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=GTUSDT&interval=1d&limit=100
+2025-01-16 16:15:12,448 - src.market_analysis - WARNING - No se pudieron cargar datos para GTUSDT
+2025-01-16 16:15:12,771 - src.market_analysis - WARNING - Error al obtener datos de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=ONDOUSDT&interval=1d&limit=100
+2025-01-16 16:15:12,773 - src.market_analysis - WARNING - No se pudieron cargar datos para ONDOUSDT
+2025-01-16 16:15:12,779 - src.market_analysis - INFO - Datos cargados desde caché para RAYUSDT
+2025-01-16 16:15:12,781 - src.market_analysis - INFO - Datos cargados desde caché para FLOKIUSDT
+2025-01-16 16:15:12,784 - src.market_analysis - INFO - Datos cargados desde caché para JASMYUSDT
+2025-01-16 16:15:13,112 - src.market_analysis - WARNING - Error al obtener datos de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AI16ZUSDT&interval=1d&limit=100
+2025-01-16 16:15:13,113 - src.market_analysis - WARNING - No se pudieron cargar datos para AI16ZUSDT
+2025-01-16 16:15:13,117 - src.market_analysis - INFO - Datos cargados desde caché para SANDUSDT
+2025-01-16 16:15:13,439 - src.market_analysis - WARNING - Error al obtener datos de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FLRUSDT&interval=1d&limit=100
+2025-01-16 16:15:13,440 - src.market_analysis - WARNING - No se pudieron cargar datos para FLRUSDT
+2025-01-16 16:15:13,444 - src.market_analysis - INFO - Datos cargados desde caché para IOTAUSDT
+2025-01-16 16:15:13,446 - src.market_analysis - INFO - Datos cargados desde caché para QNTUSDT
+2025-01-16 16:15:13,448 - src.market_analysis - INFO - Datos cargados desde caché para GALAUSDT
+2025-01-16 16:15:13,450 - src.market_analysis - INFO - Datos cargados desde caché para DEXEUSDT
+2025-01-16 16:15:13,452 - src.market_analysis - INFO - Datos cargados desde caché para XTZUSDT
+2025-01-16 16:15:13,823 - src.market_analysis - WARNING - Error al obtener datos de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KCSUSDT&interval=1d&limit=100
+2025-01-16 16:15:13,825 - src.market_analysis - WARNING - No se pudieron cargar datos para KCSUSDT
+2025-01-16 16:15:13,830 - src.market_analysis - INFO - Datos cargados desde caché para EOSUSDT
+2025-01-16 16:15:13,833 - src.market_analysis - INFO - Datos cargados desde caché para KAIAUSDT
+2025-01-16 16:15:14,164 - src.market_analysis - WARNING - Error al obtener datos de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FARTCOINUSDT&interval=1d&limit=100
+2025-01-16 16:15:14,165 - src.market_analysis - WARNING - No se pudieron cargar datos para FARTCOINUSDT
+2025-01-16 16:15:14,170 - src.market_analysis - INFO - Datos cargados desde caché para MKRUSDT
+2025-01-16 16:15:14,503 - src.market_analysis - WARNING - Error al obtener datos de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BRETTUSDT&interval=1d&limit=100
+2025-01-16 16:15:14,505 - src.market_analysis - WARNING - No se pudieron cargar datos para BRETTUSDT
+2025-01-16 16:15:14,510 - src.market_analysis - INFO - Datos cargados desde caché para PYTHUSDT
+2025-01-16 16:15:14,513 - src.market_analysis - INFO - Datos cargados desde caché para RUNEUSDT
+2025-01-16 16:15:14,516 - src.market_analysis - INFO - Datos cargados desde caché para CRVUSDT
+2025-01-16 16:15:14,519 - src.market_analysis - INFO - Datos cargados desde caché para FLOWUSDT
+2025-01-16 16:15:14,521 - src.market_analysis - INFO - Datos cargados desde caché para ENSUSDT
+2025-01-16 16:15:14,523 - src.market_analysis - INFO - Datos cargados desde caché para NEOUSDT
+2025-01-16 16:15:14,957 - src.market_analysis - INFO - Datos cargados y cacheados para BEAMUSDT
+2025-01-16 16:15:15,358 - src.market_analysis - WARNING - Error al obtener datos de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AIOZUSDT&interval=1d&limit=100
+2025-01-16 16:15:15,360 - src.market_analysis - WARNING - No se pudieron cargar datos para AIOZUSDT
+2025-01-16 16:15:15,725 - src.market_analysis - WARNING - Error al obtener datos de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BSVUSDT&interval=1d&limit=100
+2025-01-16 16:15:15,727 - src.market_analysis - WARNING - No se pudieron cargar datos para BSVUSDT
+2025-01-16 16:15:15,732 - src.market_analysis - INFO - Datos cargados desde caché para ARUSDT
+2025-01-16 16:15:16,180 - src.market_analysis - INFO - Datos cargados y cacheados para BTTUSDT
+2025-01-16 16:15:16,182 - src.market_analysis - INFO - Datos cargados desde caché para JUPUSDT
+2025-01-16 16:15:16,183 - src.market_analysis - INFO - Datos cargados desde caché para STRKUSDT
+2025-01-16 16:15:16,185 - src.market_analysis - INFO - Datos cargados desde caché para MANAUSDT
+2025-01-16 16:15:16,186 - src.market_analysis - INFO - Datos cargados desde caché para AXSUSDT
+2025-01-16 16:15:16,186 - src.market_analysis - INFO - Datos históricos cargados para 80 símbolos
+2025-01-16 16:15:16,186 - src.market_analysis - INFO - Actualizando precios actuales...
+2025-01-16 16:15:16,511 - src.market_analysis - INFO - Precio actual de BTCUSDT: 97834.71
+2025-01-16 16:15:16,842 - src.market_analysis - INFO - Precio actual de XRPUSDT: 3.2574
+2025-01-16 16:15:17,200 - src.market_analysis - INFO - Precio actual de ADAUSDT: 1.0746
+2025-01-16 16:15:17,524 - src.market_analysis - INFO - Precio actual de DOTUSDT: 7.106
+2025-01-16 16:15:17,851 - src.market_analysis - INFO - Precio actual de DOGEUSDT: 0.37627
+2025-01-16 16:15:18,180 - src.market_analysis - INFO - Precio actual de AAVEUSDT: 309.83
+2025-01-16 16:15:18,634 - src.market_analysis - INFO - Precio actual de ETHUSDT: 3283.13
+2025-01-16 16:15:18,981 - src.market_analysis - WARNING - Error al obtener precio actual de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDTUSDT
+2025-01-16 16:15:19,305 - src.market_analysis - INFO - Precio actual de BNBUSDT: 704.8
+2025-01-16 16:15:19,658 - src.market_analysis - INFO - Precio actual de SOLUSDT: 208.57
+2025-01-16 16:15:20,068 - src.market_analysis - INFO - Precio actual de USDCUSDT: 1.0004
+2025-01-16 16:15:20,401 - src.market_analysis - INFO - Precio actual de TRXUSDT: 0.2358
+2025-01-16 16:15:20,733 - src.market_analysis - INFO - Precio actual de AVAXUSDT: 39.12
+2025-01-16 16:15:21,064 - src.market_analysis - INFO - Precio actual de XLMUSDT: 0.4895
+2025-01-16 16:15:21,389 - src.market_analysis - INFO - Precio actual de LINKUSDT: 22.76
+2025-01-16 16:15:21,810 - src.market_analysis - INFO - Precio actual de SUIUSDT: 4.6676
+2025-01-16 16:15:22,217 - src.market_analysis - INFO - Precio actual de TONUSDT: 5.496
+2025-01-16 16:15:22,546 - src.market_analysis - INFO - Precio actual de HBARUSDT: 0.35496
+2025-01-16 16:15:22,874 - src.market_analysis - INFO - Precio actual de SHIBUSDT: 2.196e-05
+2025-01-16 16:15:23,223 - src.market_analysis - INFO - Precio actual de BCHUSDT: 453.9
+2025-01-16 16:15:23,551 - src.market_analysis - INFO - Precio actual de LTCUSDT: 122.74
+2025-01-16 16:15:23,962 - src.market_analysis - WARNING - Error al obtener precio actual de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=LEOUSDT
+2025-01-16 16:15:24,308 - src.market_analysis - INFO - Precio actual de UNIUSDT: 14.184
+2025-01-16 16:15:24,649 - src.market_analysis - WARNING - Error al obtener precio actual de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BGBUSDT
+2025-01-16 16:15:25,085 - src.market_analysis - WARNING - Error al obtener precio actual de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=HYPEUSDT
+2025-01-16 16:15:25,415 - src.market_analysis - INFO - Precio actual de PEPEUSDT: 1.816e-05
+2025-01-16 16:15:25,802 - src.market_analysis - INFO - Precio actual de NEARUSDT: 5.195
+2025-01-16 16:15:26,314 - src.market_analysis - WARNING - Error al obtener precio actual de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDeUSDT
+2025-01-16 16:15:26,636 - src.market_analysis - INFO - Precio actual de DAIUSDT: 0.0
+2025-01-16 16:15:27,034 - src.market_analysis - INFO - Precio actual de APTUSDT: 9.13
+2025-01-16 16:15:27,367 - src.market_analysis - INFO - Precio actual de ICPUSDT: 10.736
+2025-01-16 16:15:27,745 - src.market_analysis - INFO - Precio actual de POLUSDT: 0.4729
+2025-01-16 16:15:28,080 - src.market_analysis - INFO - Precio actual de ETCUSDT: 26.47
+2025-01-16 16:15:28,416 - src.market_analysis - INFO - Precio actual de VETUSDT: 0.04894
+2025-01-16 16:15:28,741 - src.market_analysis - INFO - Precio actual de XMRUSDT: 118.7
+2025-01-16 16:15:29,068 - src.market_analysis - INFO - Precio actual de ALGOUSDT: 0.4617
+2025-01-16 16:15:29,396 - src.market_analysis - WARNING - Error al obtener precio actual de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KASUSDT
+2025-01-16 16:15:29,731 - src.market_analysis - INFO - Precio actual de RENDERUSDT: 7.359
+2025-01-16 16:15:30,068 - src.market_analysis - WARNING - Error al obtener precio actual de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=CROUSDT
+2025-01-16 16:15:30,393 - src.market_analysis - WARNING - Error al obtener precio actual de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=MNTUSDT
+2025-01-16 16:15:30,720 - src.market_analysis - INFO - Precio actual de TAOUSDT: 450.8
+2025-01-16 16:15:31,133 - src.market_analysis - INFO - Precio actual de OMUSDT: 3.8439
+2025-01-16 16:15:31,534 - src.market_analysis - INFO - Precio actual de FILUSDT: 5.482
+2025-01-16 16:15:31,910 - src.market_analysis - INFO - Precio actual de FETUSDT: 1.322
+2025-01-16 16:15:32,244 - src.market_analysis - INFO - Precio actual de ARBUSDT: 0.7562
+2025-01-16 16:15:32,568 - src.market_analysis - WARNING - Error al obtener precio actual de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=OKBUSDT
+2025-01-16 16:15:32,971 - src.market_analysis - INFO - Precio actual de ENAUSDT: 0.9014
+2025-01-16 16:15:33,305 - src.market_analysis - INFO - Precio actual de ATOMUSDT: 6.526
+2025-01-16 16:15:33,687 - src.market_analysis - INFO - Precio actual de OPUSDT: 1.856
+2025-01-16 16:15:34,058 - src.market_analysis - INFO - Precio actual de TIAUSDT: 4.927
+2025-01-16 16:15:34,379 - src.market_analysis - INFO - Precio actual de THETAUSDT: 2.396
+2025-01-16 16:15:34,815 - src.market_analysis - INFO - Precio actual de STXUSDT: 1.549
+2025-01-16 16:15:35,146 - src.market_analysis - WARNING - Error al obtener precio actual de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=VIRTUALUSDT
+2025-01-16 16:15:35,481 - src.market_analysis - INFO - Precio actual de IMXUSDT: 1.316
+2025-01-16 16:15:35,809 - src.market_analysis - INFO - Precio actual de INJUSDT: 22.64
+2025-01-16 16:15:36,139 - src.market_analysis - INFO - Precio actual de SUSDT: 0.7698
+2025-01-16 16:15:36,509 - src.market_analysis - INFO - Precio actual de BONKUSDT: 2.883e-05
+2025-01-16 16:15:36,866 - src.market_analysis - WARNING - Error al obtener precio actual de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=XDCUSDT
+2025-01-16 16:15:37,209 - src.market_analysis - INFO - Precio actual de PENGUUSDT: 0.032252
+2025-01-16 16:15:37,536 - src.market_analysis - INFO - Precio actual de GRTUSDT: 0.2112
+2025-01-16 16:15:37,870 - src.market_analysis - INFO - Precio actual de WLDUSDT: 2.149
+2025-01-16 16:15:38,297 - src.market_analysis - INFO - Precio actual de FDUSDUSDT: 0.9999
+2025-01-16 16:15:38,704 - src.market_analysis - INFO - Precio actual de SEIUSDT: 0.4025
+2025-01-16 16:15:39,119 - src.market_analysis - INFO - Precio actual de MOVEUSDT: 0.773
+2025-01-16 16:15:39,525 - src.market_analysis - INFO - Precio actual de LDOUSDT: 1.966
+2025-01-16 16:15:39,933 - src.market_analysis - INFO - Precio actual de WIFUSDT: 1.748
+2025-01-16 16:15:40,340 - src.market_analysis - WARNING - Error al obtener precio actual de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=GTUSDT
+2025-01-16 16:15:40,662 - src.market_analysis - WARNING - Error al obtener precio actual de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=ONDOUSDT
+2025-01-16 16:15:41,059 - src.market_analysis - INFO - Precio actual de RAYUSDT: 5.562
+2025-01-16 16:15:41,379 - src.market_analysis - INFO - Precio actual de FLOKIUSDT: 0.00016726
+2025-01-16 16:15:41,714 - src.market_analysis - INFO - Precio actual de JASMYUSDT: 0.03146
+2025-01-16 16:15:42,085 - src.market_analysis - WARNING - Error al obtener precio actual de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AI16ZUSDT
+2025-01-16 16:15:42,413 - src.market_analysis - INFO - Precio actual de SANDUSDT: 0.61
+2025-01-16 16:15:42,735 - src.market_analysis - WARNING - Error al obtener precio actual de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FLRUSDT
+2025-01-16 16:15:43,106 - src.market_analysis - INFO - Precio actual de IOTAUSDT: 0.3949
+2025-01-16 16:15:43,520 - src.market_analysis - INFO - Precio actual de QNTUSDT: 117.1
+2025-01-16 16:15:43,893 - src.market_analysis - INFO - Precio actual de GALAUSDT: 0.03838
+2025-01-16 16:15:44,233 - src.market_analysis - INFO - Precio actual de DEXEUSDT: 16.701
+2025-01-16 16:15:44,644 - src.market_analysis - INFO - Precio actual de XTZUSDT: 1.358
+2025-01-16 16:15:45,001 - src.market_analysis - WARNING - Error al obtener precio actual de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KCSUSDT
+2025-01-16 16:15:45,361 - src.market_analysis - INFO - Precio actual de EOSUSDT: 0.8701
+2025-01-16 16:15:45,731 - src.market_analysis - INFO - Precio actual de KAIAUSDT: 0.2241
+2025-01-16 16:15:46,046 - src.market_analysis - WARNING - Error al obtener precio actual de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FARTCOINUSDT
+2025-01-16 16:15:46,492 - src.market_analysis - INFO - Precio actual de MKRUSDT: 1397.0
+2025-01-16 16:15:46,824 - src.market_analysis - WARNING - Error al obtener precio actual de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BRETTUSDT
+2025-01-16 16:15:47,155 - src.market_analysis - INFO - Precio actual de PYTHUSDT: 0.3341
+2025-01-16 16:15:47,479 - src.market_analysis - INFO - Precio actual de RUNEUSDT: 3.41
+2025-01-16 16:15:47,811 - src.market_analysis - INFO - Precio actual de CRVUSDT: 0.9344
+2025-01-16 16:15:48,137 - src.market_analysis - INFO - Precio actual de FLOWUSDT: 0.76
+2025-01-16 16:15:48,535 - src.market_analysis - INFO - Precio actual de ENSUSDT: 32.98
+2025-01-16 16:15:48,946 - src.market_analysis - INFO - Precio actual de NEOUSDT: 16.23
+2025-01-16 16:15:49,354 - src.market_analysis - INFO - Precio actual de BEAMUSDT: 0.0652
+2025-01-16 16:15:49,692 - src.market_analysis - WARNING - Error al obtener precio actual de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AIOZUSDT
+2025-01-16 16:15:50,015 - src.market_analysis - WARNING - Error al obtener precio actual de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BSVUSDT
+2025-01-16 16:15:50,339 - src.market_analysis - INFO - Precio actual de ARUSDT: 16.88
+2025-01-16 16:15:50,677 - src.market_analysis - INFO - Precio actual de BTTUSDT: 0.0
+2025-01-16 16:15:51,009 - src.market_analysis - INFO - Precio actual de JUPUSDT: 0.7887
+2025-01-16 16:15:51,336 - src.market_analysis - INFO - Precio actual de STRKUSDT: 0.4243
+2025-01-16 16:15:51,667 - src.market_analysis - INFO - Precio actual de MANAUSDT: 0.5171
+2025-01-16 16:15:52,016 - src.market_analysis - INFO - Precio actual de AXSUSDT: 6.365
+2025-01-16 16:15:52,016 - src.market_analysis - INFO - Precios actualizados para 80 símbolos
+2025-01-16 16:15:52,016 - src.performance_monitor - INFO - Operación system_initialization completada en 47.45 segundos
+2025-01-16 16:15:52,016 - __main__ - INFO - Componentes del sistema iniciados exitosamente
+2025-01-16 16:15:52,017 - __main__ - INFO - Iniciando análisis de mercado...
+2025-01-16 16:15:52,017 - src.market_analysis - INFO - Analizando mercado...
+2025-01-16 16:15:52,030 - src.market_analysis - ERROR - Error al analizar DAIUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:15:52,036 - src.market_analysis - ERROR - Error al analizar SUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:15:52,061 - src.market_analysis - INFO - Reporte de mercado generado exitosamente
+2025-01-16 16:15:52,062 - src.market_analysis - INFO - Reporte del portafolio generado exitosamente
+2025-01-16 16:15:52,064 - src.market_analysis - INFO - Reporte de insights generado exitosamente
+2025-01-16 16:15:52,079 - src.market_analysis - INFO - Recomendaciones actualizadas exitosamente
+2025-01-16 16:15:52,080 - src.market_analysis - INFO - Análisis completado para 78 criptomonedas
+2025-01-16 16:15:52,080 - src.performance_monitor - INFO - Operación market_analysis completada en 0.06 segundos
+2025-01-16 16:15:52,080 - __main__ - INFO - Evaluando riesgos...
+2025-01-16 16:15:52,142 - src.performance_monitor - INFO - Operación risk_assessment completada en 0.06 segundos
+2025-01-16 16:15:52,142 - __main__ - INFO - Actualizando pesos del portfolio...
+2025-01-16 16:15:52,143 - src.performance_monitor - INFO - Operación portfolio_update completada en 0.00 segundos
+2025-01-16 16:15:52,143 - __main__ - INFO - Ejecutando estrategia DCA...
+2025-01-16 16:15:52,482 - src.dca_live_trader - INFO - Precio actual de ETHUSDT: 3287.35
+2025-01-16 16:15:52,804 - src.dca_live_trader - INFO - Precio actual de BNBUSDT: 705.47
+2025-01-16 16:15:53,134 - src.dca_live_trader - INFO - Precio actual de SOLUSDT: 208.97
+2025-01-16 16:15:53,459 - src.dca_live_trader - INFO - Precio actual de USDCUSDT: 1.0003
+2025-01-16 16:15:53,780 - src.dca_live_trader - INFO - Precio actual de TRXUSDT: 0.236
+2025-01-16 16:15:54,109 - src.dca_live_trader - INFO - Precio actual de AVAXUSDT: 39.27
+2025-01-16 16:15:54,444 - src.dca_live_trader - INFO - Precio actual de XLMUSDT: 0.4907
+2025-01-16 16:15:54,771 - src.dca_live_trader - INFO - Precio actual de LINKUSDT: 22.8
+2025-01-16 16:15:55,094 - src.dca_live_trader - INFO - Precio actual de SUIUSDT: 4.6795
+2025-01-16 16:15:55,425 - src.dca_live_trader - INFO - Precio actual de TONUSDT: 5.501
+2025-01-16 16:15:55,753 - src.dca_live_trader - INFO - Precio actual de HBARUSDT: 0.35509
+2025-01-16 16:15:56,081 - src.dca_live_trader - INFO - Precio actual de SHIBUSDT: 2.201e-05
+2025-01-16 16:15:56,397 - src.dca_live_trader - INFO - Precio actual de BCHUSDT: 454.7
+2025-01-16 16:15:56,728 - src.dca_live_trader - INFO - Precio actual de LTCUSDT: 121.13
+2025-01-16 16:15:57,056 - src.dca_live_trader - INFO - Precio actual de UNIUSDT: 14.222
+2025-01-16 16:15:57,389 - src.dca_live_trader - INFO - Precio actual de PEPEUSDT: 1.819e-05
+2025-01-16 16:15:57,729 - src.dca_live_trader - INFO - Precio actual de NEARUSDT: 5.206
+2025-01-16 16:15:58,084 - src.dca_live_trader - INFO - Precio actual de APTUSDT: 9.15
+2025-01-16 16:15:58,419 - src.dca_live_trader - INFO - Precio actual de ICPUSDT: 10.769
+2025-01-16 16:15:58,751 - src.dca_live_trader - INFO - Precio actual de POLUSDT: 0.4737
+2025-01-16 16:15:59,090 - src.dca_live_trader - INFO - Precio actual de ETCUSDT: 26.52
+2025-01-16 16:15:59,423 - src.dca_live_trader - INFO - Precio actual de VETUSDT: 0.0491
+2025-01-16 16:15:59,800 - src.dca_live_trader - INFO - Precio actual de XMRUSDT: 118.7
+2025-01-16 16:16:00,210 - src.dca_live_trader - INFO - Precio actual de ALGOUSDT: 0.463
+2025-01-16 16:16:00,531 - src.dca_live_trader - INFO - Precio actual de RENDERUSDT: 7.378
+2025-01-16 16:16:00,927 - src.dca_live_trader - INFO - Precio actual de TAOUSDT: 452.0
+2025-01-16 16:16:01,336 - src.dca_live_trader - INFO - Precio actual de OMUSDT: 3.8532
+2025-01-16 16:16:01,746 - src.dca_live_trader - INFO - Precio actual de FILUSDT: 5.493
+2025-01-16 16:16:02,154 - src.dca_live_trader - INFO - Precio actual de FETUSDT: 1.323
+2025-01-16 16:16:02,480 - src.dca_live_trader - INFO - Precio actual de ARBUSDT: 0.7571
+2025-01-16 16:16:02,872 - src.dca_live_trader - INFO - Precio actual de ENAUSDT: 0.904
+2025-01-16 16:16:03,282 - src.dca_live_trader - INFO - Precio actual de ATOMUSDT: 6.538
+2025-01-16 16:16:03,692 - src.dca_live_trader - INFO - Precio actual de OPUSDT: 1.858
+2025-01-16 16:16:04,101 - src.dca_live_trader - INFO - Precio actual de TIAUSDT: 4.938
+2025-01-16 16:16:04,511 - src.dca_live_trader - INFO - Precio actual de THETAUSDT: 2.403
+2025-01-16 16:16:04,921 - src.dca_live_trader - INFO - Precio actual de STXUSDT: 1.552
+2025-01-16 16:16:05,329 - src.dca_live_trader - INFO - Precio actual de IMXUSDT: 1.321
+2025-01-16 16:16:05,663 - src.dca_live_trader - INFO - Precio actual de INJUSDT: 22.68
+2025-01-16 16:16:06,044 - src.dca_live_trader - INFO - Precio actual de BONKUSDT: 2.886e-05
+2025-01-16 16:16:06,457 - src.dca_live_trader - INFO - Precio actual de PENGUUSDT: 0.032266
+2025-01-16 16:16:06,866 - src.dca_live_trader - INFO - Precio actual de GRTUSDT: 0.2116
+2025-01-16 16:16:07,275 - src.dca_live_trader - INFO - Precio actual de WLDUSDT: 2.152
+2025-01-16 16:16:07,608 - src.dca_live_trader - INFO - Precio actual de FDUSDUSDT: 1.0
+2025-01-16 16:16:07,937 - src.dca_live_trader - INFO - Precio actual de SEIUSDT: 0.4034
+2025-01-16 16:16:08,297 - src.dca_live_trader - INFO - Precio actual de MOVEUSDT: 0.7734
+2025-01-16 16:16:08,708 - src.dca_live_trader - INFO - Precio actual de LDOUSDT: 1.966
+2025-01-16 16:16:09,038 - src.dca_live_trader - INFO - Precio actual de WIFUSDT: 1.75
+2025-01-16 16:16:09,425 - src.dca_live_trader - INFO - Precio actual de RAYUSDT: 5.565
+2025-01-16 16:16:09,836 - src.dca_live_trader - INFO - Precio actual de FLOKIUSDT: 0.00016733
+2025-01-16 16:16:10,244 - src.dca_live_trader - INFO - Precio actual de JASMYUSDT: 0.03152
+2025-01-16 16:16:10,655 - src.dca_live_trader - INFO - Precio actual de SANDUSDT: 0.6109
+2025-01-16 16:16:10,986 - src.dca_live_trader - INFO - Precio actual de IOTAUSDT: 0.3957
+2025-01-16 16:16:11,320 - src.dca_live_trader - INFO - Precio actual de QNTUSDT: 117.3
+2025-01-16 16:16:11,653 - src.dca_live_trader - INFO - Precio actual de GALAUSDT: 0.03846
+2025-01-16 16:16:11,985 - src.dca_live_trader - INFO - Precio actual de DEXEUSDT: 16.702
+2025-01-16 16:16:12,395 - src.dca_live_trader - INFO - Precio actual de XTZUSDT: 1.359
+2025-01-16 16:16:12,729 - src.dca_live_trader - INFO - Precio actual de EOSUSDT: 0.8705
+2025-01-16 16:16:13,113 - src.dca_live_trader - INFO - Precio actual de KAIAUSDT: 0.2241
+2025-01-16 16:16:13,445 - src.dca_live_trader - INFO - Precio actual de MKRUSDT: 1398.0
+2025-01-16 16:16:13,779 - src.dca_live_trader - INFO - Precio actual de PYTHUSDT: 0.3344
+2025-01-16 16:16:14,138 - src.dca_live_trader - INFO - Precio actual de RUNEUSDT: 3.408
+2025-01-16 16:16:14,547 - src.dca_live_trader - INFO - Precio actual de CRVUSDT: 0.9345
+2025-01-16 16:16:14,955 - src.dca_live_trader - INFO - Precio actual de FLOWUSDT: 0.761
+2025-01-16 16:16:15,365 - src.dca_live_trader - INFO - Precio actual de ENSUSDT: 32.97
+2025-01-16 16:16:15,775 - src.dca_live_trader - INFO - Precio actual de NEOUSDT: 16.24
+2025-01-16 16:16:16,110 - src.dca_live_trader - INFO - Precio actual de BEAMUSDT: 0.0652
+2025-01-16 16:16:16,490 - src.dca_live_trader - INFO - Precio actual de ARUSDT: 16.9
+2025-01-16 16:16:16,901 - src.dca_live_trader - INFO - Precio actual de BTTUSDT: 0.0
+2025-01-16 16:16:17,310 - src.dca_live_trader - INFO - Precio actual de JUPUSDT: 0.7892
+2025-01-16 16:16:17,720 - src.dca_live_trader - INFO - Precio actual de STRKUSDT: 0.4244
+2025-01-16 16:16:18,129 - src.dca_live_trader - INFO - Precio actual de MANAUSDT: 0.5174
+2025-01-16 16:16:18,463 - src.dca_live_trader - INFO - Precio actual de AXSUSDT: 6.37
+2025-01-16 16:16:18,466 - src.dca_live_trader - WARNING - No se puede enviar notificación: configuración de email incompleta
+2025-01-16 16:16:18,466 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:16:18,466 - src.performance_monitor - INFO - Operación dca_execution completada en 26.32 segundos
+2025-01-16 16:16:18,466 - __main__ - INFO - Guardando datos en base de datos...
+2025-01-16 16:16:18,494 - src.database_manager - INFO - Estado del portfolio guardado exitosamente
+2025-01-16 16:16:18,494 - src.performance_monitor - INFO - Operación database_update completada en 0.03 segundos
+2025-01-16 16:16:18,494 - __main__ - INFO - Iniciando backup...
+2025-01-16 16:16:18,496 - src.backup_portfolio - INFO - Backup diario completado para 2025-01-16
+2025-01-16 16:16:18,496 - __main__ - INFO - Backup completado exitosamente
+2025-01-16 16:16:18,496 - src.performance_monitor - INFO - Operación backup completada en 0.00 segundos
+2025-01-16 16:16:18,496 - __main__ - WARNING - Alertas de rendimiento detectadas:
+2025-01-16 16:16:18,496 - __main__ - WARNING - Alto uso de memoria: 84.0%
+2025-01-16 16:16:18,497 - __main__ - INFO - Reporte de rendimiento generado
+2025-01-16 16:16:18,497 - src.performance_monitor - INFO - Operación full_cycle completada en 26.48 segundos
+2025-01-16 16:16:18,498 - src.performance_monitor - INFO - Métricas guardadas en performance_metrics.json
+2025-01-16 16:19:49,483 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:19:49,483 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:19:49,634 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:19:49,634 - __main__ - INFO - Iniciando componentes del sistema...
+2025-01-16 16:19:49,642 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:19:49,642 - src.dca_live_trader - WARNING - Configuración de email incompleta. Las notificaciones estarán deshabilitadas.
+2025-01-16 16:19:50,100 - src.dca_live_trader - INFO - Precio actual de BTCUSDT: 98093.75
+2025-01-16 16:19:50,437 - src.dca_live_trader - INFO - Precio actual de XRPUSDT: 3.2714
+2025-01-16 16:19:50,817 - src.dca_live_trader - INFO - Precio actual de ADAUSDT: 1.081
+2025-01-16 16:19:51,228 - src.dca_live_trader - INFO - Precio actual de DOTUSDT: 7.123
+2025-01-16 16:19:51,636 - src.dca_live_trader - INFO - Precio actual de DOGEUSDT: 0.37785
+2025-01-16 16:19:52,046 - src.dca_live_trader - INFO - Precio actual de AAVEUSDT: 311.4
+2025-01-16 16:19:52,047 - src.market_analysis - INFO - Inicializando MarketAnalyzer...
+2025-01-16 16:19:52,048 - src.market_analysis - INFO - Cargando datos de CoinMarketCap...
+2025-01-16 16:19:52,628 - src.market_analysis - INFO - Status Code: 200
+2025-01-16 16:19:52,629 - src.market_analysis - INFO - Datos recibidos de CMC: 100 criptomonedas
+2025-01-16 16:19:52,630 - src.market_analysis - INFO - Procesadas 100 criptomonedas
+2025-01-16 16:19:52,630 - src.market_analysis - INFO - Cargando datos históricos de Binance...
+2025-01-16 16:19:52,637 - src.market_analysis - INFO - Datos cargados desde caché para BTCUSDT
+2025-01-16 16:19:52,639 - src.market_analysis - INFO - Datos cargados desde caché para XRPUSDT
+2025-01-16 16:19:52,641 - src.market_analysis - INFO - Datos cargados desde caché para ADAUSDT
+2025-01-16 16:19:52,642 - src.market_analysis - INFO - Datos cargados desde caché para DOTUSDT
+2025-01-16 16:19:52,644 - src.market_analysis - INFO - Datos cargados desde caché para DOGEUSDT
+2025-01-16 16:19:52,645 - src.market_analysis - INFO - Datos cargados desde caché para AAVEUSDT
+2025-01-16 16:19:52,646 - src.market_analysis - INFO - Datos cargados desde caché para ETHUSDT
+2025-01-16 16:19:52,974 - src.market_analysis - WARNING - Error al obtener datos de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDTUSDT&interval=1d&limit=100
+2025-01-16 16:19:52,975 - src.market_analysis - WARNING - No se pudieron cargar datos para USDTUSDT
+2025-01-16 16:19:52,978 - src.market_analysis - INFO - Datos cargados desde caché para BNBUSDT
+2025-01-16 16:19:52,980 - src.market_analysis - INFO - Datos cargados desde caché para SOLUSDT
+2025-01-16 16:19:52,981 - src.market_analysis - INFO - Datos cargados desde caché para USDCUSDT
+2025-01-16 16:19:52,983 - src.market_analysis - INFO - Datos cargados desde caché para TRXUSDT
+2025-01-16 16:19:52,984 - src.market_analysis - INFO - Datos cargados desde caché para AVAXUSDT
+2025-01-16 16:19:52,986 - src.market_analysis - INFO - Datos cargados desde caché para XLMUSDT
+2025-01-16 16:19:52,987 - src.market_analysis - INFO - Datos cargados desde caché para LINKUSDT
+2025-01-16 16:19:52,988 - src.market_analysis - INFO - Datos cargados desde caché para SUIUSDT
+2025-01-16 16:19:52,989 - src.market_analysis - INFO - Datos cargados desde caché para TONUSDT
+2025-01-16 16:19:52,990 - src.market_analysis - INFO - Datos cargados desde caché para HBARUSDT
+2025-01-16 16:19:52,992 - src.market_analysis - INFO - Datos cargados desde caché para SHIBUSDT
+2025-01-16 16:19:52,993 - src.market_analysis - INFO - Datos cargados desde caché para LTCUSDT
+2025-01-16 16:19:52,994 - src.market_analysis - INFO - Datos cargados desde caché para BCHUSDT
+2025-01-16 16:19:53,316 - src.market_analysis - WARNING - Error al obtener datos de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=LEOUSDT&interval=1d&limit=100
+2025-01-16 16:19:53,317 - src.market_analysis - WARNING - No se pudieron cargar datos para LEOUSDT
+2025-01-16 16:19:53,320 - src.market_analysis - INFO - Datos cargados desde caché para UNIUSDT
+2025-01-16 16:19:53,656 - src.market_analysis - WARNING - Error al obtener datos de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BGBUSDT&interval=1d&limit=100
+2025-01-16 16:19:53,657 - src.market_analysis - WARNING - No se pudieron cargar datos para BGBUSDT
+2025-01-16 16:19:54,094 - src.market_analysis - WARNING - Error al obtener datos de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=HYPEUSDT&interval=1d&limit=100
+2025-01-16 16:19:54,096 - src.market_analysis - WARNING - No se pudieron cargar datos para HYPEUSDT
+2025-01-16 16:19:54,102 - src.market_analysis - INFO - Datos cargados desde caché para PEPEUSDT
+2025-01-16 16:19:54,106 - src.market_analysis - INFO - Datos cargados desde caché para NEARUSDT
+2025-01-16 16:19:54,505 - src.market_analysis - WARNING - Error al obtener datos de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=USDeUSDT&interval=1d&limit=100
+2025-01-16 16:19:54,506 - src.market_analysis - WARNING - No se pudieron cargar datos para USDeUSDT
+2025-01-16 16:19:54,922 - src.market_analysis - INFO - Datos cargados y cacheados para DAIUSDT
+2025-01-16 16:19:54,925 - src.market_analysis - INFO - Datos cargados desde caché para APTUSDT
+2025-01-16 16:19:54,927 - src.market_analysis - INFO - Datos cargados desde caché para ICPUSDT
+2025-01-16 16:19:54,928 - src.market_analysis - INFO - Datos cargados desde caché para POLUSDT
+2025-01-16 16:19:54,930 - src.market_analysis - INFO - Datos cargados desde caché para ETCUSDT
+2025-01-16 16:19:54,932 - src.market_analysis - INFO - Datos cargados desde caché para VETUSDT
+2025-01-16 16:19:55,264 - src.market_analysis - INFO - Datos cargados y cacheados para XMRUSDT
+2025-01-16 16:19:55,266 - src.market_analysis - INFO - Datos cargados desde caché para ALGOUSDT
+2025-01-16 16:19:55,268 - src.market_analysis - INFO - Datos cargados desde caché para RENDERUSDT
+2025-01-16 16:19:55,597 - src.market_analysis - WARNING - Error al obtener datos de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KASUSDT&interval=1d&limit=100
+2025-01-16 16:19:55,598 - src.market_analysis - WARNING - No se pudieron cargar datos para KASUSDT
+2025-01-16 16:19:55,925 - src.market_analysis - WARNING - Error al obtener datos de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=CROUSDT&interval=1d&limit=100
+2025-01-16 16:19:55,926 - src.market_analysis - WARNING - No se pudieron cargar datos para CROUSDT
+2025-01-16 16:19:56,346 - src.market_analysis - WARNING - Error al obtener datos de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=MNTUSDT&interval=1d&limit=100
+2025-01-16 16:19:56,348 - src.market_analysis - WARNING - No se pudieron cargar datos para MNTUSDT
+2025-01-16 16:19:56,354 - src.market_analysis - INFO - Datos cargados desde caché para TAOUSDT
+2025-01-16 16:19:56,357 - src.market_analysis - INFO - Datos cargados desde caché para OMUSDT
+2025-01-16 16:19:56,359 - src.market_analysis - INFO - Datos cargados desde caché para FILUSDT
+2025-01-16 16:19:56,361 - src.market_analysis - INFO - Datos cargados desde caché para FETUSDT
+2025-01-16 16:19:56,363 - src.market_analysis - INFO - Datos cargados desde caché para ARBUSDT
+2025-01-16 16:19:56,744 - src.market_analysis - WARNING - Error al obtener datos de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=OKBUSDT&interval=1d&limit=100
+2025-01-16 16:19:56,746 - src.market_analysis - WARNING - No se pudieron cargar datos para OKBUSDT
+2025-01-16 16:19:56,750 - src.market_analysis - INFO - Datos cargados desde caché para ENAUSDT
+2025-01-16 16:19:56,754 - src.market_analysis - INFO - Datos cargados desde caché para ATOMUSDT
+2025-01-16 16:19:56,756 - src.market_analysis - INFO - Datos cargados desde caché para OPUSDT
+2025-01-16 16:19:56,759 - src.market_analysis - INFO - Datos cargados desde caché para TIAUSDT
+2025-01-16 16:19:56,761 - src.market_analysis - INFO - Datos cargados desde caché para THETAUSDT
+2025-01-16 16:19:56,764 - src.market_analysis - INFO - Datos cargados desde caché para STXUSDT
+2025-01-16 16:19:57,164 - src.market_analysis - WARNING - Error al obtener datos de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=VIRTUALUSDT&interval=1d&limit=100
+2025-01-16 16:19:57,165 - src.market_analysis - WARNING - No se pudieron cargar datos para VIRTUALUSDT
+2025-01-16 16:19:57,168 - src.market_analysis - INFO - Datos cargados desde caché para IMXUSDT
+2025-01-16 16:19:57,170 - src.market_analysis - INFO - Datos cargados desde caché para INJUSDT
+2025-01-16 16:19:57,172 - src.market_analysis - INFO - Datos cargados desde caché para SUSDT
+2025-01-16 16:19:57,174 - src.market_analysis - INFO - Datos cargados desde caché para BONKUSDT
+2025-01-16 16:19:57,576 - src.market_analysis - WARNING - Error al obtener datos de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XDCUSDT&interval=1d&limit=100
+2025-01-16 16:19:57,578 - src.market_analysis - WARNING - No se pudieron cargar datos para XDCUSDT
+2025-01-16 16:19:57,583 - src.market_analysis - INFO - Datos cargados desde caché para PENGUUSDT
+2025-01-16 16:19:57,586 - src.market_analysis - INFO - Datos cargados desde caché para GRTUSDT
+2025-01-16 16:19:57,590 - src.market_analysis - INFO - Datos cargados desde caché para WLDUSDT
+2025-01-16 16:19:57,592 - src.market_analysis - INFO - Datos cargados desde caché para FDUSDUSDT
+2025-01-16 16:19:57,594 - src.market_analysis - INFO - Datos cargados desde caché para SEIUSDT
+2025-01-16 16:19:57,597 - src.market_analysis - INFO - Datos cargados desde caché para MOVEUSDT
+2025-01-16 16:19:57,599 - src.market_analysis - INFO - Datos cargados desde caché para LDOUSDT
+2025-01-16 16:19:57,600 - src.market_analysis - INFO - Datos cargados desde caché para WIFUSDT
+2025-01-16 16:19:57,917 - src.market_analysis - WARNING - Error al obtener datos de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=GTUSDT&interval=1d&limit=100
+2025-01-16 16:19:57,920 - src.market_analysis - WARNING - No se pudieron cargar datos para GTUSDT
+2025-01-16 16:19:58,247 - src.market_analysis - WARNING - Error al obtener datos de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=ONDOUSDT&interval=1d&limit=100
+2025-01-16 16:19:58,249 - src.market_analysis - WARNING - No se pudieron cargar datos para ONDOUSDT
+2025-01-16 16:19:58,254 - src.market_analysis - INFO - Datos cargados desde caché para RAYUSDT
+2025-01-16 16:19:58,257 - src.market_analysis - INFO - Datos cargados desde caché para FLOKIUSDT
+2025-01-16 16:19:58,260 - src.market_analysis - INFO - Datos cargados desde caché para JASMYUSDT
+2025-01-16 16:19:58,584 - src.market_analysis - WARNING - Error al obtener datos de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AI16ZUSDT&interval=1d&limit=100
+2025-01-16 16:19:58,585 - src.market_analysis - WARNING - No se pudieron cargar datos para AI16ZUSDT
+2025-01-16 16:19:58,587 - src.market_analysis - INFO - Datos cargados desde caché para SANDUSDT
+2025-01-16 16:19:59,009 - src.market_analysis - WARNING - Error al obtener datos de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FLRUSDT&interval=1d&limit=100
+2025-01-16 16:19:59,011 - src.market_analysis - WARNING - No se pudieron cargar datos para FLRUSDT
+2025-01-16 16:19:59,016 - src.market_analysis - INFO - Datos cargados desde caché para IOTAUSDT
+2025-01-16 16:19:59,020 - src.market_analysis - INFO - Datos cargados desde caché para QNTUSDT
+2025-01-16 16:19:59,023 - src.market_analysis - INFO - Datos cargados desde caché para GALAUSDT
+2025-01-16 16:19:59,025 - src.market_analysis - INFO - Datos cargados desde caché para DEXEUSDT
+2025-01-16 16:19:59,027 - src.market_analysis - INFO - Datos cargados desde caché para XTZUSDT
+2025-01-16 16:19:59,417 - src.market_analysis - WARNING - Error al obtener datos de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=KCSUSDT&interval=1d&limit=100
+2025-01-16 16:19:59,418 - src.market_analysis - WARNING - No se pudieron cargar datos para KCSUSDT
+2025-01-16 16:19:59,420 - src.market_analysis - INFO - Datos cargados desde caché para EOSUSDT
+2025-01-16 16:19:59,421 - src.market_analysis - INFO - Datos cargados desde caché para KAIAUSDT
+2025-01-16 16:19:59,828 - src.market_analysis - WARNING - Error al obtener datos de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FARTCOINUSDT&interval=1d&limit=100
+2025-01-16 16:19:59,830 - src.market_analysis - WARNING - No se pudieron cargar datos para FARTCOINUSDT
+2025-01-16 16:19:59,833 - src.market_analysis - INFO - Datos cargados desde caché para MKRUSDT
+2025-01-16 16:20:00,164 - src.market_analysis - WARNING - Error al obtener datos de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BRETTUSDT&interval=1d&limit=100
+2025-01-16 16:20:00,166 - src.market_analysis - WARNING - No se pudieron cargar datos para BRETTUSDT
+2025-01-16 16:20:00,172 - src.market_analysis - INFO - Datos cargados desde caché para PYTHUSDT
+2025-01-16 16:20:00,175 - src.market_analysis - INFO - Datos cargados desde caché para RUNEUSDT
+2025-01-16 16:20:00,177 - src.market_analysis - INFO - Datos cargados desde caché para FLOWUSDT
+2025-01-16 16:20:00,179 - src.market_analysis - INFO - Datos cargados desde caché para CRVUSDT
+2025-01-16 16:20:00,181 - src.market_analysis - INFO - Datos cargados desde caché para ENSUSDT
+2025-01-16 16:20:00,182 - src.market_analysis - INFO - Datos cargados desde caché para NEOUSDT
+2025-01-16 16:20:00,650 - src.market_analysis - INFO - Datos cargados y cacheados para BEAMUSDT
+2025-01-16 16:20:01,058 - src.market_analysis - WARNING - Error al obtener datos de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=AIOZUSDT&interval=1d&limit=100
+2025-01-16 16:20:01,060 - src.market_analysis - WARNING - No se pudieron cargar datos para AIOZUSDT
+2025-01-16 16:20:01,390 - src.market_analysis - WARNING - Error al obtener datos de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BSVUSDT&interval=1d&limit=100
+2025-01-16 16:20:01,391 - src.market_analysis - WARNING - No se pudieron cargar datos para BSVUSDT
+2025-01-16 16:20:01,394 - src.market_analysis - INFO - Datos cargados desde caché para ARUSDT
+2025-01-16 16:20:01,747 - src.market_analysis - INFO - Datos cargados y cacheados para BTTUSDT
+2025-01-16 16:20:01,751 - src.market_analysis - INFO - Datos cargados desde caché para JUPUSDT
+2025-01-16 16:20:01,754 - src.market_analysis - INFO - Datos cargados desde caché para STRKUSDT
+2025-01-16 16:20:01,756 - src.market_analysis - INFO - Datos cargados desde caché para MANAUSDT
+2025-01-16 16:20:01,758 - src.market_analysis - INFO - Datos cargados desde caché para AXSUSDT
+2025-01-16 16:20:01,758 - src.market_analysis - INFO - Datos históricos cargados para 80 símbolos
+2025-01-16 16:20:01,758 - src.market_analysis - INFO - Actualizando precios actuales...
+2025-01-16 16:20:02,182 - src.market_analysis - INFO - Precio actual de BTCUSDT: 98127.01
+2025-01-16 16:20:02,514 - src.market_analysis - INFO - Precio actual de XRPUSDT: 3.2689
+2025-01-16 16:20:02,900 - src.market_analysis - INFO - Precio actual de ADAUSDT: 1.0808
+2025-01-16 16:20:03,237 - src.market_analysis - INFO - Precio actual de DOTUSDT: 7.121
+2025-01-16 16:20:03,561 - src.market_analysis - INFO - Precio actual de DOGEUSDT: 0.37765
+2025-01-16 16:20:03,903 - src.market_analysis - INFO - Precio actual de AAVEUSDT: 311.31
+2025-01-16 16:20:04,236 - src.market_analysis - INFO - Precio actual de ETHUSDT: 3295.94
+2025-01-16 16:20:04,577 - src.market_analysis - WARNING - Error al obtener precio actual de USDTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDTUSDT
+2025-01-16 16:20:04,911 - src.market_analysis - INFO - Precio actual de BNBUSDT: 705.92
+2025-01-16 16:20:05,256 - src.market_analysis - INFO - Precio actual de SOLUSDT: 209.22
+2025-01-16 16:20:05,593 - src.market_analysis - INFO - Precio actual de USDCUSDT: 1.0004
+2025-01-16 16:20:05,961 - src.market_analysis - INFO - Precio actual de TRXUSDT: 0.2361
+2025-01-16 16:20:06,382 - src.market_analysis - INFO - Precio actual de AVAXUSDT: 39.2
+2025-01-16 16:20:06,790 - src.market_analysis - INFO - Precio actual de XLMUSDT: 0.4925
+2025-01-16 16:20:07,117 - src.market_analysis - INFO - Precio actual de LINKUSDT: 22.86
+2025-01-16 16:20:07,508 - src.market_analysis - INFO - Precio actual de SUIUSDT: 4.6845
+2025-01-16 16:20:07,919 - src.market_analysis - INFO - Precio actual de TONUSDT: 5.513
+2025-01-16 16:20:08,311 - src.market_analysis - INFO - Precio actual de HBARUSDT: 0.35649
+2025-01-16 16:20:08,712 - src.market_analysis - INFO - Precio actual de SHIBUSDT: 2.206e-05
+2025-01-16 16:20:09,042 - src.market_analysis - INFO - Precio actual de LTCUSDT: 119.65
+2025-01-16 16:20:09,452 - src.market_analysis - INFO - Precio actual de BCHUSDT: 455.1
+2025-01-16 16:20:09,840 - src.market_analysis - WARNING - Error al obtener precio actual de LEOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=LEOUSDT
+2025-01-16 16:20:10,200 - src.market_analysis - INFO - Precio actual de UNIUSDT: 14.226
+2025-01-16 16:20:10,582 - src.market_analysis - WARNING - Error al obtener precio actual de BGBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BGBUSDT
+2025-01-16 16:20:10,990 - src.market_analysis - WARNING - Error al obtener precio actual de HYPEUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=HYPEUSDT
+2025-01-16 16:20:11,321 - src.market_analysis - INFO - Precio actual de PEPEUSDT: 1.823e-05
+2025-01-16 16:20:11,708 - src.market_analysis - INFO - Precio actual de NEARUSDT: 5.22
+2025-01-16 16:20:12,038 - src.market_analysis - WARNING - Error al obtener precio actual de USDeUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=USDeUSDT
+2025-01-16 16:20:12,426 - src.market_analysis - INFO - Precio actual de DAIUSDT: 0.0
+2025-01-16 16:20:12,837 - src.market_analysis - INFO - Precio actual de APTUSDT: 9.17
+2025-01-16 16:20:13,166 - src.market_analysis - INFO - Precio actual de ICPUSDT: 10.77
+2025-01-16 16:20:13,497 - src.market_analysis - INFO - Precio actual de POLUSDT: 0.4748
+2025-01-16 16:20:13,863 - src.market_analysis - INFO - Precio actual de ETCUSDT: 26.55
+2025-01-16 16:20:14,244 - src.market_analysis - INFO - Precio actual de VETUSDT: 0.04916
+2025-01-16 16:20:14,682 - src.market_analysis - INFO - Precio actual de XMRUSDT: 118.7
+2025-01-16 16:20:15,044 - src.market_analysis - INFO - Precio actual de ALGOUSDT: 0.4636
+2025-01-16 16:20:15,391 - src.market_analysis - INFO - Precio actual de RENDERUSDT: 7.399
+2025-01-16 16:20:15,720 - src.market_analysis - WARNING - Error al obtener precio actual de KASUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KASUSDT
+2025-01-16 16:20:16,118 - src.market_analysis - WARNING - Error al obtener precio actual de CROUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=CROUSDT
+2025-01-16 16:20:16,528 - src.market_analysis - WARNING - Error al obtener precio actual de MNTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=MNTUSDT
+2025-01-16 16:20:16,939 - src.market_analysis - INFO - Precio actual de TAOUSDT: 452.7
+2025-01-16 16:20:17,348 - src.market_analysis - INFO - Precio actual de OMUSDT: 3.856
+2025-01-16 16:20:17,758 - src.market_analysis - INFO - Precio actual de FILUSDT: 5.489
+2025-01-16 16:20:18,168 - src.market_analysis - INFO - Precio actual de FETUSDT: 1.326
+2025-01-16 16:20:18,578 - src.market_analysis - INFO - Precio actual de ARBUSDT: 0.7592
+2025-01-16 16:20:18,985 - src.market_analysis - WARNING - Error al obtener precio actual de OKBUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=OKBUSDT
+2025-01-16 16:20:19,396 - src.market_analysis - INFO - Precio actual de ENAUSDT: 0.9121
+2025-01-16 16:20:19,748 - src.market_analysis - INFO - Precio actual de ATOMUSDT: 6.542
+2025-01-16 16:20:20,083 - src.market_analysis - INFO - Precio actual de OPUSDT: 1.861
+2025-01-16 16:20:20,425 - src.market_analysis - INFO - Precio actual de TIAUSDT: 4.943
+2025-01-16 16:20:20,753 - src.market_analysis - INFO - Precio actual de THETAUSDT: 2.406
+2025-01-16 16:20:21,101 - src.market_analysis - INFO - Precio actual de STXUSDT: 1.556
+2025-01-16 16:20:21,433 - src.market_analysis - WARNING - Error al obtener precio actual de VIRTUALUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=VIRTUALUSDT
+2025-01-16 16:20:21,766 - src.market_analysis - INFO - Precio actual de IMXUSDT: 1.321
+2025-01-16 16:20:22,086 - src.market_analysis - INFO - Precio actual de INJUSDT: 22.66
+2025-01-16 16:20:22,410 - src.market_analysis - INFO - Precio actual de SUSDT: 0.7711
+2025-01-16 16:20:22,778 - src.market_analysis - INFO - Precio actual de BONKUSDT: 2.883e-05
+2025-01-16 16:20:23,188 - src.market_analysis - WARNING - Error al obtener precio actual de XDCUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=XDCUSDT
+2025-01-16 16:20:23,597 - src.market_analysis - INFO - Precio actual de PENGUUSDT: 0.032349
+2025-01-16 16:20:24,008 - src.market_analysis - INFO - Precio actual de GRTUSDT: 0.2115
+2025-01-16 16:20:24,416 - src.market_analysis - INFO - Precio actual de WLDUSDT: 2.152
+2025-01-16 16:20:24,827 - src.market_analysis - INFO - Precio actual de FDUSDUSDT: 1.0
+2025-01-16 16:20:25,150 - src.market_analysis - INFO - Precio actual de SEIUSDT: 0.4038
+2025-01-16 16:20:25,544 - src.market_analysis - INFO - Precio actual de MOVEUSDT: 0.7747
+2025-01-16 16:20:25,955 - src.market_analysis - INFO - Precio actual de LDOUSDT: 1.964
+2025-01-16 16:20:26,365 - src.market_analysis - INFO - Precio actual de WIFUSDT: 1.753
+2025-01-16 16:20:26,701 - src.market_analysis - WARNING - Error al obtener precio actual de GTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=GTUSDT
+2025-01-16 16:20:27,080 - src.market_analysis - WARNING - Error al obtener precio actual de ONDOUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=ONDOUSDT
+2025-01-16 16:20:27,491 - src.market_analysis - INFO - Precio actual de RAYUSDT: 5.576
+2025-01-16 16:20:27,903 - src.market_analysis - INFO - Precio actual de FLOKIUSDT: 0.00016751
+2025-01-16 16:20:28,237 - src.market_analysis - INFO - Precio actual de JASMYUSDT: 0.03143
+2025-01-16 16:20:28,577 - src.market_analysis - WARNING - Error al obtener precio actual de AI16ZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AI16ZUSDT
+2025-01-16 16:20:28,898 - src.market_analysis - INFO - Precio actual de SANDUSDT: 0.6119
+2025-01-16 16:20:29,219 - src.market_analysis - WARNING - Error al obtener precio actual de FLRUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FLRUSDT
+2025-01-16 16:20:29,554 - src.market_analysis - INFO - Precio actual de IOTAUSDT: 0.396
+2025-01-16 16:20:29,874 - src.market_analysis - INFO - Precio actual de QNTUSDT: 117.2
+2025-01-16 16:20:30,225 - src.market_analysis - INFO - Precio actual de GALAUSDT: 0.0386
+2025-01-16 16:20:30,552 - src.market_analysis - INFO - Precio actual de DEXEUSDT: 16.706
+2025-01-16 16:20:30,891 - src.market_analysis - INFO - Precio actual de XTZUSDT: 1.361
+2025-01-16 16:20:31,282 - src.market_analysis - WARNING - Error al obtener precio actual de KCSUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=KCSUSDT
+2025-01-16 16:20:31,611 - src.market_analysis - INFO - Precio actual de EOSUSDT: 0.8717
+2025-01-16 16:20:31,998 - src.market_analysis - INFO - Precio actual de KAIAUSDT: 0.2243
+2025-01-16 16:20:32,333 - src.market_analysis - WARNING - Error al obtener precio actual de FARTCOINUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=FARTCOINUSDT
+2025-01-16 16:20:32,664 - src.market_analysis - INFO - Precio actual de MKRUSDT: 1400.0
+2025-01-16 16:20:33,024 - src.market_analysis - WARNING - Error al obtener precio actual de BRETTUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BRETTUSDT
+2025-01-16 16:20:33,351 - src.market_analysis - INFO - Precio actual de PYTHUSDT: 0.335
+2025-01-16 16:20:33,699 - src.market_analysis - INFO - Precio actual de RUNEUSDT: 3.416
+2025-01-16 16:20:34,150 - src.market_analysis - INFO - Precio actual de FLOWUSDT: 0.763
+2025-01-16 16:20:34,480 - src.market_analysis - INFO - Precio actual de CRVUSDT: 0.9352
+2025-01-16 16:20:34,798 - src.market_analysis - INFO - Precio actual de ENSUSDT: 33.08
+2025-01-16 16:20:35,172 - src.market_analysis - INFO - Precio actual de NEOUSDT: 16.24
+2025-01-16 16:20:35,502 - src.market_analysis - INFO - Precio actual de BEAMUSDT: 0.0652
+2025-01-16 16:20:35,826 - src.market_analysis - WARNING - Error al obtener precio actual de AIOZUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=AIOZUSDT
+2025-01-16 16:20:36,154 - src.market_analysis - WARNING - Error al obtener precio actual de BSVUSDT: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/ticker/price?symbol=BSVUSDT
+2025-01-16 16:20:36,611 - src.market_analysis - INFO - Precio actual de ARUSDT: 16.91
+2025-01-16 16:20:36,943 - src.market_analysis - INFO - Precio actual de BTTUSDT: 0.0
+2025-01-16 16:20:37,327 - src.market_analysis - INFO - Precio actual de JUPUSDT: 0.7918
+2025-01-16 16:20:37,736 - src.market_analysis - INFO - Precio actual de STRKUSDT: 0.426
+2025-01-16 16:20:38,145 - src.market_analysis - INFO - Precio actual de MANAUSDT: 0.5184
+2025-01-16 16:20:38,553 - src.market_analysis - INFO - Precio actual de AXSUSDT: 6.378
+2025-01-16 16:20:38,553 - src.market_analysis - INFO - Precios actualizados para 80 símbolos
+2025-01-16 16:20:38,553 - src.performance_monitor - INFO - Operación system_initialization completada en 48.92 segundos
+2025-01-16 16:20:38,554 - __main__ - INFO - Componentes del sistema iniciados exitosamente
+2025-01-16 16:20:38,557 - __main__ - INFO - Iniciando análisis de mercado...
+2025-01-16 16:20:38,557 - src.market_analysis - INFO - Analizando mercado...
+2025-01-16 16:20:38,573 - src.market_analysis - ERROR - Error al analizar DAIUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:20:38,578 - src.market_analysis - ERROR - Error al analizar SUSDT: single positional indexer is out-of-bounds
+2025-01-16 16:20:38,595 - src.market_analysis - INFO - Reporte de mercado generado exitosamente
+2025-01-16 16:20:38,597 - src.market_analysis - INFO - Reporte del portafolio generado exitosamente
+2025-01-16 16:20:38,599 - src.market_analysis - INFO - Reporte de insights generado exitosamente
+2025-01-16 16:20:38,601 - src.market_analysis - INFO - Reporte diario generado exitosamente
+2025-01-16 16:20:38,614 - src.market_analysis - INFO - Recomendaciones actualizadas exitosamente
+2025-01-16 16:20:38,615 - src.market_analysis - INFO - Análisis completado para 78 criptomonedas
+2025-01-16 16:20:38,615 - src.performance_monitor - INFO - Operación market_analysis completada en 0.06 segundos
+2025-01-16 16:20:38,615 - __main__ - INFO - Evaluando riesgos...
+2025-01-16 16:20:38,676 - src.performance_monitor - INFO - Operación risk_assessment completada en 0.06 segundos
+2025-01-16 16:20:38,676 - __main__ - INFO - Actualizando pesos del portfolio...
+2025-01-16 16:20:38,677 - src.performance_monitor - INFO - Operación portfolio_update completada en 0.00 segundos
+2025-01-16 16:20:38,677 - __main__ - INFO - Ejecutando estrategia DCA...
+2025-01-16 16:20:39,004 - src.dca_live_trader - INFO - Precio actual de ETHUSDT: 3298.21
+2025-01-16 16:20:39,326 - src.dca_live_trader - INFO - Precio actual de BNBUSDT: 706.19
+2025-01-16 16:20:39,670 - src.dca_live_trader - INFO - Precio actual de SOLUSDT: 209.24
+2025-01-16 16:20:40,005 - src.dca_live_trader - INFO - Precio actual de USDCUSDT: 1.0004
+2025-01-16 16:20:40,356 - src.dca_live_trader - INFO - Precio actual de TRXUSDT: 0.2363
+2025-01-16 16:20:40,809 - src.dca_live_trader - INFO - Precio actual de AVAXUSDT: 39.22
+2025-01-16 16:20:41,218 - src.dca_live_trader - INFO - Precio actual de XLMUSDT: 0.493
+2025-01-16 16:20:41,647 - src.dca_live_trader - INFO - Precio actual de LINKUSDT: 22.85
+2025-01-16 16:20:42,037 - src.dca_live_trader - INFO - Precio actual de SUIUSDT: 4.6862
+2025-01-16 16:20:42,447 - src.dca_live_trader - INFO - Precio actual de TONUSDT: 5.514
+2025-01-16 16:20:42,802 - src.dca_live_trader - INFO - Precio actual de HBARUSDT: 0.35606
+2025-01-16 16:20:43,164 - src.dca_live_trader - INFO - Precio actual de SHIBUSDT: 2.206e-05
+2025-01-16 16:20:43,492 - src.dca_live_trader - INFO - Precio actual de LTCUSDT: 120.06
+2025-01-16 16:20:43,818 - src.dca_live_trader - INFO - Precio actual de BCHUSDT: 455.4
+2025-01-16 16:20:44,159 - src.dca_live_trader - INFO - Precio actual de UNIUSDT: 14.236
+2025-01-16 16:20:44,592 - src.dca_live_trader - INFO - Precio actual de PEPEUSDT: 1.823e-05
+2025-01-16 16:20:44,928 - src.dca_live_trader - INFO - Precio actual de NEARUSDT: 5.217
+2025-01-16 16:20:45,263 - src.dca_live_trader - INFO - Precio actual de APTUSDT: 9.17
+2025-01-16 16:20:45,620 - src.dca_live_trader - INFO - Precio actual de ICPUSDT: 10.783
+2025-01-16 16:20:45,992 - src.dca_live_trader - INFO - Precio actual de POLUSDT: 0.4749
+2025-01-16 16:20:46,325 - src.dca_live_trader - INFO - Precio actual de ETCUSDT: 26.57
+2025-01-16 16:20:46,699 - src.dca_live_trader - INFO - Precio actual de VETUSDT: 0.04917
+2025-01-16 16:20:47,029 - src.dca_live_trader - INFO - Precio actual de XMRUSDT: 118.7
+2025-01-16 16:20:47,376 - src.dca_live_trader - INFO - Precio actual de ALGOUSDT: 0.4638
+2025-01-16 16:20:47,758 - src.dca_live_trader - INFO - Precio actual de RENDERUSDT: 7.403
+2025-01-16 16:20:48,087 - src.dca_live_trader - INFO - Precio actual de TAOUSDT: 453.5
+2025-01-16 16:20:48,426 - src.dca_live_trader - INFO - Precio actual de OMUSDT: 3.8591
+2025-01-16 16:20:48,758 - src.dca_live_trader - INFO - Precio actual de FILUSDT: 5.497
+2025-01-16 16:20:49,118 - src.dca_live_trader - INFO - Precio actual de FETUSDT: 1.33
+2025-01-16 16:20:49,515 - src.dca_live_trader - INFO - Precio actual de ARBUSDT: 0.761
+2025-01-16 16:20:49,859 - src.dca_live_trader - INFO - Precio actual de ENAUSDT: 0.9129
+2025-01-16 16:20:50,190 - src.dca_live_trader - INFO - Precio actual de ATOMUSDT: 6.551
+2025-01-16 16:20:50,640 - src.dca_live_trader - INFO - Precio actual de OPUSDT: 1.864
+2025-01-16 16:20:50,989 - src.dca_live_trader - INFO - Precio actual de TIAUSDT: 4.949
+2025-01-16 16:20:51,315 - src.dca_live_trader - INFO - Precio actual de THETAUSDT: 2.408
+2025-01-16 16:20:51,663 - src.dca_live_trader - INFO - Precio actual de STXUSDT: 1.555
+2025-01-16 16:20:52,075 - src.dca_live_trader - INFO - Precio actual de IMXUSDT: 1.322
+2025-01-16 16:20:52,413 - src.dca_live_trader - INFO - Precio actual de INJUSDT: 22.69
+2025-01-16 16:20:52,746 - src.dca_live_trader - INFO - Precio actual de BONKUSDT: 2.887e-05
+2025-01-16 16:20:53,098 - src.dca_live_trader - INFO - Precio actual de PENGUUSDT: 0.032407
+2025-01-16 16:20:53,449 - src.dca_live_trader - INFO - Precio actual de GRTUSDT: 0.2117
+2025-01-16 16:20:53,780 - src.dca_live_trader - INFO - Precio actual de WLDUSDT: 2.155
+2025-01-16 16:20:54,122 - src.dca_live_trader - INFO - Precio actual de FDUSDUSDT: 1.0
+2025-01-16 16:20:54,494 - src.dca_live_trader - INFO - Precio actual de SEIUSDT: 0.4043
+2025-01-16 16:20:54,839 - src.dca_live_trader - INFO - Precio actual de MOVEUSDT: 0.7757
+2025-01-16 16:20:55,171 - src.dca_live_trader - INFO - Precio actual de LDOUSDT: 1.965
+2025-01-16 16:20:55,504 - src.dca_live_trader - INFO - Precio actual de WIFUSDT: 1.756
+2025-01-16 16:20:55,863 - src.dca_live_trader - INFO - Precio actual de RAYUSDT: 5.582
+2025-01-16 16:20:56,274 - src.dca_live_trader - INFO - Precio actual de FLOKIUSDT: 0.00016779
+2025-01-16 16:20:56,602 - src.dca_live_trader - INFO - Precio actual de JASMYUSDT: 0.03143
+2025-01-16 16:20:56,988 - src.dca_live_trader - INFO - Precio actual de SANDUSDT: 0.6126
+2025-01-16 16:20:57,398 - src.dca_live_trader - INFO - Precio actual de IOTAUSDT: 0.3961
+2025-01-16 16:20:57,724 - src.dca_live_trader - INFO - Precio actual de QNTUSDT: 117.3
+2025-01-16 16:20:58,116 - src.dca_live_trader - INFO - Precio actual de GALAUSDT: 0.03862
+2025-01-16 16:20:58,530 - src.dca_live_trader - INFO - Precio actual de DEXEUSDT: 16.694
+2025-01-16 16:20:58,863 - src.dca_live_trader - INFO - Precio actual de XTZUSDT: 1.362
+2025-01-16 16:20:59,244 - src.dca_live_trader - INFO - Precio actual de EOSUSDT: 0.8723
+2025-01-16 16:20:59,651 - src.dca_live_trader - INFO - Precio actual de KAIAUSDT: 0.2243
+2025-01-16 16:21:00,060 - src.dca_live_trader - INFO - Precio actual de MKRUSDT: 1402.0
+2025-01-16 16:21:00,472 - src.dca_live_trader - INFO - Precio actual de PYTHUSDT: 0.3355
+2025-01-16 16:21:00,987 - src.dca_live_trader - INFO - Precio actual de RUNEUSDT: 3.419
+2025-01-16 16:21:01,391 - src.dca_live_trader - INFO - Precio actual de FLOWUSDT: 0.763
+2025-01-16 16:21:01,803 - src.dca_live_trader - INFO - Precio actual de CRVUSDT: 0.9356
+2025-01-16 16:21:02,213 - src.dca_live_trader - INFO - Precio actual de ENSUSDT: 33.07
+2025-01-16 16:21:02,620 - src.dca_live_trader - INFO - Precio actual de NEOUSDT: 16.25
+2025-01-16 16:21:03,033 - src.dca_live_trader - INFO - Precio actual de BEAMUSDT: 0.0652
+2025-01-16 16:21:03,441 - src.dca_live_trader - INFO - Precio actual de ARUSDT: 16.93
+2025-01-16 16:21:03,772 - src.dca_live_trader - INFO - Precio actual de BTTUSDT: 0.0
+2025-01-16 16:21:04,159 - src.dca_live_trader - INFO - Precio actual de JUPUSDT: 0.792
+2025-01-16 16:21:04,566 - src.dca_live_trader - INFO - Precio actual de STRKUSDT: 0.4259
+2025-01-16 16:21:04,891 - src.dca_live_trader - INFO - Precio actual de MANAUSDT: 0.519
+2025-01-16 16:21:05,285 - src.dca_live_trader - INFO - Precio actual de AXSUSDT: 6.383
+2025-01-16 16:21:05,288 - src.dca_live_trader - WARNING - No se puede enviar notificación: configuración de email incompleta
+2025-01-16 16:21:05,289 - src.dca_live_trader - INFO - Próxima ejecución programada para: 2025-01-21 16:00:00
+2025-01-16 16:21:05,289 - src.performance_monitor - INFO - Operación dca_execution completada en 26.61 segundos
+2025-01-16 16:21:05,289 - __main__ - INFO - Guardando datos en base de datos...
+2025-01-16 16:21:05,314 - src.database_manager - INFO - Estado del portfolio guardado exitosamente
+2025-01-16 16:21:05,314 - src.performance_monitor - INFO - Operación database_update completada en 0.03 segundos
+2025-01-16 16:21:05,314 - __main__ - INFO - Iniciando backup...
+2025-01-16 16:21:05,315 - src.backup_portfolio - INFO - Backup diario completado para 2025-01-16
+2025-01-16 16:21:05,315 - __main__ - INFO - Backup completado exitosamente
+2025-01-16 16:21:05,315 - src.performance_monitor - INFO - Operación backup completada en 0.00 segundos
+2025-01-16 16:21:05,315 - __main__ - WARNING - Alertas de rendimiento detectadas:
+2025-01-16 16:21:05,315 - __main__ - WARNING - Alto uso de memoria: 82.7%
+2025-01-16 16:21:05,316 - __main__ - INFO - Reporte de rendimiento generado
+2025-01-16 16:21:05,316 - src.performance_monitor - INFO - Operación full_cycle completada en 26.76 segundos
+2025-01-16 16:21:05,316 - src.performance_monitor - INFO - Métricas guardadas en performance_metrics.json
+2025-01-16 16:38:54,101 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:38:54,101 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:39:07,558 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:39:07,559 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:40:15,654 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:40:15,654 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:40:15,854 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:40:15,856 - __main__ - ERROR - Error fatal en el sistema: Error validando configuración: 1 validation error for EmailConfig
+cmc_api_key
+  Extra inputs are not permitted [type=extra_forbidden, input_value='7d306239-f647-4b67-8638-4b6f2e9fbae5', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden. Por favor, revise los valores en config.py y .env
+2025-01-16 16:40:50,505 - src.config - INFO - CMC_API_KEY cargada correctamente
+2025-01-16 16:40:50,505 - src.config - WARNING - Configuración de email incompleta
+2025-01-16 16:40:50,701 - __main__ - INFO - Iniciando programador de tareas DCA
+2025-01-16 16:40:50,702 - __main__ - ERROR - Error fatal en el sistema: Error validando configuración: module 'src.config' has no attribute 'RISK_PARAMS'. Por favor, revise los valores en config.py y .env

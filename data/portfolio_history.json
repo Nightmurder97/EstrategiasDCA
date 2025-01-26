@@ -1,0 +1,88 @@
+{
+    "positions": {
+        "XRPUSDT": {
+            "coins": 78.92275,
+            "total_invested": 173.5954659889896
+        },
+        "ADAUSDT": {
+            "coins": 60.740935,
+            "total_invested": 58.23511983041873
+        },
+        "DOGEUSDT": {
+            "coins": 135.45425452,
+            "total_invested": 45.409899168502925
+        },
+        "PEPEUSDT": {
+            "coins": 1089992.91,
+            "total_invested": 19.69
+        },
+        "FTMUSDT": {
+            "coins": 4.995,
+            "total_invested": 3.38
+        },
+        "VETUSDT": {
+            "coins": 209.5902,
+            "total_invested": 9.39
+        },
+        "GALAUSDT": {
+            "coins": 117.882,
+            "total_invested": 4.29
+        },
+        "BTCUSDT": {
+            "coins": 0.00026973,
+            "total_invested": 23.92196372807943
+        },
+        "DOTUSDT": {
+            "coins": 2.25774,
+            "total_invested": 14.797551284009348
+        }
+    },
+    "transactions": [
+        {
+            "timestamp": "2025-01-07T20:47:31.177536",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 23.92196372807943,
+            "price": 97074.01,
+            "coins": 0.00024643015909283473
+        },
+        {
+            "timestamp": "2025-01-07T20:47:31.177536",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 19.605465988989575,
+            "price": 2.2949,
+            "coins": 8.54305895201951
+        },
+        {
+            "timestamp": "2025-01-07T20:47:31.177536",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 19.685119830418735,
+            "price": 1.0147,
+            "coins": 19.399940702097897
+        },
+        {
+            "timestamp": "2025-01-07T20:47:31.177536",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 21.989899168502923,
+            "price": 0.35638,
+            "coins": 61.70351638280185
+        },
+        {
+            "timestamp": "2025-01-07T20:47:31.177536",
+            "symbol": "DOTUSDT",
+            "type": "buy",
+            "amount": 14.797551284009348,
+            "price": 7.176,
+            "coins": 2.0620890864004107
+        }
+    ],
+    "daily_performance": [],
+    "total_invested": 352.71,
+    "last_update": "2025-01-07T21:00:00.000000",
+    "available_balance": 0,
+    "last_purchase": "2025-01-07T21:00:00.000000",
+    "next_balance_renewal": "2025-01-14T21:00:00.000000"
+}

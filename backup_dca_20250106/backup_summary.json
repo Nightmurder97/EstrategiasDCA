@@ -1,0 +1,33 @@
+{
+    "backup_date": "2025-01-06",
+    "backed_up_files": [
+        "dca_simulator_enhanced.py",
+        "dca_optimizer.py",
+        "dca_strategy.py",
+        "portfolio_history.json",
+        "allocation_heatmap.png",
+        "portfolio_analysis.png",
+        "gemini_training_data.csv",
+        "gemini_tuning_data.jsonl",
+        "requirements.txt"
+    ],
+    "backup_directory": "backup_dca_20250106",
+    "simulation_date": "2025-01-06",
+    "portfolio_summary": {
+        "total_invested": 228.57142857142856,
+        "current_assets": [
+            "MKRUSDT",
+            "BTCUSDT",
+            "1INCHUSDT",
+            "THETAUSDT",
+            "GRTUSDT",
+            "XLMUSDT",
+            "XRPUSDT",
+            "DOGEUSDT",
+            "AAVEUSDT",
+            "ADAUSDT",
+            "ALGOUSDT",
+            "SUSHIUSDT"
+        ]
+    }
+}

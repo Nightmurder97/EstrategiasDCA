@@ -1,0 +1,359 @@
+[
+  {
+    "timestamp": "2025-01-21T02:05:25.837970",
+    "orders": [],
+    "results": [],
+    "status": "completed",
+    "total_value": 0,
+    "success_count": 0,
+    "error_count": 0
+  },
+  {
+    "timestamp": "2025-01-21T02:08:43.728949",
+    "orders": [],
+    "results": [],
+    "status": "completed",
+    "total_value": 0,
+    "success_count": 0,
+    "error_count": 0
+  },
+  {
+    "timestamp": "2025-01-21T02:11:50.783544",
+    "orders": [],
+    "results": [],
+    "status": "completed",
+    "total_value": 0,
+    "success_count": 0,
+    "error_count": 0
+  },
+  {
+    "timestamp": "2025-01-21T02:12:36.675411",
+    "orders": [
+      {
+        "symbol": "BTCUSDT",
+        "type": "BUY",
+        "quantity": 0.00162905,
+        "price": 42000.0,
+        "value": 40.0,
+        "timestamp": "2025-01-21T02:12:36.675361"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "type": "BUY",
+        "quantity": 0.00616364,
+        "price": 2200.0,
+        "value": 13.56,
+        "timestamp": "2025-01-21T02:12:36.675367"
+      },
+      {
+        "symbol": "XRPUSDT",
+        "type": "BUY",
+        "quantity": 11.07272727,
+        "price": 0.55,
+        "value": 6.09,
+        "timestamp": "2025-01-21T02:12:36.675369"
+      },
+      {
+        "symbol": "SOLUSDT",
+        "type": "BUY",
+        "quantity": 0.03540816,
+        "price": 98.0,
+        "value": 3.47,
+        "timestamp": "2025-01-21T02:12:36.675371"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "type": "BUY",
+        "quantity": 0.0112459,
+        "price": 305.0,
+        "value": 3.4299999999999997,
+        "timestamp": "2025-01-21T02:12:36.675373"
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "type": "BUY",
+        "quantity": 24.875,
+        "price": 0.08,
+        "value": 1.9900000000000002,
+        "timestamp": "2025-01-21T02:12:36.675374"
+      },
+      {
+        "symbol": "ADAUSDT",
+        "type": "BUY",
+        "quantity": 2.88888889,
+        "price": 0.45,
+        "value": 1.3,
+        "timestamp": "2025-01-21T02:12:36.675376"
+      }
+    ],
+    "results": [
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.67539",
+        "symbol": "BTCUSDT",
+        "executed_quantity": 0.00162905,
+        "cumulative_quote_qty": 68.42009999999999,
+        "fills": [
+          {
+            "price": 42000.0,
+            "quantity": 0.00162905,
+            "commission": 0.0684201
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.675393",
+        "symbol": "ETHUSDT",
+        "executed_quantity": 0.00616364,
+        "cumulative_quote_qty": 13.560008,
+        "fills": [
+          {
+            "price": 2200.0,
+            "quantity": 0.00616364,
+            "commission": 0.013560008
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.675395",
+        "symbol": "XRPUSDT",
+        "executed_quantity": 11.07272727,
+        "cumulative_quote_qty": 6.089999998500001,
+        "fills": [
+          {
+            "price": 0.55,
+            "quantity": 11.07272727,
+            "commission": 0.006089999998500001
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.675396",
+        "symbol": "SOLUSDT",
+        "executed_quantity": 0.03540816,
+        "cumulative_quote_qty": 3.46999968,
+        "fills": [
+          {
+            "price": 98.0,
+            "quantity": 0.03540816,
+            "commission": 0.00346999968
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.675397",
+        "symbol": "BNBUSDT",
+        "executed_quantity": 0.0112459,
+        "cumulative_quote_qty": 3.4299995,
+        "fills": [
+          {
+            "price": 305.0,
+            "quantity": 0.0112459,
+            "commission": 0.0034299995
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.675399",
+        "symbol": "DOGEUSDT",
+        "executed_quantity": 24.875,
+        "cumulative_quote_qty": 1.99,
+        "fills": [
+          {
+            "price": 0.08,
+            "quantity": 24.875,
+            "commission": 0.00199
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737421956.6754",
+        "symbol": "ADAUSDT",
+        "executed_quantity": 2.88888889,
+        "cumulative_quote_qty": 1.3000000005,
+        "fills": [
+          {
+            "price": 0.45,
+            "quantity": 2.88888889,
+            "commission": 0.0013000000005
+          }
+        ]
+      }
+    ],
+    "status": "partial",
+    "total_value": 0,
+    "success_count": 0,
+    "error_count": 0
+  },
+  {
+    "timestamp": "2025-01-21T02:17:51.366370",
+    "orders": [
+      {
+        "symbol": "BTCUSDT",
+        "type": "BUY",
+        "quantity": 0.00162905,
+        "price": 42000.0,
+        "value": 40.0,
+        "timestamp": "2025-01-21T02:17:51.366283"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "type": "BUY",
+        "quantity": 0.00616364,
+        "price": 2200.0,
+        "value": 13.56,
+        "timestamp": "2025-01-21T02:17:51.366291"
+      },
+      {
+        "symbol": "XRPUSDT",
+        "type": "BUY",
+        "quantity": 11.07272727,
+        "price": 0.55,
+        "value": 6.09,
+        "timestamp": "2025-01-21T02:17:51.366294"
+      },
+      {
+        "symbol": "SOLUSDT",
+        "type": "BUY",
+        "quantity": 0.03540816,
+        "price": 98.0,
+        "value": 3.47,
+        "timestamp": "2025-01-21T02:17:51.366297"
+      },
+      {
+        "symbol": "BNBUSDT",
+        "type": "BUY",
+        "quantity": 0.0112459,
+        "price": 305.0,
+        "value": 3.4299999999999997,
+        "timestamp": "2025-01-21T02:17:51.366300"
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "type": "BUY",
+        "quantity": 24.875,
+        "price": 0.08,
+        "value": 1.9900000000000002,
+        "timestamp": "2025-01-21T02:17:51.366303"
+      },
+      {
+        "symbol": "ADAUSDT",
+        "type": "BUY",
+        "quantity": 2.88888889,
+        "price": 0.45,
+        "value": 1.3,
+        "timestamp": "2025-01-21T02:17:51.366305"
+      }
+    ],
+    "results": [
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.366332",
+        "symbol": "BTCUSDT",
+        "executed_quantity": 0.00162905,
+        "cumulative_quote_qty": 68.42009999999999,
+        "fills": [
+          {
+            "price": 42000.0,
+            "quantity": 0.00162905,
+            "commission": 0.0684201
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.366339",
+        "symbol": "ETHUSDT",
+        "executed_quantity": 0.00616364,
+        "cumulative_quote_qty": 13.560008,
+        "fills": [
+          {
+            "price": 2200.0,
+            "quantity": 0.00616364,
+            "commission": 0.013560008
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.366342",
+        "symbol": "XRPUSDT",
+        "executed_quantity": 11.07272727,
+        "cumulative_quote_qty": 6.089999998500001,
+        "fills": [
+          {
+            "price": 0.55,
+            "quantity": 11.07272727,
+            "commission": 0.006089999998500001
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.366344",
+        "symbol": "SOLUSDT",
+        "executed_quantity": 0.03540816,
+        "cumulative_quote_qty": 3.46999968,
+        "fills": [
+          {
+            "price": 98.0,
+            "quantity": 0.03540816,
+            "commission": 0.00346999968
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.366346",
+        "symbol": "BNBUSDT",
+        "executed_quantity": 0.0112459,
+        "cumulative_quote_qty": 3.4299995,
+        "fills": [
+          {
+            "price": 305.0,
+            "quantity": 0.0112459,
+            "commission": 0.0034299995
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.366348",
+        "symbol": "DOGEUSDT",
+        "executed_quantity": 24.875,
+        "cumulative_quote_qty": 1.99,
+        "fills": [
+          {
+            "price": 0.08,
+            "quantity": 24.875,
+            "commission": 0.00199
+          }
+        ]
+      },
+      {
+        "status": "FILLED",
+        "order_id": "sim_1737422271.36635",
+        "symbol": "ADAUSDT",
+        "executed_quantity": 2.88888889,
+        "cumulative_quote_qty": 1.3000000005,
+        "fills": [
+          {
+            "price": 0.45,
+            "quantity": 2.88888889,
+            "commission": 0.0013000000005
+          }
+        ]
+      }
+    ],
+    "status": "partial",
+    "total_value": 0,
+    "success_count": 0,
+    "error_count": 0
+  }
+]

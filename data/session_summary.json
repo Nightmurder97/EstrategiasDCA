@@ -1,0 +1,87 @@
+{
+    "last_session": {
+        "date": "2025-01-07",
+        "time": "21:00:00",
+        "portfolio_status": {
+            "total_invested": 352.71,
+            "available_balance": 0,
+            "last_purchase": "2025-01-07T21:00:00.000000",
+            "next_balance_renewal": "2025-01-14T21:00:00.000000"
+        },
+        "positions": {
+            "XRPUSDT": {
+                "coins": 78.92275,
+                "total_invested": 173.60,
+                "portfolio_weight": 49.2
+            },
+            "ADAUSDT": {
+                "coins": 60.740935,
+                "total_invested": 58.24,
+                "portfolio_weight": 16.5
+            },
+            "DOGEUSDT": {
+                "coins": 135.45425452,
+                "total_invested": 45.41,
+                "portfolio_weight": 12.9
+            },
+            "BTCUSDT": {
+                "coins": 0.00026973,
+                "total_invested": 23.92,
+                "portfolio_weight": 6.8
+            },
+            "DOTUSDT": {
+                "coins": 2.25774,
+                "total_invested": 14.80,
+                "portfolio_weight": 4.2
+            },
+            "PEPEUSDT": {
+                "coins": 1089992.91,
+                "total_invested": 19.69,
+                "portfolio_weight": 5.6
+            },
+            "Others": {
+                "total_invested": 17.06,
+                "portfolio_weight": 4.8,
+                "assets": ["FTMUSDT", "VETUSDT", "GALAUSDT"]
+            }
+        },
+        "market_analysis": {
+            "BTCUSDT": {
+                "trend": "bearish",
+                "recommendation": "reducir exposición"
+            },
+            "XRPUSDT": {
+                "trend": "neutral",
+                "recommendation": "mantener"
+            },
+            "ADAUSDT": {
+                "trend": "bullish",
+                "recommendation": "mantener/aumentar"
+            },
+            "DOGEUSDT": {
+                "trend": "bullish",
+                "recommendation": "mantener/aumentar"
+            }
+        },
+        "next_actions": {
+            "monitoring_focus": [
+                "XRP (mayor posición)",
+                "BTC (señales bajistas)",
+                "ADA y DOGE (señales de compra)"
+            ],
+            "next_investment_date": "2025-01-14T21:00:00.000000",
+            "pending_rebalance": true
+        },
+        "schedule": {
+            "daily_analysis": "16:00",
+            "optional_review": "21:00",
+            "weekly_investment": {
+                "day": "Tuesday",
+                "analysis_time": "16:00",
+                "execution_time": "21:00"
+            },
+            "weekend_analysis": "Saturday 16:00"
+        }
+    },
+    "session_history": []
+} 

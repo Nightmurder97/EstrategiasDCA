@@ -1,0 +1,37 @@
+Estrategia DCA Semanal - Actualización 17/01/2025
+
+DISTRIBUCIÓN DE INVERSIÓN SEMANAL (100% Total):
+
+ALTA CONVICCIÓN (82.84%):
+- Bitcoin (BTC): 61.92% - $104,868.19
+- Ethereum (ETH): 12.27% - $3,416.44
+- XRP: 5.51% - $3.21
+- Solana (SOL): 3.14% - $216.70
+
+CONVICCIÓN MODERADA (11.21%):
+- BNB: 3.1% - $722.66
+- Dogecoin (DOGE): 1.8% - $0.41
+- Cardano (ADA): 1.18% - $1.12
+- TRON (TRX): 0.63% - $0.2468
+- Avalanche (AVAX): 0.5% - $40.82
+- Chainlink (LINK): 0.46% - $24.45
+
+CONVICCIÓN BAJA (5.95%):
+- Stellar (XLM): 0.44% - $0.4825
+- Sui (SUI): 0.43% - $4.79
+- Hedera (HBAR): 0.42% - $0.3713
+- Shiba Inu (SHIB): 0.42% - $0.0000239
+- Toncoin (TON): 0.41% - $5.53
+
+ANÁLISIS DE MERCADO:
+- La distribución sigue los pesos exactos del mercado según capitalización
+- Bitcoin domina con 61.92% del mercado total a $104,868.19
+- Ethereum mantiene 12.27% del mercado a $3,416.44
+- XRP en tercera posición con 5.51% a $3.21
+- Solana y BNB compiten por la cuarta posición con ~3.1% cada uno
+
+NOTAS:
+- Los porcentajes representan la proporción del capital total a invertir semanalmente
+- La distribución refleja el peso actual de cada activo en el mercado a 17/01/2025
+- Los precios mostrados son los actuales del mercado
+- Esta estrategia sigue la distribución natural del mercado cripto

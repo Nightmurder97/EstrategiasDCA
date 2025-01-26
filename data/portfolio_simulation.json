@@ -1,0 +1,399 @@
+{
+    "positions": {
+        "XRPUSDT": {
+            "coins": 78.92275447,
+            "total_invested": 174.61
+        },
+        "ADAUSDT": {
+            "coins": 71.13053642,
+            "total_invested": 65.61
+        },
+        "DOGEUSDT": {
+            "coins": 135.45425532,
+            "total_invested": 44.43
+        },
+        "BTCUSDT": {
+            "coins": 0.00026973,
+            "total_invested": 24.78
+        },
+        "DOTUSDT": {
+            "coins": 2.25774004,
+            "total_invested": 14.71
+        },
+        "FTMUSDT": {
+            "coins": 4.995,
+            "total_invested": 3.14
+        },
+        "VETUSDT": {
+            "coins": 209.59020006,
+            "total_invested": 9.24
+        },
+        "TRXUSDT": {
+            "coins": 23.28012131,
+            "total_invested": 5.65
+        },
+        "GALAUSDT": {
+            "coins": 117.8820007,
+            "total_invested": 4.01
+        },
+        "HBARUSDT": {
+            "coins": 37.96200027,
+            "total_invested": 10.15
+        },
+        "USDCUSDT": {
+            "coins": 21.19909229,
+            "total_invested": 20.57
+        },
+        "PEPEUSDT": {
+            "coins": 1089992.92,
+            "total_invested": 18.85
+        },
+        "BONKUSDT": {
+            "coins": 142076.79,
+            "total_invested": 3.95
+        }
+    },
+    "transactions": [
+        {
+            "timestamp": "2025-01-06T02:43:12.746745",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 2.3947,
+            "coins": 1.193110977217546
+        },
+        {
+            "timestamp": "2025-01-06T02:43:12.746745",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 0.37992,
+            "coins": 7.520380230424452
+        },
+        {
+            "timestamp": "2025-01-06T02:43:12.746745",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 1.0837,
+            "coins": 2.636470293570967
+        },
+        {
+            "timestamp": "2025-01-06T02:43:12.746745",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 98270.28,
+            "coins": 2.9074333126382236e-05
+        },
+        {
+            "timestamp": "2025-01-06T02:43:12.746745",
+            "symbol": "ETHUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 3628.49,
+            "coins": 0.0007874192452350311
+        },
+        {
+            "timestamp": "2025-01-06T02:43:33.503682",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 2.395,
+            "coins": 1.1929615269907548
+        },
+        {
+            "timestamp": "2025-01-06T02:43:33.503682",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 0.38004,
+            "coins": 7.518005623468208
+        },
+        {
+            "timestamp": "2025-01-06T02:43:33.503682",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 1.0838,
+            "coins": 2.636227031871985
+        },
+        {
+            "timestamp": "2025-01-06T02:43:33.503682",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 98274.99,
+            "coins": 2.9072939688346523e-05
+        },
+        {
+            "timestamp": "2025-01-06T02:43:33.503682",
+            "symbol": "ETHUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 3628.87,
+            "coins": 0.0007873367900042872
+        },
+        {
+            "timestamp": "2025-01-06T02:44:23.133552",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 2.3984,
+            "coins": 1.1912703707233396
+        },
+        {
+            "timestamp": "2025-01-06T02:44:23.133552",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 0.38046,
+            "coins": 7.509706295386788
+        },
+        {
+            "timestamp": "2025-01-06T02:44:23.133552",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 1.084,
+            "coins": 2.6357406431207173
+        },
+        {
+            "timestamp": "2025-01-06T02:44:23.133552",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 98274.99,
+            "coins": 2.9072939688346523e-05
+        },
+        {
+            "timestamp": "2025-01-06T02:44:23.133552",
+            "symbol": "ETHUSDT",
+            "type": "buy",
+            "amount": 2.8571428571428577,
+            "price": 3628.75,
+            "coins": 0.0007873628266325478
+        },
+        {
+            "timestamp": "2025-01-06T02:51:34.885967",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 3.535441732665747,
+            "price": 2.3982,
+            "coins": 1.474206376726606
+        },
+        {
+            "timestamp": "2025-01-06T02:51:34.885967",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 3.06166314781926,
+            "price": 1.0838,
+            "coins": 2.824933703468592
+        },
+        {
+            "timestamp": "2025-01-06T02:51:34.885967",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 3.4608578235575753,
+            "price": 98299.24,
+            "coins": 3.520737112064727e-05
+        },
+        {
+            "timestamp": "2025-01-06T02:51:34.885967",
+            "symbol": "ETHUSDT",
+            "type": "buy",
+            "amount": 2.4103148951523017,
+            "price": 3631.39,
+            "coins": 0.0006637444326145916
+        },
+        {
+            "timestamp": "2025-01-06T02:51:34.885967",
+            "symbol": "BNBUSDT",
+            "type": "buy",
+            "amount": 1.8174366865194054,
+            "price": 710.02,
+            "coins": 0.002559697876847702
+        },
+        {
+            "timestamp": "2025-01-06T03:00:45.605052",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 3.5274324009264255,
+            "price": 2.4149,
+            "coins": 1.4606950188108931
+        },
+        {
+            "timestamp": "2025-01-06T03:00:45.605052",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 3.061855620758635,
+            "price": 1.0932,
+            "coins": 2.800819265238415
+        },
+        {
+            "timestamp": "2025-01-06T03:00:45.605052",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 3.4662806408384217,
+            "price": 98735.37,
+            "coins": 3.5106777245463525e-05
+        },
+        {
+            "timestamp": "2025-01-06T03:00:45.605052",
+            "symbol": "ETHUSDT",
+            "type": "buy",
+            "amount": 2.4123408113591123,
+            "price": 3645.96,
+            "coins": 0.0006616476350149514
+        },
+        {
+            "timestamp": "2025-01-06T03:00:45.605052",
+            "symbol": "BNBUSDT",
+            "type": "buy",
+            "amount": 1.8178048118316914,
+            "price": 712.18,
+            "coins": 0.0025524513631830317
+        },
+        {
+            "timestamp": "2025-01-07T21:00:00.000000",
+            "symbol": "BTCUSDT",
+            "type": "buy",
+            "amount": 23.92,
+            "price": 98735.37,
+            "coins": 0.000242262
+        },
+        {
+            "timestamp": "2025-01-07T21:00:00.000000",
+            "symbol": "XRPUSDT",
+            "type": "buy",
+            "amount": 19.61,
+            "price": 2.4149,
+            "coins": 8.120417
+        },
+        {
+            "timestamp": "2025-01-07T21:00:00.000000",
+            "symbol": "ADAUSDT",
+            "type": "buy",
+            "amount": 19.69,
+            "price": 1.0932,
+            "coins": 18.011892
+        },
+        {
+            "timestamp": "2025-01-07T21:00:00.000000",
+            "symbol": "DOGEUSDT",
+            "type": "buy",
+            "amount": 21.99,
+            "price": 0.38046,
+            "coins": 57.798087
+        },
+        {
+            "timestamp": "2025-01-07T21:00:00.000000",
+            "symbol": "DOTUSDT",
+            "type": "buy",
+            "amount": 14.80,
+            "price": 9.12,
+            "coins": 1.622807
+        }
+    ],
+    "daily_performance": [
+        {
+            "date": "2025-01-06",
+            "value": 14.285714285714288,
+            "return": 0
+        },
+        {
+            "date": "2025-01-06",
+            "value": 28.573388756800966,
+            "return": 100.01372129760672
+        },
+        {
+            "date": "2025-01-06",
+            "value": 42.87439737982906,
+            "return": 50.05009641925726
+        },
+        {
+            "date": "2025-01-06",
+            "value": 57.18082185322022,
+            "return": 33.368222873546074
+        }
+    ],
+    "dca_portfolio": {
+        "positions": {
+            "XRPUSDT": {
+                "coins": 181.12,
+                "total_invested": 54.32,
+                "weight": 0.5432
+            },
+            "ADAUSDT": {
+                "coins": 61.63,
+                "total_invested": 18.49,
+                "weight": 0.1849
+            },
+            "DOGEUSDT": {
+                "coins": 48.27,
+                "total_invested": 14.48,
+                "weight": 0.1448
+            },
+            "BTCUSDT": {
+                "coins": 26.18,
+                "total_invested": 7.85,
+                "weight": 0.0785
+            },
+            "DOTUSDT": {
+                "coins": 16.20,
+                "total_invested": 4.86,
+                "weight": 0.0486
+            }
+        },
+        "transactions": [
+            {
+                "timestamp": "2025-01-07T21:00:00.000000",
+                "symbol": "BTCUSDT",
+                "type": "buy",
+                "amount": 23.92,
+                "price": 98735.37,
+                "coins": 0.000242262
+            },
+            {
+                "timestamp": "2025-01-07T21:00:00.000000",
+                "symbol": "XRPUSDT",
+                "type": "buy",
+                "amount": 19.61,
+                "price": 2.4149,
+                "coins": 8.120417
+            },
+            {
+                "timestamp": "2025-01-07T21:00:00.000000",
+                "symbol": "ADAUSDT",
+                "type": "buy",
+                "amount": 19.69,
+                "price": 1.0932,
+                "coins": 18.011892
+            },
+            {
+                "timestamp": "2025-01-07T21:00:00.000000",
+                "symbol": "DOGEUSDT",
+                "type": "buy",
+                "amount": 21.99,
+                "price": 0.38046,
+                "coins": 57.798087
+            },
+            {
+                "timestamp": "2025-01-07T21:00:00.000000",
+                "symbol": "DOTUSDT",
+                "type": "buy",
+                "amount": 14.80,
+                "price": 9.12,
+                "coins": 1.622807
+            }
+        ],
+        "total_invested": 352.71,
+        "last_update": "2025-01-07T21:00:00.000000",
+        "available_balance": 0
+    },
+    "total_invested": 399.70,
+    "last_update": "2025-01-07T21:00:00.000000",
+    "available_balance": 0,
+    "last_purchase": "2025-01-07T21:00:00.000000",
+    "simulations": {}
+}

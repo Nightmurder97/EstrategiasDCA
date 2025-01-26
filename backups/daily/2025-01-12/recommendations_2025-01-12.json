@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-01-10 21:07:58",
+    "investments": {
+      "BTCUSDT": 14.97,
+      "XRPUSDT": 25.85,
+      "ADAUSDT": 13.27,
+      "DOTUSDT": 9.68,
+      "DOGEUSDT": 20.64,
+      "AAVEUSDT": 15.59
+    },
+    "prices": {
+      "BTCUSDT": 95338.4,
+      "XRPUSDT": 2.3584,
+      "ADAUSDT": 0.9409,
+      "DOTUSDT": 6.771,
+      "DOGEUSDT": 0.33469,
+      "AAVEUSDT": 287.41
+    },
+    "next_execution": "2025-01-14 16:00:00"
+  }
+]

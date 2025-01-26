@@ -1,0 +1,15 @@
+{
+    "backup_date": "2025-01-06T03:57:39.176898",
+    "backed_up_files": [
+        "dca_simulator_enhanced.py",
+        "dca_optimizer.py",
+        "dca_strategy.py",
+        "portfolio_history.json",
+        "allocation_heatmap.png",
+        "portfolio_analysis.png",
+        "gemini_training_data.csv",
+        "gemini_tuning_data.jsonl",
+        "requirements.txt"
+    ],
+    "backup_directory": "backup_dca_20250106_035739"
+}
