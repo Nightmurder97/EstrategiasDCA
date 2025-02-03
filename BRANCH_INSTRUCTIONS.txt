@@ -1,0 +1,4 @@
+# Crea una rama para las modificaciones:
+git checkout -b feature/dca-enhancements
+# Realiza tus cambios y pruebas en esta rama.
+# Una vez verificado que todo funciona correctamente, fusiona la rama en la principal.

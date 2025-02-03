@@ -41,35 +41,50 @@ def dca_strategy(symbols: List[str], start_date: datetime, end_date: datetime, i
     num_weeks = 0
 
     try:
+        # Aumentar inversión en activos principales
+        weights = {
+            'BTC-USD': 0.40,  # Aumentamos Bitcoin
+            'ETH-USD': 0.25,  # Aumentamos Ethereum
+            'BNB-USD': 0.10,  # Exchange tokens suelen ser más estables
+            'SOL-USD': 0.10,
+            'XRP-USD': 0.05,
+            'ADA-USD': 0.05,
+            'LINK-USD': 0.05  # Oráculos son infraestructura importante
+        }
+        
         for symbol in symbols:
             logger.info(f"Procesando símbolo: {symbol}")
-            data = get_historical_data(symbol, start_date, end_date)
-            if data.empty:
-                logger.warning(f"No se pudieron obtener datos para {symbol}.")
-                continue
+            allocation = weights.get(symbol, 0)
+            if allocation > 0:
+                symbol_investment = investment_per_week * allocation
+                logger.info(f"Invirtiendo {symbol_investment}€ en {symbol}")
+                data = get_historical_data(symbol, start_date, end_date)
+                if data.empty:
+                    logger.warning(f"No se pudieron obtener datos para {symbol}.")
+                    continue
 
-            prices = data['close']
-            rsi = talib.RSI(prices, timeperiod=14)
+                prices = data['close']
+                rsi = talib.RSI(prices, timeperiod=14)
 
-            current_date = start_date
-            while current_date <= end_date:
-                if current_date in prices.index:
-                    price = prices[current_date]
-                    current_rsi = rsi[current_date]
+                current_date = start_date
+                while current_date <= end_date:
+                    if current_date in prices.index:
+                        price = prices[current_date]
+                        current_rsi = rsi[current_date]
 
-                    # Inversión dinámica basada en RSI y desviación del precio
-                    investment = investment_per_week * (1 + (current_rsi - 50) / 50 * 0.2)
+                        # Inversión dinámica basada en RSI y desviación del precio
+                        investment = symbol_investment * (1 + (current_rsi - 50) / 50 * 0.2)
 
-                    if symbol not in portfolio:
-                        portfolio[symbol] = {'coins': 0, 'investment': 0}
+                        if symbol not in portfolio:
+                            portfolio[symbol] = {'coins': 0, 'investment': 0}
 
-                    coins_bought = investment / price
-                    portfolio[symbol]['coins'] += coins_bought
-                    portfolio[symbol]['investment'] += investment
-                    total_investment += investment
-                    logger.info(f"Fecha: {current_date}, Precio: {price:.2f}, Monedas compradas: {coins_bought:.4f}, Inversión: {investment:.2f}")
-                current_date += timedelta(weeks=1)
-                num_weeks += 1
+                        coins_bought = investment / price
+                        portfolio[symbol]['coins'] += coins_bought
+                        portfolio[symbol]['investment'] += investment
+                        total_investment += investment
+                        logger.info(f"Fecha: {current_date}, Precio: {price:.2f}, Monedas compradas: {coins_bought:.4f}, Inversión: {investment:.2f}")
+                    current_date += timedelta(weeks=1)
+                    num_weeks += 1
 
         final_portfolio_value = 0
         logger.info("\nResumen del portafolio:")
@@ -128,31 +143,25 @@ def get_historical_data(symbol, start_date, end_date):
 
 
 def dca_strategy(symbols, start_date, end_date, investment_per_week):
-    print(f"Fecha de inicio: {start_date}, Fecha de fin: {end_date}")
+    print(f"Estrategia DCA ajustada para mercado bajista")
+    
+    # Aumentar inversión en activos principales
+    weights = {
+        'BTC-USD': 0.40,  # Aumentamos Bitcoin
+        'ETH-USD': 0.25,  # Aumentamos Ethereum
+        'BNB-USD': 0.10,  # Exchange tokens suelen ser más estables
+        'SOL-USD': 0.10,
+        'XRP-USD': 0.05,
+        'ADA-USD': 0.05,
+        'LINK-USD': 0.05  # Oráculos son infraestructura importante
+    }
+    
     for symbol in symbols:
-        print(f"\nEstrategia DCA para {symbol}:")
-        data = get_historical_data(symbol, start_date, end_date)
-        if data.empty:
-            print("No se pudieron obtener datos para esta criptomoneda.")
-            continue
-        data['date'] = pd.to_datetime(data['timestamp'], unit='ms')
-        data.set_index('date', inplace=True)
-
-        total_investment = 0
-        total_coins = 0
-
-        current_date = start_date
-        while current_date <= end_date:
-            if current_date in data.index:
-                price = data.loc[current_date, 'price']
-                coins_bought = investment_per_week / price
-                total_coins += coins_bought
-                total_investment += investment_per_week
-                print(f"Date: {current_date}, Price: {price}, Coins Bought: {coins_bought}")
-            current_date += timedelta(weeks=1)
-
-        final_value = total_coins * data.iloc[-1]['price']
-        print(f"Total Investment: {total_investment}, Final Value: {final_value}")
+        allocation = weights.get(symbol, 0)
+        if allocation > 0:
+            symbol_investment = investment_per_week * allocation
+            print(f"\nInvirtiendo {symbol_investment}€ en {symbol}")
+            # ... resto del código ...
 
 
 # Ejemplo de uso

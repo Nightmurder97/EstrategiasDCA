@@ -11,6 +11,9 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+from sqlalchemy.orm import declarative_base
+
+Base = declarative_base()
 Base = declarative_base()
 
 class PortfolioState(Base):
@@ -259,4 +262,191 @@ class DatabaseManager:
             session.rollback()
             raise
         finally:
+    def import_from_exchange(self, file_path: str, exchange: str):
+        """Importa datos desde un archivo CSV de una bolsa de criptomonedas y actualiza el portafolio y transacciones."""
+        try:
+            import pandas as pd
+            
+            # Leer el archivo CSV
+            df = pd.read_csv(file_path)
+            
+            # Procesar cada fila
+            for _, row in df.iterrows():
+                # Extraer información de la transacción
+                symbol = row['symbol'].upper()
+                amount = float(row['amount'])
+                price = float(row['price'])
+                date = row['date']
+                
+                # Registrar transacción
+                self.record_transaction(symbol, 'buy', amount, price)
+                
+                # Actualizar estado del portafolio
+                portfolio_state = {
+                    'total_value': float(row['total'] or 0),
+                    'positions': {symbol: amount},
+                    'weights': {symbol: (amount * price) / float(row['total'] or 0)}
+                }
+                self.save_portfolio_state_with_metrics(**portfolio_state)
+            
+            logger.info(f"Se han importado {len(df)} transacciones de {exchange} correctamente")
+        except Exception as e:
+            logger.error(f"Error al importar datos de {exchange}: {str(e)}")
+            raise
+    def import_from_exchange(self, file_path: str, exchange: str):
+        """Importa datos desde un archivo CSV de una bolsa de criptomonedas y actualiza el portafolio y transacciones."""
+        try:
+            import pandas as pd
+            
+            # Leer el archivo CSV
+            df = pd.read_csv(file_path)
+            
+            # Procesar cada fila
+            for _, row in df.iterrows():
+                # Extraer información de la transacción
+                symbol = row['symbol'].upper()
+                amount = float(row['amount'])
+                price = float(row['price'])
+                date = row['date']
+                
+                # Registrar transacción
+                self.record_transaction(symbol, 'buy', amount, price)
+                
+                # Actualizar estado del portafolio
+                portfolio_state = {
+                    'total_value': float(row['total'] or 0),
+                    'positions': {symbol: amount},
+                    'weights': {symbol: (amount * price) / float(row['total'] or 0)}
+                }
+                self.save_portfolio_state_with_metrics(**portfolio_state)
+            
+            logger.info(f"Se han importado {len(df)} transacciones de {exchange} correctamente")
+        except Exception as e:
+            logger.error(f"Error al importar datos de {exchange}: {str(e)}")
+            raise
+    def import_from_exchange(self, file_path: str, exchange: str):
+        """Importa datos desde un archivo CSV de una bolsa de criptomonedas y actualiza el portafolio y transacciones."""
+        try:
+            import pandas as pd
+            
+            # Leer el archivo CSV
+            df = pd.read_csv(file_path)
+            
+            # Procesar cada fila
+            for _, row in df.iterrows():
+                # Extraer información de la transacción
+                symbol = row['symbol'].upper()
+                amount = float(row['amount'])
+                price = float(row['price'])
+                date = row['date']
+                
+                # Registrar transacción
+                self.record_transaction(symbol, 'buy', amount, price)
+                
+                # Actualizar estado del portafolio
+                portfolio_state = {
+                    'total_value': float(row['total'] or 0),
+                    'positions': {symbol: amount},
+                    'weights': {symbol: (amount * price) / float(row['total'] or 0)}
+                }
+                self.save_portfolio_state_with_metrics(**portfolio_state)
+            
+            logger.info(f"Se han importado {len(df)} transacciones de {exchange} correctamente")
+        except Exception as e:
+            logger.error(f"Error al importar datos de {exchange}: {str(e)}")
+            raise
+    def import_from_exchange(self, file_path: str, exchange: str):
+        """Importa datos desde un archivo CSV de una bolsa de criptomonedas y actualiza el portafolio y transacciones."""
+        try:
+            import pandas as pd
+            
+            # Leer el archivo CSV
+            df = pd.read_csv(file_path)
+            
+            # Procesar cada fila
+            for _, row in df.iterrows():
+                # Extraer información de la transacción
+                symbol = row['symbol'].upper()
+                amount = float(row['amount'])
+                price = float(row['price'])
+                date = row['date']
+                
+                # Registrar transacción
+                self.record_transaction(symbol, 'buy', amount, price)
+                
+                # Actualizar estado del portafolio
+                portfolio_state = {
+                    'total_value': float(row['total'] or 0),
+                    'positions': {symbol: amount},
+                    'weights': {symbol: (amount * price) / float(row['total'] or 0)}
+                }
+                self.save_portfolio_state_with_metrics(**portfolio_state)
+            
+            logger.info(f"Se han importado {len(df)} transacciones de {exchange} correctamente")
+        except Exception as e:
+            logger.error(f"Error al importar datos de {exchange}: {str(e)}")
+            raise
+    def import_from_exchange(self, file_path: str, exchange: str):
+        """Importa datos desde un archivo CSV de una bolsa de criptomonedas y actualiza el portafolio y transacciones."""
+        try:
+            import pandas as pd
+            
+            # Leer el archivo CSV
+            df = pd.read_csv(file_path)
+            
+            # Procesar cada fila
+            for _, row in df.iterrows():
+                # Extraer información de la transacción
+                symbol = row['symbol'].upper()
+                amount = float(row['amount'])
+                price = float(row['price'])
+                date = row['date']
+                
+                # Registrar transacción
+                self.record_transaction(symbol, 'buy', amount, price)
+                
+                # Actualizar estado del portafolio
+                portfolio_state = {
+                    'total_value': float(row['total'] or 0),
+                    'positions': {symbol: amount},
+                    'weights': {symbol: (amount * price) / float(row['total'] or 0)}
+                }
+                self.save_portfolio_state_with_metrics(**portfolio_state)
+            
+            logger.info(f"Se han importado {len(df)} transacciones de {exchange} correctamente")
+        except Exception as e:
+            logger.error(f"Error al importar datos de {exchange}: {str(e)}")
+            raise
             session.close()
+
+    def import_from_excel(self, file_path: str):
+        """Importa datos desde un archivo Excel y actualiza el portafolio y transacciones."""
+        try:
+            import pandas as pd
+            
+            # Leer el archivo Excel
+            df = pd.read_excel(file_path)
+            
+            # Procesar cada fila
+            for _, row in df.iterrows():
+                # Extraer información de la transacción
+                symbol = row['symbol'].upper()
+                amount = float(row['amount'])
+                price = float(row['price'])
+                date = row['date']
+                
+                # Registrar transacción
+                self.record_transaction(symbol, 'buy', amount, price)
+                
+                # Actualizar estado del portafolio
+                portfolio_state = {
+                    'total_value': float(row['total'] or 0),
+                    'positions': {symbol: amount},
+                    'weights': {symbol: (amount * price) / float(row['total'] or 0)}
+                }
+                self.save_portfolio_state_with_metrics(**portfolio_state)
+            
+            logger.info(f"Se han importado {len(df)} transacciones correctamente")
+        except Exception as e:
+            logger.error(f"Error al importar datos desde Excel: {str(e)}")
+            raise

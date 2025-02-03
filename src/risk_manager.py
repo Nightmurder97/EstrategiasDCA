@@ -238,47 +238,26 @@ class RiskManager:
     def _calculate_risk_score(self, trend: str, volatility: float, rsi: float,
                             volume_trend: str, risk_level: str, market_cap: float,
                             change_24h: float) -> float:
-        """Calcula una puntuación de riesgo (0-100) basada en múltiples factores"""
+        """Calcula una puntuación de riesgo ajustada para mercado bajista"""
         score = 50  # Punto de partida neutral
         
-        # Ajustar por tendencia
-        if trend == 'bullish':
-            score -= 10
-        elif trend == 'bearish':
-            score += 10
-            
-        # Ajustar por volatilidad (0-1)
-        score += volatility * 20
+        # Ajustar por RSI - más permisivo en mercado bajista
+        if rsi < 30:  # Condición de sobreventa
+            score -= 15  # Reducimos el riesgo para aprovechar precios bajos
+        elif rsi < 20:  # Sobreventa extrema
+            score -= 25  # Oportunidad más fuerte de compra
         
-        # Ajustar por RSI (0-100)
-        if rsi > 70:
-            score += 15  # Sobrecomprado
-        elif rsi < 30:
-            score += 10  # Sobrevendido
-            
-        # Ajustar por tendencia de volumen
-        if volume_trend == 'increasing':
-            score -= 5
-        elif volume_trend == 'decreasing':
-            score += 5
-            
-        # Ajustar por nivel de riesgo
-        if risk_level == 'high':
-            score += 15
-        elif risk_level == 'low':
-            score -= 15
-            
-        # Ajustar por capitalización de mercado
+        # Ajustar por caídas fuertes (más permisivo)
+        if change_24h < -20:
+            score -= 10  # Reducimos el riesgo para aprovechar caídas
+        elif change_24h < -30:
+            score -= 15  # Oportunidad más fuerte en caídas mayores
+        
+        # Mantener protecciones por capitalización
         if market_cap > 10e9:  # > 10B
-            score -= 10
-        elif market_cap < 1e9:  # < 1B
-            score += 10
-            
-        # Ajustar por cambio en 24h
-        if abs(change_24h) > 20:
-            score += 10
-            
-        return max(0, min(100, score))  # Asegurar que esté entre 0 y 100
+            score -= 10  # Preferencia por activos grandes más seguros
+        
+        return max(0, min(100, score))
         
     def _evaluate_technical_signals(self, indicators: Dict) -> Dict:
         """Evalúa las señales técnicas"""

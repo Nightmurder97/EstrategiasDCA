@@ -539,12 +539,16 @@ def main():
         daily_investment=100.0/7,  # 100€ semanales divididos por 7 días
         lookback_period=30,
         min_volume_percentile=0.2,
-        max_position_size=0.25,  # Máximo 25% por activo
+        max_position_size=0.25,
         rebalance_threshold=0.1
     )
     
-    # Crear instancia del simulador
+    # Cargar datos del portafolio consolidado
+    portfolio_data = pd.read_csv('data/portfolio_consolidado.csv')
+    
+    # Crear instancia del simulador con datos del portafolio
     simulator = EnhancedDCASimulator(params)
+    simulator.portfolio_history = portfolio_data
     
     # Definir fechas para el análisis
     target_date = datetime(2025, 1, 6)  # Fecha actual: 06/01/2025

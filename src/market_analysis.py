@@ -1,6 +1,6 @@
 import datetime
 import logging
-import aiohttp
+import requests
 import asyncio
 import numpy as np
 import pandas as pd
@@ -15,6 +15,13 @@ class MarketCondition:
     volatility: float  # Volatilidad del mercado
     volume_trend: str  # 'increasing', 'decreasing', 'stable'
     risk_level: str  # 'low', 'medium', 'high'
+
+@dataclass
+class MarketMetrics:
+    average_strength: float
+    average_volatility: float
+    bullish_percentage: float
+    bearish_percentage: float
 
 class TechnicalIndicators:
     @staticmethod
@@ -108,7 +115,7 @@ class TechnicalIndicators:
         return atr.to_numpy()
 
 class MarketAnalyzer:
-    def __init__(self, config: Dict[str, Any]):
+    def __init__(self, config: Dict[str, Any] = None):
         self.config = config
         self.market_data = {}
         self.session = None
@@ -117,22 +124,22 @@ class MarketAnalyzer:
     def _update_current_prices(self):
         """Actualiza los precios actuales de los activos"""
         try:
-            async with aiohttp.ClientSession() as session:
+            with requests.Session() as session:
                 for symbol in self.market_data.keys():
                     ticker_url = f"https://api.binance.com/api/v3/ticker/price?symbol={symbol}"
-                    async with session.get(ticker_url) as response:
-                        if response.status == 200:
-                            ticker_data = await response.json()
-                            self.market_data[symbol]['price'] = float(ticker_data['price'])
-                        else:
-                            logging.error(f"Error fetching current price for {symbol}: {response.status}")
+                    response = session.get(ticker_url)
+                    if response.status_code == 200:
+                        ticker_data = response.json()
+                        self.market_data[symbol]['price'] = float(ticker_data['price'])
+                    else:
+                        logging.error(f"Error fetching current price for {symbol}: {response.status_code}")
         except Exception as e:
             logging.error(f"Error updating current prices: {e}")
 
-    async def _fetch_market_data(self):
+    def _fetch_market_data(self):
         """Fetch current and historical market data from Binance API"""
         try:
-            async with aiohttp.ClientSession() as session:
+            with requests.Session() as session:
                 # Obtener datos actuales de los símbolos que nos interesan
                 symbols = [
                     'BTCUSDT', 'ETHUSDT', 'XRPUSDT', 'SOLUSDT', 'BNBUSDT',
@@ -144,34 +151,34 @@ class MarketAnalyzer:
                 for symbol in symbols:
                     # Obtener precio actual y volumen 24h
                     ticker_url = f"https://api.binance.com/api/v3/ticker/24hr?symbol={symbol}"
-                    async with session.get(ticker_url) as response:
-                        if response.status == 200:
-                            ticker_data = await response.json()
-                            logging.debug(f"Fetched ticker data for {symbol}: {ticker_data}")
-                            self.market_data[symbol] = {
-                                'price': float(ticker_data['lastPrice']),
-                                'volume': float(ticker_data['volume']) * float(ticker_data['lastPrice']),
-                                'change_24h': float(ticker_data['priceChangePercent']),
-                                'market_cap': 0  # Binance no proporciona market cap
-                            }
+                    response = session.get(ticker_url)
+                    if response.status_code == 200:
+                        ticker_data = response.json()
+                        logging.debug(f"Fetched ticker data for {symbol}: {ticker_data}")
+                        self.market_data[symbol] = {
+                            'price': float(ticker_data['lastPrice']),
+                            'volume': float(ticker_data['volume']) * float(ticker_data['lastPrice']),
+                            'change_24h': float(ticker_data['priceChangePercent']),
+                            'market_cap': 0  # Binance no proporciona market cap
+                        }
     
-                            # Obtener datos históricos (klines/candlesticks)
-                            klines_url = f"https://api.binance.com/api/v3/klines"
-                            params = {
-                                'symbol': symbol,
-                                'interval': '1d',
-                                'limit': 30  # Últimos 30 días
-                            }
+                        # Obtener datos históricos (klines/candlesticks)
+                        klines_url = f"https://api.binance.com/api/v3/klines"
+                        params = {
+                            'symbol': symbol,
+                            'interval': '1d',
+                            'limit': 30  # Últimos 30 días
+                        }
     
-                            async with session.get(klines_url, params=params) as hist_response:
-                                if hist_response.status == 200:
-                                    klines_data = await hist_response.json()
-                                    logging.debug(f"Fetched historical data for {symbol}: {klines_data}")
-                                    self.market_data[symbol]['historical'] = self._process_binance_klines(klines_data)
-                                else:
-                                    logging.error(f"Error fetching historical data for {symbol}: {hist_response.status}")
+                        hist_response = session.get(klines_url, params=params)
+                        if hist_response.status_code == 200:
+                            klines_data = hist_response.json()
+                            logging.debug(f"Fetched historical data for {symbol}: {klines_data}")
+                            self.market_data[symbol]['historical'] = self._process_binance_klines(klines_data)
                         else:
-                            logging.error(f"Error fetching ticker data for {symbol}: {response.status}")
+                            logging.error(f"Error fetching historical data for {symbol}: {hist_response.status_code}")
+                    else:
+                        logging.error(f"Error fetching ticker data for {symbol}: {response.status_code}")
     
         except Exception as e:
             logging.error(f"Error in market data fetch: {e}")
@@ -253,17 +260,17 @@ class MarketAnalyzer:
 
         try:
             # Analizar el mercado
-            analysis = asyncio.run(self.analyze_market())
+            analysis = self.analyze_market()
 
-            # Resumen general del mercado
+            # Resumen general del mercado (si hay datos)
             report += "Condiciones Generales del Mercado:\n"
-            report += f"Estado: {analysis['market_conditions'].upper()}\n"
+            report += f"Estado: {analysis.get('market_conditions', 'N/A').upper()}\n"
             if 'market_metrics' in analysis:
                 metrics = analysis['market_metrics']
-                report += f"Fuerza promedio: {metrics['average_strength']:.2f}\n"
-                report += f"Volatilidad promedio: {metrics['average_volatility']:.2f}\n"
-                report += f"Porcentaje alcista: {metrics['bullish_percentage']:.1f}%\n"
-                report += f"Porcentaje bajista: {metrics['bearish_percentage']:.1f}%\n"
+                report += f"Fuerza promedio: {metrics.average_strength:.2f}\n"
+                report += f"Volatilidad promedio: {metrics.average_volatility:.2f}\n"
+                report += f"Porcentaje alcista: {metrics.bullish_percentage:.1f}%\n"
+                report += f"Porcentaje bajista: {metrics.bearish_percentage:.1f}%\n"
             report += "\n"
 
             # Análisis por símbolo
@@ -374,56 +381,11 @@ class MarketAnalyzer:
     async def analyze_market(self):
         """Analiza las condiciones actuales del mercado"""
         try:
-            # Obtener datos actualizados
             await self._fetch_market_data()
 
-            if not self.market_data:
-                return {
-                    'market_conditions': {},
-                    'symbol_data': {},
-                    'error': 'No market data available'
-                }
+            if not self.market_data: return {'market_conditions': 'N/A', 'symbol_data': {}, 'error': 'No market data available'}
 
-            # Analizar cada símbolo
-            analysis = {
-                'market_conditions': {},
-                'symbol_data': {}
-            }
-
-            total_strength = 0
-            total_volatility = 0
-            symbols_analyzed = 0
-
-            for symbol, data in self.market_data.items():
-                symbol_analysis = self._analyze_symbol(symbol, data)
-                analysis['symbol_data'][symbol] = symbol_analysis
-
-                if 'market_condition' in symbol_analysis:
-                    total_strength += symbol_analysis['market_condition'].strength
-                    total_volatility += symbol_analysis['market_condition'].volatility
-                    symbols_analyzed += 1
-
-            # Determinar condición general del mercado
-            if symbols_analyzed > 0:
-                avg_strength = total_strength / symbols_analyzed
-                avg_volatility = total_volatility / symbols_analyzed
-
-                bullish_count = sum(1 for s in analysis['symbol_data'].values()
-                                  if 'market_condition' in s and s['market_condition'].trend == 'bullish')
-                bearish_count = sum(1 for s in analysis['symbol_data'].values()
-                                  if 'market_condition' in s and s['market_condition'].trend == 'bearish')
-
-                if bullish_count > symbols_analyzed * 0.6:
-                    analysis['market_conditions'] = 'bullish'
-                elif bearish_count > symbols_analyzed * 0.6:
-                    analysis['market_conditions'] = 'bearish'
-
-                analysis['market_metrics'] = {
-                    'average_strength': float(avg_strength),
-                    'average_volatility': float(avg_volatility),
-                    'bullish_percentage': float(bullish_count / symbols_analyzed * 100),
-                    'bearish_percentage': float(bearish_count / symbols_analyzed * 100)
-                }
+            analysis = await self._analyze_symbols(self.market_data)
 
             return analysis
         except Exception as e:
@@ -433,3 +395,46 @@ class MarketAnalyzer:
                 'symbol_data': {},
                 'error': str(e)
             }
+    
+    async def _analyze_symbols(self, market_data):
+        analysis = {
+            'market_conditions': {},
+            'symbol_data': {}
+        }
+
+        total_strength = 0
+        total_volatility = 0
+        symbols_analyzed = 0
+
+        for symbol, data in market_data.items():
+            symbol_analysis = self._analyze_symbol(symbol, data)
+            analysis['symbol_data'][symbol] = symbol_analysis
+
+            if 'market_condition' in symbol_analysis:
+                total_strength += symbol_analysis['market_condition'].strength
+                total_volatility += symbol_analysis['market_condition'].volatility
+                symbols_analyzed += 1
+
+        # Determinar condición general del mercado
+        if symbols_analyzed > 0:
+                avg_strength = total_strength / symbols_analyzed
+                avg_volatility = total_volatility / symbols_analyzed
+
+                bullish_count = sum(1 for s in analysis['symbol_data'].values()
+                                    if 'market_condition' in s and s['market_condition'].trend == 'bullish')
+                bearish_count = sum(1 for s in analysis['symbol_data'].values()
+                                    if 'market_condition' in s and s['market_condition'].trend == 'bearish')
+
+                if bullish_count > symbols_analyzed * 0.6:
+                    analysis['market_conditions'] = 'bullish'
+                elif bearish_count > symbols_analyzed * 0.6:
+                    analysis['market_conditions'] = 'bearish'
+
+                analysis['market_metrics'] = MarketMetrics(
+                    average_strength=float(avg_strength),
+                    average_volatility=float(avg_volatility),
+                    bullish_percentage=float(bullish_count / symbols_analyzed * 100),
+                    bearish_percentage=float(bearish_count / symbols_analyzed * 100)
+                )
+
+        return analysis

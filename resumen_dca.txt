@@ -1,0 +1,111 @@
+# Estrategias DCA
+
+## Descripción General
+
+Este proyecto implementa una estrategia de inversión automatizada de Dollar Cost Averaging (DCA) para el mercado de criptomonedas. El sistema ha sido diseñado para:
+
+* **Análisis de Mercado:**  Obtiene datos de múltiples fuentes (Binance, KuCoin, Yahoo Finance, LiveCoinWatch, CoinCodex, CryptoCompare) y realiza análisis técnico para identificar condiciones del mercado y oportunidades de inversión.
+* **Gestión de Riesgos:** Evalúa y gestiona el riesgo del portafolio utilizando parámetros configurables como el máximo drawdown, tamaño de posición, y umbrales de volatilidad y correlación.
+* **Optimización de Portafolio:** Calcula la asignación óptima de activos dentro del portafolio DCA, considerando factores como el ratio de Sharpe, volatilidad, volumen, momentum y capitalización de mercado.
+* **Ejecución Automatizada (Simulada):**  Simula la ejecución de operaciones de compra de criptomonedas de forma periódica, basándose en la estrategia DCA y la configuración definida.
+* **Reportes y Logs:** Genera reportes detallados del análisis de mercado, rendimiento del portafolio y logs de ejecución para seguimiento y depuración.
+* **Backups:** Realiza copias de seguridad automáticas de los datos del portafolio y la configuración del sistema.
+* **Importación de Datos:** Permite importar datos de portafolio y transacciones desde archivos CSV y Excel para análisis y backtesting.
+
+## Componentes Principales
+
+1. **Recolección de Datos Multi-Fuente (`src/get_historical_data.py`):**
+   * Utiliza la clase `MultiSourceDataCollector` para obtener datos históricos de precios y volúmenes de diversas APIs (Binance, KuCoin, Yahoo Finance, LiveCoinWatch, CoinCodex, CryptoCompare).
+   * Implementa multithreading para acelerar la descarga de datos.
+   * Guarda los datos en caché para evitar solicitudes redundantes a las APIs.
+
+2. **Análisis de Mercado (`src/market_analysis.py`):**
+   * Módulo `MarketAnalyzer` que realiza análisis técnico utilizando indicadores como RSI, MACD, Bandas de Bollinger, Oscilador Estocástico y ATR.
+   * Evalúa las condiciones del mercado (tendencia, volatilidad, volumen) para cada criptomoneda y genera un reporte detallado (`reports/market_analysis_report.md`).
+
+3. **Gestión de Riesgos (`src/risk_manager.py`):**
+   * Módulo `RiskManager` que define y evalúa los riesgos del portafolio y de activos individuales.
+   * Calcula el tamaño de posición óptimo, verifica límites de riesgo (drawdown, tamaño de posición, volatilidad, correlación, liquidez) y determina si se deben ejecutar operaciones.
+
+4. **Optimización DCA (`src/dca_optimizer_enhanced.py`):**
+   * Módulo `EnhancedDCAOptimizer` que optimiza la asignación del portafolio DCA.
+   * Considera métricas como Sharpe Ratio, volatilidad, volumen, momentum, retorno, market cap y liquidez para seleccionar los activos y sus pesos en el portafolio.
+   * Genera visualizaciones del análisis de optimización (`allocation_heatmap.png`).
+
+5. **Trader DCA en Vivo (Simulado) (`src/dca_live_trader.py`):**
+   * Módulo `LiveDCATrader` que implementa la lógica central de la estrategia DCA.
+   * Calcula las asignaciones objetivo, genera órdenes de compra/venta (simuladas), ejecuta las órdenes y registra las transacciones (`trade_execution_log.json`).
+
+6. **Programador DCA (`src/dca_scheduler.py`):**
+   * Script principal `dca_scheduler.py` que orquesta la ejecución de todos los componentes del sistema.
+   * Inicializa componentes, programa la ejecución periódica del análisis, gestión de riesgos, optimización y trading DCA.
+
+7. **Generación de Reportes (`src/report_generator.py`):**
+   * Módulo `ReportGenerator` que crea reportes en formato Markdown:
+     * `reports/market_analysis_report.md`: Análisis detallado del mercado de criptomonedas.
+     * `reports/portfolio_report.md`: Estado y rendimiento del portafolio DCA.
+     * `reports/unified_report.md`: Reporte que combina análisis de mercado y rendimiento del portafolio.
+
+8. **Visualización del Portafolio (`src/portfolio_visualizer.py`, `dca_simulator_enhanced.py`):**
+   * Módulo `PortfolioVisualizer` que genera visualizaciones básicas del portafolio (`portfolio_visualization.png`).
+   * `dca_simulator_enhanced.py` genera visualizaciones más completas del rendimiento del portafolio, incluyendo evolución del valor, comparación con índices, distribución de retornos y matriz de correlación (`portfolio_analysis.png`).
+
+9. **Gestión de Base de Datos (`src/database_manager.py`):**
+   * Módulo `DatabaseManager` para interactuar con la base de datos SQLite (`data/dca_trading.db`).
+   * Permite guardar y recuperar estados del portafolio, historial de transacciones y datos de mercado.
+   * Funcionalidades para importar datos desde archivos CSV y Excel.
+
+10. **Configuración del Sistema (`src/config.py`, `/config/.env`):**
+    * Archivo `src/config.py` que define la configuración global del sistema, parámetros de riesgo, trading, email y pesos del portafolio.
+    * Variables de entorno en `/config/.env` para gestionar API keys y configuraciones sensibles.
+    * Validación de configuración con `config_validator.py` para asegurar la integridad de los parámetros.
+
+11. **Backups Automáticos (`src/backup_portfolio.py`, `backup_dca.py`):**
+    * Scripts `backup_portfolio.py` y `backup_dca.py` para realizar copias de seguridad diarias y semanales de los datos del portafolio y del código fuente del proyecto.
+    * Almacenamiento de backups en las carpetas `/backups/daily/` y `/backups/weekly/`, y en carpetas `backup_dca_*` en la raíz del proyecto.
+
+12. **Monitor de Rendimiento (`src/performance_monitor.py`):**
+    * Módulo `PerformanceMonitor` para rastrear métricas de rendimiento del sistema (CPU, memoria, disco, tiempos de ejecución, tasa de éxito) y generar alertas.
+    * Genera reportes de rendimiento en formato Markdown (`performance_report.md`) y guarda métricas en formato JSON (`performance_metrics.json`).
+
+## Flujo de Datos
+
+1. **Configuración:** El sistema carga la configuración inicial desde `config.py` y variables de entorno desde `/config/.env`.
+2. **Recolección de Datos:**  `MultiSourceDataCollector` obtiene datos históricos de precios y volúmenes desde APIs de Binance, KuCoin, Yahoo Finance, LiveCoinWatch, CoinCodex y CryptoCompare. Los datos se almacenan temporalmente en caché en `/data/*.csv`.
+3. **Análisis de Mercado:** `MarketAnalyzer` analiza los datos históricos, calcula indicadores técnicos y evalúa las condiciones del mercado.
+4. **Evaluación de Riesgos:** `RiskManager` evalúa los riesgos del portafolio y de activos individuales, utilizando la configuración y el análisis de mercado.
+5. **Optimización del Portafolio:** `EnhancedDCAOptimizer` optimiza la asignación del portafolio DCA basándose en múltiples métricas y los datos de mercado.
+6. **Trading DCA (Simulado):** `LiveDCATrader` simula la ejecución de órdenes de compra/venta según la estrategia DCA y la asignación optimizada. Las transacciones se registran en `trade_execution_log.json`.
+7. **Persistencia de Datos:** `DatabaseManager` guarda el estado del portafolio, transacciones y datos de mercado en `data/dca_trading.db`.
+8. **Generación de Reportes:** `ReportGenerator` crea reportes en formato Markdown (`reports/*.md`) y `PortfolioVisualizer` genera visualizaciones (`portfolio_analysis.png`, `allocation_heatmap.png`).
+9. **Backups:** `BackupPortfolio` y `backup_dca.py` realizan copias de seguridad de datos y código a las carpetas `/backups/` y `backup_dca_*`.
+10. **Monitoreo:** `PerformanceMonitor` rastrea el rendimiento del sistema y genera reportes y alertas (`performance_report.md`, `performance_metrics.json`).
+
+## Ejecución
+
+1. **Configuración Inicial:**
+   * Configurar las variables de entorno en el archivo `/config/.env`, incluyendo API keys y credenciales.
+   * Revisar y ajustar la configuración en `src/config.py` y `src/analysis_config.py` según sea necesario.
+   * Instalar las dependencias listadas en `requirements.txt` usando `pip install -r requirements.txt`.
+
+2. **Ejecución Principal:**
+   * Ejecutar el programador DCA: `python src/dca_scheduler.py`
+
+3. **Scripts Utilitarios:**
+   * Ejecutar análisis de mercado y optimización: `python run_analysis.py`
+   * Recolectar datos históricos (manual): `python scripts/get_historical_data.py`
+   * Simulación DCA mejorada: `python dca_simulator_enhanced.py`
+   * Optimización DCA rápida: `python dca_optimizer_fast.py`
+   * Crear backup manual: `python backup_dca.py`
+   * Probar conexión API: `python test_api_connection.py`
+   * Monitorear recolección de datos: `python monitor_progress.py`
+
+## Notas Importantes
+
+* **Simulación vs. Trading Real:** El sistema actual simula las operaciones de trading. Para la ejecución real de órdenes en un exchange, sería necesario integrar APIs de exchanges (Binance API ya está parcialmente integrada, pero la ejecución real no está implementada en este código).
+* **Gestión de Riesgos:** La gestión de riesgos está implementada, pero es crucial revisar y ajustar los parámetros de riesgo en `config.py` para adaptarlos a tu tolerancia al riesgo y objetivos de inversión.
+* **Fuentes de Datos API:** El programa depende de APIs externas para obtener datos de mercado. Es importante tener en cuenta las limitaciones de rate limits y la fiabilidad de estas APIs. Se recomienda obtener API keys válidas para CoinMarketCap, Binance, LiveCoinWatch y CoinCodex para asegurar el funcionamiento correcto del sistema.
+* **Backtesting y Optimización:** Utilizar `dca_simulator_enhanced.py` y `dca_optimizer_enhanced.py` para realizar backtesting y optimizar la estrategia DCA antes de la ejecución real.
+* **Monitoreo y Logs:**  Revisar regularmente los logs en `logs/dca_trader.log` y los reportes generados en la carpeta `reports/` para monitorear el funcionamiento del sistema y el rendimiento del portafolio.
+
+---
