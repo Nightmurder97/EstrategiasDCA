@@ -4,12 +4,12 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import datetime
 import logging
 import matplotlib.pyplot as plt
-from src.config import Config
+from src.config_models import load_config
 import os
 
 class PortfolioVisualizer:
-    def __init__(self, config):
-        self.config = config
+    def __init__(self, config=None):
+        self.config = config or load_config()
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def visualize_portfolio(self, market_data, output_path="portfolio_visualization.png"):
@@ -42,8 +42,7 @@ class PortfolioVisualizer:
 
 def test_portfolio_visualizer():
     """Basic test function for PortfolioVisualizer."""
-    config = Config()
-    visualizer = PortfolioVisualizer(config)
+    visualizer = PortfolioVisualizer()
     test_data = {
         "TEST1": {"adjusted_price": 150, "adjusted_volume": 1000},
         "TEST2": {"adjusted_price": 50, "adjusted_volume": 100},

@@ -1,0 +1,46 @@
+{
+    "portfolio_id": "portfolio_007_defi_focused",
+    "timestamp": "2025-07-06T07:45:41.952135",
+    "total_value": 0.0,
+    "positions": {
+        "USDT": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "USDC": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "BTC": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "ETH": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "ADA": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "DOT": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "LINK": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        }
+    },
+    "cash_balance": 0.0,
+    "daily_pnl": 0.0,
+    "total_pnl": 0.0,
+    "metrics": {}
+}

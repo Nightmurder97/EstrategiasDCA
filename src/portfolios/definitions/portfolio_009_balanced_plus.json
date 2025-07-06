@@ -1,0 +1,21 @@
+{
+    "id": "portfolio_009_balanced_plus",
+    "name": "Equilibrado Plus",
+    "type": "balanced_plus",
+    "description": "Variación equilibrada con ajustes dinámicos",
+    "allocation": {
+        "USDC": 0.136,
+        "USDT": 0.091,
+        "BTC": 0.228,
+        "ETH": 0.227,
+        "ADA": 0.159,
+        "DOT": 0.159
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "medium",
+    "created_date": "2025-07-06T07:45:41.952805",
+    "last_rebalance": "",
+    "status": "active"
+}

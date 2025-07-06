@@ -1,0 +1,21 @@
+{
+    "id": "portfolio_008_diversified",
+    "name": "Máxima Diversificación",
+    "type": "diversified",
+    "description": "Diversificación extrema entre múltiples activos",
+    "allocation": {
+        "USDC": 0.103,
+        "USDT": 0.069,
+        "BTC": 0.244,
+        "ETH": 0.244,
+        "ADA": 0.17,
+        "DOT": 0.17
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "medium",
+    "created_date": "2025-07-06T07:45:41.952356",
+    "last_rebalance": "",
+    "status": "active"
+}

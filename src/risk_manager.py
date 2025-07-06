@@ -2,14 +2,15 @@ import logging
 from typing import Dict, Optional
 from dataclasses import dataclass
 import numpy as np
-from src.config import config
+from src.config_models import load_config
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class RiskManager:
     def __init__(self):
-        self.params = config.risk_params
+        self.config = load_config()
+        self.params = self.config.risk
         self.position_limits: Dict[str, float] = {}
         self.asset_correlations: Dict[str, Dict[str, float]] = {}
         
@@ -101,7 +102,7 @@ class RiskManager:
                 # Calcular correlación solo si tenemos datos válidos
                 if not np.any(np.isnan(symbol_returns_aligned)) and not np.any(np.isnan(other_returns_aligned)):
                     correlation = np.corrcoef(symbol_returns_aligned, other_returns_aligned)[0, 1]
-                    if not np.isnan(correlation) and abs(correlation) > self.params.correlation_threshold:
+                    if not np.isnan(correlation) and abs(correlation) > self.params.portfolio_correlation_threshold:
                         return True
             
             return False

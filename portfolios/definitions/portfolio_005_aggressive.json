@@ -1,0 +1,24 @@
+{
+    "id": "portfolio_005_aggressive",
+    "name": "Agresivo",
+    "type": "aggressive",
+    "description": "Máximo crecimiento, riesgo elevado",
+    "allocation": {
+        "USDT": 0.03,
+        "USDC": 0.02,
+        "BTC": 0.238,
+        "ETH": 0.237,
+        "ADA": 0.083,
+        "DOT": 0.083,
+        "LINK": 0.083,
+        "UNI": 0.083,
+        "MATIC": 0.143
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "high",
+    "created_date": "2025-07-06T07:42:47.389039",
+    "last_rebalance": "",
+    "status": "active"
+}

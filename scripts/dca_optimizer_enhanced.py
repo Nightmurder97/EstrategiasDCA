@@ -718,6 +718,35 @@ class EnhancedDCAOptimizer:
             logger.error(f"Error generando visualizaciones: {str(e)}")
             return None
 
+    def calculate_optimal_allocation(self, market_data: Dict[str, pd.DataFrame]) -> Dict[str, float]:
+        """Calcula la asignación óptima del portafolio considerando múltiples factores"""
+        weights = {}
+        
+        # Añadir nuevos factores de análisis
+        for symbol, data in market_data.items():
+            # Análisis técnico
+            rsi = self._calculate_rsi(data['close'])
+            momentum = self._calculate_momentum(data['close'])
+            
+            # Análisis fundamental
+            market_cap = self.metadata[symbol].get('market_cap', 0)
+            profit_ratio = self.metadata[symbol].get('ratio_beneficios', 0)
+            
+            # Análisis de direcciones
+            holder_distribution = self._analyze_holder_distribution(symbol)
+            
+            # Calcular score compuesto
+            technical_score = rsi * 0.3 + momentum * 0.2
+            fundamental_score = market_cap * 0.2 + profit_ratio * 0.2
+            holder_score = holder_distribution * 0.1
+            
+            total_score = technical_score + fundamental_score + holder_score
+            weights[symbol] = total_score
+        
+        # Normalizar pesos
+        total = sum(weights.values())
+        return {k: v/total for k,v in weights.items()}
+
 def main():
     try:
         # Configurar optimizador

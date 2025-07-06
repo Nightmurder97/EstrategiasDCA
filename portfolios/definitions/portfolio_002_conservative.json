@@ -1,0 +1,19 @@
+{
+    "id": "portfolio_002_conservative",
+    "name": "Conservador",
+    "type": "conservative",
+    "description": "Enfoque en estabilidad con crecimiento moderado",
+    "allocation": {
+        "USDT": 0.225,
+        "USDC": 0.15,
+        "BTC": 0.313,
+        "ETH": 0.312
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "low",
+    "created_date": "2025-07-06T07:42:47.388105",
+    "last_rebalance": "",
+    "status": "active"
+}

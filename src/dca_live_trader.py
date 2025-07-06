@@ -8,7 +8,7 @@ import requests
 from decimal import Decimal, ROUND_DOWN
 from dataclasses import dataclass
 from tqdm import tqdm
-from src.config import config
+from src.config_models import load_config
 
 # Configurar logging
 logging.basicConfig(

@@ -1,0 +1,20 @@
+{
+    "id": "portfolio_006_btc_focused",
+    "name": "Bitcoin Dominante",
+    "type": "btc_focused",
+    "description": "Estrategia centrada en Bitcoin",
+    "allocation": {
+        "USDT": 0.12,
+        "USDC": 0.08,
+        "BTC": 0.4,
+        "ETH": 0.2,
+        "BNB": 0.2
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "medium",
+    "created_date": "2025-07-06T07:45:41.951556",
+    "last_rebalance": "",
+    "status": "active"
+}

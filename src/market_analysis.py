@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
+import os
 
 @dataclass
 class MarketCondition:
@@ -145,9 +146,9 @@ class MarketAnalyzer:
                     'BTCUSDT', 'ETHUSDT', 'XRPUSDT', 'SOLUSDT', 'BNBUSDT',
                     'DOGEUSDT', 'ADAUSDT', 'TRXUSDT', 'AVAXUSDT', 'LINKUSDT'
                 ]
-    
+
                 self.market_data = {}
-    
+
                 for symbol in symbols:
                     # Obtener precio actual y volumen 24h
                     ticker_url = f"https://api.binance.com/api/v3/ticker/24hr?symbol={symbol}"
@@ -161,7 +162,7 @@ class MarketAnalyzer:
                             'change_24h': float(ticker_data['priceChangePercent']),
                             'market_cap': 0  # Binance no proporciona market cap
                         }
-    
+
                         # Obtener datos históricos (klines/candlesticks)
                         klines_url = f"https://api.binance.com/api/v3/klines"
                         params = {
@@ -169,7 +170,7 @@ class MarketAnalyzer:
                             'interval': '1d',
                             'limit': 30  # Últimos 30 días
                         }
-    
+
                         hist_response = session.get(klines_url, params=params)
                         if hist_response.status_code == 200:
                             klines_data = hist_response.json()
@@ -179,7 +180,7 @@ class MarketAnalyzer:
                             logging.error(f"Error fetching historical data for {symbol}: {hist_response.status_code}")
                     else:
                         logging.error(f"Error fetching ticker data for {symbol}: {response.status_code}")
-    
+
         except Exception as e:
             logging.error(f"Error in market data fetch: {e}")
 
@@ -310,6 +311,8 @@ class MarketAnalyzer:
             logging.error(f"Error generating report: {e}")
             return f"Error generando reporte: {str(e)}"
 
+    from openbb import obb
+
     def _analyze_symbol(self, symbol: str, data: Dict) -> Dict:
         """Analiza un símbolo específico usando indicadores técnicos"""
         if 'historical' not in data:
@@ -331,7 +334,8 @@ class MarketAnalyzer:
         hist_volumes = data['historical']['volumes']
 
         # Calcular indicadores técnicos
-        rsi = TechnicalIndicators.calculate_rsi(hist_prices)[-1]
+        # rsi = TechnicalIndicators.calculate_rsi(hist_prices)[-1]
+        rsi = obb.ta.rsi(prices=hist_prices).df().iloc[-1]['rsi'] # Usando OpenBB
         macd, signal = TechnicalIndicators.calculate_macd(hist_prices)
         upper, middle, lower = TechnicalIndicators.calculate_bollinger_bands(hist_prices)
         volatility = TechnicalIndicators.calculate_volatility(hist_prices)
@@ -438,3 +442,48 @@ class MarketAnalyzer:
                 )
 
         return analysis
+
+    def analyze_market_sentiment(self) -> Dict[str, float]:
+        """Analiza el sentimiento general del mercado"""
+        sentiment = {
+            'technical': self._analyze_technical_sentiment(),
+            'fundamental': self._analyze_fundamental_sentiment(),
+            'holder': self._analyze_holder_sentiment()
+        }
+        
+        # Ajustar pesos DCA según sentimiento
+        if sentiment['technical'] < 0.3:  # Mercado muy bajista
+            self.dca_weights = {
+                'large_caps': 0.7,  # Aumentar exposición a large caps
+                'mid_caps': 0.2,
+                'small_caps': 0.1
+            }
+        
+        return sentiment
+
+    def _load_tradingview_data(self) -> pd.DataFrame:
+        """Carga los datos más recientes de TradingView"""
+        try:
+            # Encontrar el directorio más reciente
+            tradingview_dir = "TradingViewData"
+            latest_dir = max([d for d in os.listdir(tradingview_dir) 
+                             if d.startswith("TradingView_data_")])
+            
+            # Cargar datos técnicos
+            tecnicos_path = os.path.join(tradingview_dir, latest_dir, 
+                                       "Datostecnicos.csv")
+            df_tecnicos = pd.read_csv(tecnicos_path)
+            
+            # Cargar datos de direcciones
+            direcciones_path = os.path.join(tradingview_dir, latest_dir,
+                                          "Direcciones.csv")
+            df_direcciones = pd.read_csv(direcciones_path)
+            
+            # Combinar datos
+            df = pd.merge(df_tecnicos, df_direcciones, on='Moneda', how='left')
+            
+            return df
+            
+        except Exception as e:
+            logging.error(f"Error cargando datos de TradingView: {str(e)}")
+            return pd.DataFrame()

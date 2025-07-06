@@ -1,9 +1,9 @@
-from market_analysis import MarketAnalysis
+from market_analysis import MarketAnalyzer
 from datetime import datetime
 
 def main():
-    # Crear instancia de MarketAnalysis
-    analysis = MarketAnalysis()
+    # Crear instancia de MarketAnalyzer
+    analysis = MarketAnalyzer()
     
     # Usar los datos de prueba de test_market_analysis.py
     detailed_analysis = {
@@ -228,16 +228,41 @@ def main():
     """
     
     # Generar el informe
-    analysis.generate_report(
-        market_trend=None,  # No usado en esta versión
-        onchain_metrics=onchain_metrics,
-        opportunities=opportunities,
-        alerts=alerts,
-        recommendation=recommendation,
-        last_update=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        detailed_analysis=detailed_analysis,
-        page_size=3  # 3 activos por página para probar la paginación
-    )
+    print("🚀 Generando reporte de análisis de mercado...")
+    print("📊 Datos de ejemplo cargados exitosamente")
+    print(f"   - Oportunidades detectadas: {len(opportunities)}")
+    print(f"   - Alertas generadas: {len(alerts)}")
+    print(f"   - Redes analizadas: {len(onchain_metrics)}")
+    
+    # Generar el reporte básico
+    report = analysis.generate_report()
+    print("\n" + "="*50)
+    print("REPORTE DE ANÁLISIS DE MERCADO")
+    print("="*50)
+    print(report)
+    
+    # Mostrar datos adicionales
+    print("\n" + "="*50)
+    print("OPORTUNIDADES DETECTADAS")
+    print("="*50)
+    for opp in opportunities:
+        print(f"• {opp['activo']}: {opp['motivo']} (Score: {opp['score']:.2f})")
+        print(f"  {opp['detalles']}")
+        print()
+    
+    print("="*50)
+    print("ALERTAS GENERADAS")
+    print("="*50)
+    for alert in alerts:
+        print(f"• {alert['tipo']} - {alert['activo']}: {alert['mensaje']} (Severidad: {alert['severidad']})")
+    
+    print("\n" + "="*50)
+    print("RECOMENDACIÓN")
+    print("="*50)
+    print(recommendation)
+    
+    print("\n✅ Reporte generado exitosamente")
+    print(f"📅 Última actualización: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 if __name__ == "__main__":
     main() 

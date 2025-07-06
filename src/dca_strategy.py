@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from typing import List, Tuple
 import os
-import config
+from src.config_models import load_config
 import talib
 
 logging.basicConfig(level=logging.INFO)

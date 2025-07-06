@@ -40,25 +40,61 @@ class TradingViewOptimizer:
         }
         
     def load_data(self):
-        """Carga los datos de TradingView y otros archivos"""
+        """Carga los datos más recientes de TradingView"""
         try:
-            # Cargar datos de TradingView
-            self.tecnicos_df = pd.read_csv('TradingViewData/Analizador de criptomonedas_2025-02-03-Datostecnicos.csv')
-            self.direcciones_df = pd.read_csv('TradingViewData/Analizador de criptomonedas_2025-02-03-Direcciones.csv')
-            self.pnl_df = pd.read_csv('TradingViewData/Analizador de criptomonedas_2025-02-03-PerdidasyGanancias.csv')
+            # Encontrar el directorio más reciente
+            tradingview_dir = "TradingViewData"
+            if not os.path.exists(tradingview_dir):
+                raise FileNotFoundError(f"Directorio {tradingview_dir} no encontrado")
             
-            # Mostrar columnas disponibles
-            logger.info("Columnas en tecnicos_df:")
-            logger.info(self.tecnicos_df.columns.tolist())
-            logger.info("\nColumnas en direcciones_df:")
-            logger.info(self.direcciones_df.columns.tolist())
-            logger.info("\nColumnas en pnl_df:")
-            logger.info(self.pnl_df.columns.tolist())
+            subdirs = [d for d in os.listdir(tradingview_dir) 
+                      if os.path.isdir(os.path.join(tradingview_dir, d)) 
+                      and d.startswith("TradingView_data_")]
+            
+            if not subdirs:
+                raise FileNotFoundError("No se encontraron directorios de datos")
+            
+            latest_dir = max(subdirs)
+            base_path = os.path.join(tradingview_dir, latest_dir)
+            
+            # Listar y verificar archivos
+            files = os.listdir(base_path)
+            logger.info(f"Archivos encontrados en {base_path}:")
+            logger.info(files)
+            
+            # Buscar archivos usando next() para manejo más seguro
+            tecnicos_file = next((f for f in files if "Datostecnicos_" in f), None)
+            if not tecnicos_file:
+                raise FileNotFoundError("Archivo de datos técnicos no encontrado")
+            
+            direcciones_file = next((f for f in files if "Direcciones_" in f), None)
+            if not direcciones_file:
+                raise FileNotFoundError("Archivo de direcciones no encontrado")
+            
+            pnl_file = next((f for f in files if "Perdidas_" in f), None)
+            if not pnl_file:
+                raise FileNotFoundError("Archivo de pérdidas y ganancias no encontrado")
+            
+            # Cargar los archivos
+            self.tecnicos_df = pd.read_csv(os.path.join(base_path, tecnicos_file))
+            self.direcciones_df = pd.read_csv(os.path.join(base_path, direcciones_file))
+            self.pnl_df = pd.read_csv(os.path.join(base_path, pnl_file))
             
             logger.info(f"Datos cargados: {len(self.tecnicos_df)} criptomonedas")
             
+            # Mostrar información de las columnas
+            logger.info("Columnas en tecnicos_df:")
+            logger.info(list(self.tecnicos_df.columns))
+            logger.info("\nColumnas en direcciones_df:")
+            logger.info(list(self.direcciones_df.columns))
+            logger.info("\nColumnas en pnl_df:")
+            logger.info(list(self.pnl_df.columns))
+            
         except Exception as e:
             logger.error(f"Error cargando datos: {str(e)}")
+            if 'base_path' in locals():
+                logger.error(f"Directorio base: {base_path}")
+                logger.error(f"Archivos disponibles: {os.listdir(base_path) if os.path.exists(base_path) else 'No disponible'}")
             raise
             
     def calculate_technical_score(self, row):

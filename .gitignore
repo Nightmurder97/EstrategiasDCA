@@ -70,6 +70,9 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# PyBuilder
+target/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -117,8 +120,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# macOS specific
+# OS-specific files
 .DS_Store
+Thumbs.db
+desktop.ini
 ._*
 
 # VS Code
@@ -151,7 +156,20 @@ dmypy.json
 # portfolio_summary.png
 # trade_execution_log.json
 
-# Archivos de IDEs
-*.swp
-*.swo
+# Personal data
+/Portafolio _personal/
+/archived_portfolios/
+/TradingViewData/
+
+# Credentials
+*.env
+.env*
+!config/env.template
+
+# Logs
+logs/
+*.log
+
+# Temp files
+*.tmp
 *~

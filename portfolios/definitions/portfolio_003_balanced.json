@@ -1,0 +1,21 @@
+{
+    "id": "portfolio_003_balanced",
+    "name": "Equilibrado",
+    "type": "balanced",
+    "description": "Balance entre estabilidad y crecimiento",
+    "allocation": {
+        "USDT": 0.136,
+        "USDC": 0.091,
+        "BTC": 0.228,
+        "ETH": 0.227,
+        "DOT": 0.159,
+        "ADA": 0.159
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "medium",
+    "created_date": "2025-07-06T07:42:47.388411",
+    "last_rebalance": "",
+    "status": "active"
+}

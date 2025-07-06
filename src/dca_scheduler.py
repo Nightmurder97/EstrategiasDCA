@@ -3,7 +3,7 @@ import logging
 from datetime import datetime
 from typing import Dict, Any
 
-from src.config import config
+from src.config_models import load_config
 from src.dca_live_trader import LiveDCATrader as DCALiveTrader
 from src.market_analysis import MarketAnalyzer
 from src.risk_manager import RiskManager
@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 class DCAScheduler:
     def __init__(self):
+        self.config = load_config()
         self.analyzer = None
         self.risk_manager = None
         self.trader = None
@@ -38,10 +39,10 @@ class DCAScheduler:
     async def _initialize_trader(self):
         """Initialize trader component"""
         trading_params = {
-            'weekly_investment': config.trading_params.weekly_investment,
-            'portfolio_weights': config.portfolio_weights,
-            'max_position_size': config.trading_params.max_position_size,
-            'rebalance_threshold': config.trading_params.rebalance_threshold
+            'weekly_investment': self.config.trading.weekly_investment,
+            'portfolio_weights': self.config.portfolio_weights,
+            'max_position_size': self.config.trading.max_position_size,
+            'rebalance_threshold': self.config.trading.rebalance_threshold
         }
         self.trader = DCALiveTrader(trading_params)
         logger.info("Trader inicializado")
@@ -49,11 +50,11 @@ class DCAScheduler:
     async def _initialize_market_analyzer(self):
         """Initialize market analyzer component"""
         market_data_config = {
-            'lookback_period': config.trading_params.lookback_period,
-            'min_volume_percentile': config.trading_params.min_volume_percentile,
-            'portfolio_weights': config.portfolio_weights,
-            'binance_api_key': config.binance_api_key,
-            'binance_api_secret': config.binance_api_secret
+            'lookback_period': self.config.trading.lookback_period,
+            'min_volume_percentile': self.config.trading.min_volume_percentile,
+            'portfolio_weights': self.config.portfolio_weights,
+            'binance_api_key': self.config.binance.api_key,
+            'binance_api_secret': self.config.binance.api_secret.get_secret_value() if self.config.binance.api_secret else None
         }
         self.analyzer = MarketAnalyzer(market_data_config)
         logger.info("Market analyzer inicializado")
@@ -61,9 +62,9 @@ class DCAScheduler:
     async def _initialize_db_manager(self):
         """Initialize database manager component"""
         db_config = {
-            'backup_enabled': config.backup_enabled,
-            'email_notifications': config.email_notifications,
-            'email_config': config.email_config.model_dump()
+            'backup_enabled': self.config.backup_enabled,
+            'email_notifications': self.config.email_notifications_enabled,
+            'email_config': self.config.email.model_dump()
         }
         self.db_manager = DatabaseManager(db_config)
         logger.info("Gestor de base de datos inicializado")

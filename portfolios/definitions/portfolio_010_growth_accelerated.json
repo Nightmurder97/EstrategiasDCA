@@ -1,0 +1,21 @@
+{
+    "id": "portfolio_010_growth_accelerated",
+    "name": "Crecimiento Acelerado",
+    "type": "growth_accelerated",
+    "description": "Variación de crecimiento con mayor exposición",
+    "allocation": {
+        "USDT": 0.069,
+        "USDC": 0.046,
+        "BTC": 0.261,
+        "ETH": 0.26,
+        "DOT": 0.182,
+        "ADA": 0.182
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "high",
+    "created_date": "2025-07-06T07:42:47.391143",
+    "last_rebalance": "",
+    "status": "active"
+}

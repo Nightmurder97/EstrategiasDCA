@@ -1,0 +1,19 @@
+{
+    "id": "portfolio_001_ultra_conservative",
+    "name": "Ultra Conservador",
+    "type": "ultra_conservative",
+    "description": "Máxima estabilidad, mínimo riesgo",
+    "allocation": {
+        "USDC": 0.301,
+        "USDT": 0.233,
+        "BTC": 0.233,
+        "ETH": 0.233
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "low",
+    "created_date": "2025-07-06T07:45:41.949241",
+    "last_rebalance": "",
+    "status": "active"
+}
