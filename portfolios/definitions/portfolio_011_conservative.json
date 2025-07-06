@@ -1,0 +1,19 @@
+{
+    "id": "portfolio_011_conservative",
+    "name": "Test Conservative Portfolio",
+    "type": "conservative",
+    "description": "Portafolio de prueba conservador",
+    "allocation": {
+        "BTC": 0.4,
+        "ETH": 0.3,
+        "ADA": 0.2,
+        "DOT": 0.1
+    },
+    "initial_balance": 1000.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "low",
+    "created_date": "2025-07-06T09:48:26.363043",
+    "last_rebalance": "",
+    "status": "active"
+}

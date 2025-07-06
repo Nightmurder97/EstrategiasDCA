@@ -1,0 +1,22 @@
+{
+    "id": "portfolio_018_defi_focused",
+    "name": "DeFi Especializado",
+    "type": "defi_focused",
+    "description": "Enfoque en tokens DeFi y ecosistemas",
+    "allocation": {
+        "USDT": 0.069,
+        "USDC": 0.046,
+        "BTC": 0.262,
+        "ETH": 0.26,
+        "ADA": 0.121,
+        "DOT": 0.121,
+        "LINK": 0.121
+    },
+    "initial_balance": 0.0,
+    "max_position_size": 0.25,
+    "rebalance_threshold": 0.05,
+    "risk_tolerance": "high",
+    "created_date": "2025-07-06T09:48:35.452091",
+    "last_rebalance": "",
+    "status": "active"
+}

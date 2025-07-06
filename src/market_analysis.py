@@ -1,12 +1,15 @@
 import datetime
 import logging
-import requests
+import datetime
+import logging
 import asyncio
 import numpy as np
 import pandas as pd
 from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
 import os
+import aiohttp
+from openbb import obb
 
 @dataclass
 class MarketCondition:
@@ -122,25 +125,25 @@ class MarketAnalyzer:
         self.session = None
         logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    def _update_current_prices(self):
+    async def _update_current_prices(self):
         """Actualiza los precios actuales de los activos"""
         try:
-            with requests.Session() as session:
+            async with aiohttp.ClientSession() as session:
                 for symbol in self.market_data.keys():
                     ticker_url = f"https://api.binance.com/api/v3/ticker/price?symbol={symbol}"
-                    response = session.get(ticker_url)
-                    if response.status_code == 200:
-                        ticker_data = response.json()
-                        self.market_data[symbol]['price'] = float(ticker_data['price'])
-                    else:
-                        logging.error(f"Error fetching current price for {symbol}: {response.status_code}")
+                    async with session.get(ticker_url) as response:
+                        if response.status == 200:
+                            ticker_data = await response.json()
+                            self.market_data[symbol]['price'] = float(ticker_data['price'])
+                        else:
+                            logging.error(f"Error fetching current price for {symbol}: {response.status}")
         except Exception as e:
             logging.error(f"Error updating current prices: {e}")
 
-    def _fetch_market_data(self):
+    async def _fetch_market_data(self):
         """Fetch current and historical market data from Binance API"""
         try:
-            with requests.Session() as session:
+            async with aiohttp.ClientSession() as session:
                 # Obtener datos actuales de los símbolos que nos interesan
                 symbols = [
                     'BTCUSDT', 'ETHUSDT', 'XRPUSDT', 'SOLUSDT', 'BNBUSDT',
@@ -152,34 +155,34 @@ class MarketAnalyzer:
                 for symbol in symbols:
                     # Obtener precio actual y volumen 24h
                     ticker_url = f"https://api.binance.com/api/v3/ticker/24hr?symbol={symbol}"
-                    response = session.get(ticker_url)
-                    if response.status_code == 200:
-                        ticker_data = response.json()
-                        logging.debug(f"Fetched ticker data for {symbol}: {ticker_data}")
-                        self.market_data[symbol] = {
-                            'price': float(ticker_data['lastPrice']),
-                            'volume': float(ticker_data['volume']) * float(ticker_data['lastPrice']),
-                            'change_24h': float(ticker_data['priceChangePercent']),
-                            'market_cap': 0  # Binance no proporciona market cap
-                        }
+                    async with session.get(ticker_url) as response:
+                        if response.status == 200:
+                            ticker_data = await response.json()
+                            logging.debug(f"Fetched ticker data for {symbol}: {ticker_data}")
+                            self.market_data[symbol] = {
+                                'price': float(ticker_data['lastPrice']),
+                                'volume': float(ticker_data['volume']) * float(ticker_data['lastPrice']),
+                                'change_24h': float(ticker_data['priceChangePercent']),
+                                'market_cap': 0  # Binance no proporciona market cap
+                            }
 
-                        # Obtener datos históricos (klines/candlesticks)
-                        klines_url = f"https://api.binance.com/api/v3/klines"
-                        params = {
-                            'symbol': symbol,
-                            'interval': '1d',
-                            'limit': 30  # Últimos 30 días
-                        }
+                            # Obtener datos históricos (klines/candlesticks)
+                            klines_url = f"https://api.binance.com/api/v3/klines"
+                            params = {
+                                'symbol': symbol,
+                                'interval': '1d',
+                                'limit': 30  # Últimos 30 días
+                            }
 
-                        hist_response = session.get(klines_url, params=params)
-                        if hist_response.status_code == 200:
-                            klines_data = hist_response.json()
-                            logging.debug(f"Fetched historical data for {symbol}: {klines_data}")
-                            self.market_data[symbol]['historical'] = self._process_binance_klines(klines_data)
+                            async with session.get(klines_url, params=params) as hist_response:
+                                if hist_response.status == 200:
+                                    klines_data = await hist_response.json()
+                                    logging.debug(f"Fetched historical data for {symbol}: {klines_data}")
+                                    self.market_data[symbol]['historical'] = self._process_binance_klines(klines_data)
+                                else:
+                                    logging.error(f"Error fetching historical data for {symbol}: {hist_response.status}")
                         else:
-                            logging.error(f"Error fetching historical data for {symbol}: {hist_response.status_code}")
-                    else:
-                        logging.error(f"Error fetching ticker data for {symbol}: {response.status_code}")
+                            logging.error(f"Error fetching ticker data for {symbol}: {response.status}")
 
         except Exception as e:
             logging.error(f"Error in market data fetch: {e}")
@@ -308,10 +311,8 @@ class MarketAnalyzer:
 
             return report
         except Exception as e:
-            logging.error(f"Error generating report: {e}")
+            logging.error(f"Error generando reporte: {e}")
             return f"Error generando reporte: {str(e)}"
-
-    from openbb import obb
 
     def _analyze_symbol(self, symbol: str, data: Dict) -> Dict:
         """Analiza un símbolo específico usando indicadores técnicos"""

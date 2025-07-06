@@ -1,0 +1,31 @@
+{
+    "portfolio_id": "portfolio_013_conservative",
+    "timestamp": "2025-07-06T09:48:35.449903",
+    "total_value": 0.0,
+    "positions": {
+        "USDC": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "USDT": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "BTC": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        },
+        "ETH": {
+            "amount": 0.0,
+            "value": 0.0,
+            "weight": 0.0
+        }
+    },
+    "cash_balance": 0.0,
+    "daily_pnl": 0.0,
+    "total_pnl": 0.0,
+    "metrics": {}
+}

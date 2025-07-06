@@ -47,7 +47,7 @@ def test_portfolio_visualizer():
         "TEST1": {"adjusted_price": 150, "adjusted_volume": 1000},
         "TEST2": {"adjusted_price": 50, "adjusted_volume": 100},
     }
-    visualizer.visualize_portfolio(test_data, "test_visualization.png")
+    visualizer.visualize_portfolio(test_data, "images/test_visualization.png")
 
 if __name__ == "__main__":
     test_portfolio_visualizer()
