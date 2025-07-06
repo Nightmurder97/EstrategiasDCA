@@ -13,6 +13,7 @@
 ## 🔧 Requerimientos Técnicos
 
 ### **Hardware Mínimo**
+
 ```yaml
 Processor: Intel i5 8th gen / AMD Ryzen 5 3600 o superior
 RAM: 16GB DDR4 (32GB recomendado)
@@ -22,6 +23,7 @@ GPU: Opcional - NVIDIA RTX 3060+ (para AI models locales)
 ```
 
 ### **Software Base**
+
 ```yaml
 OS: Ubuntu 22.04 LTS / Windows 11 / macOS 13+
 Python: 3.11+ (3.12 recomendado)
@@ -32,6 +34,7 @@ Node.js: 20+ (para web scraping avanzado)
 ```
 
 ### **APIs y Servicios**
+
 ```yaml
 Required APIs:
   - DeFiLlama: Free tier
@@ -50,6 +53,7 @@ Optional APIs (Budget permitting):
 ## 📚 Dependencias y Librerías Actualizadas
 
 ### **Core Dependencies**
+
 ```python
 # requirements.txt - Actualizadas Enero 2025
 
@@ -124,6 +128,7 @@ rich==13.9.4
 ```
 
 ### **Development Dependencies**
+
 ```python
 # requirements-dev.txt
 
@@ -283,9 +288,11 @@ trading-dca-system/
 ## 📅 Plan de Implementación - 5 Semanas
 
 ### **🏃‍♂️ Semana 1: Foundation + DeFiLlama**
+
 **Objetivos**: Establecer base sólida + primera integración (valor inmediato)
 
 #### **Días 1-2: Setup y Configuración**
+
 ```bash
 # Día 1: Environment Setup
 cd trading-dca-system/
@@ -320,6 +327,7 @@ find src/ -type d -exec touch {}/__init__.py \;
 ```
 
 #### **Días 3-4: Core Agent Framework**
+
 ```python
 # Day 3: Base Classes
 # File: src/data_market_agent/core/agent_manager.py
@@ -337,7 +345,7 @@ class DataMarketAgent:
     """
     Enhanced Data Market Agent - Core orchestrator
     """
-    
+
     def __init__(self, config: Dict):
         self.config = config
         self.collectors: Dict[str, BaseCollector] = {}
@@ -349,7 +357,7 @@ class DataMarketAgent:
         self.dca_integrator = DCAIntegrator()
         self.is_running = False
         self.logger = logging.getLogger(__name__)
-        
+
         # Performance tracking
         self.metrics = {
             'insights_generated': 0,
@@ -357,83 +365,83 @@ class DataMarketAgent:
             'errors_encountered': 0,
             'last_successful_run': None
         }
-    
+
     async def initialize(self):
         """Initialize all components"""
         try:
             # Initialize database tables
             await self.setup_database()
-            
+
             # Register collectors
             await self.register_collectors()
-            
+
             # Test API connections
             await self.test_api_connections()
-            
+
             self.logger.info("DataMarketAgent initialized successfully")
             return True
-            
+
         except Exception as e:
             self.logger.error(f"Failed to initialize agent: {e}")
             return False
-    
+
     async def register_collectors(self):
         """Register all data collectors"""
         # Will implement specific collectors day by day
         pass
-    
+
     async def start_continuous_collection(self):
         """Start the main collection loop"""
         self.is_running = True
         self.logger.info("Starting continuous data collection...")
-        
+
         while self.is_running:
             try:
                 cycle_start = datetime.now()
-                
+
                 # Collect data from all sources
                 raw_data = await self.collect_all_data()
-                
+
                 # Process and analyze
                 insights = await self.process_data(raw_data)
-                
+
                 # Store insights
                 await self.store_insights(insights)
-                
+
                 # Integrate with DCA system
                 await self.integrate_with_dca(insights)
-                
+
                 # Update metrics
                 self.update_metrics(cycle_start)
-                
+
                 # Adaptive sleep based on market conditions
                 sleep_duration = self.calculate_sleep_duration()
                 await asyncio.sleep(sleep_duration)
-                
+
             except Exception as e:
                 self.logger.error(f"Error in collection cycle: {e}")
                 await asyncio.sleep(60)  # Error recovery delay
-    
+
     async def collect_all_data(self) -> Dict:
         """Collect data from all registered collectors"""
         data = {}
-        
+
         # Parallel collection from all sources
         tasks = []
         for name, collector in self.collectors.items():
             tasks.append(self.safe_collect(name, collector))
-        
+
         results = await asyncio.gather(*tasks, return_exceptions=True)
-        
+
         for i, result in enumerate(results):
             collector_name = list(self.collectors.keys())[i]
             if not isinstance(result, Exception):
                 data[collector_name] = result
             else:
                 self.logger.error(f"Collector {collector_name} failed: {result}")
-        
+
         return data
-    
+
     async def safe_collect(self, name: str, collector: BaseCollector):
         """Safely collect data with timeout and error handling"""
         try:
@@ -460,7 +468,7 @@ import logging
 
 class BaseCollector(ABC):
     """Abstract base class for all data collectors"""
-    
+
     def __init__(self, name: str, config: Dict):
         self.name = name
         self.config = config
@@ -470,16 +478,16 @@ class BaseCollector(ABC):
             calls=config.get('rate_limit_calls', 60),
             period=config.get('rate_limit_period', 60)
         )
-    
+
     async def __aenter__(self):
         """Async context manager entry"""
         await self.setup()
         return self
-    
+
     async def __aexit__(self, exc_type, exc_val, exc_tb):
         """Async context manager exit"""
         await self.cleanup()
-    
+
     async def setup(self):
         """Setup collector (create session, etc.)"""
         timeout = aiohttp.ClientTimeout(total=30)
@@ -487,26 +495,26 @@ class BaseCollector(ABC):
             timeout=timeout,
             headers=self.get_headers()
         )
-    
+
     async def cleanup(self):
         """Cleanup resources"""
         if self.session:
             await self.session.close()
-    
+
     @abstractmethod
     async def collect(self) -> List[Dict[str, Any]]:
         """Collect data from source - must be implemented by subclass"""
         pass
-    
+
     @abstractmethod
     def get_headers(self) -> Dict[str, str]:
         """Get HTTP headers for requests"""
         pass
-    
+
     async def make_request(self, url: str, params: Optional[Dict] = None) -> Optional[Dict]:
         """Make rate-limited HTTP request"""
         await self.rate_limiter.acquire()
-        
+
         try:
             async with self.session.get(url, params=params) as response:
                 if response.status == 200:
@@ -517,7 +525,7 @@ class BaseCollector(ABC):
         except Exception as e:
             self.logger.error(f"Request failed for {url}: {e}")
             return None
-    
+
     def create_data_point(self, data: Dict, source_type: str) -> Dict[str, Any]:
         """Create standardized data point"""
         return {
@@ -533,6 +541,7 @@ class BaseCollector(ABC):
 ```
 
 #### **Día 5: DeFiLlama Integration**
+
 ```python
 # File: src/data_market_agent/collectors/defillama_collector.py
 
@@ -542,9 +551,9 @@ from .base_collector import BaseCollector
 
 class DeFiLlamaCollector(BaseCollector):
     """DeFiLlama API integration - Free tier"""
-    
+
     BASE_URL = "https://api.llama.fi"
-    
+
     def __init__(self, config: Dict):
         super().__init__("defillama", config)
         self.endpoints = {
@@ -553,48 +562,48 @@ class DeFiLlamaCollector(BaseCollector):
             'yields': f"{self.BASE_URL}/yields",
             'stablecoins': f"{self.BASE_URL}/stablecoins"
         }
-    
+
     def get_headers(self) -> Dict[str, str]:
         return {
             'User-Agent': 'TradingDCA-Agent/1.0',
             'Accept': 'application/json'
         }
-    
+
     async def collect(self) -> List[Dict[str, Any]]:
         """Collect DeFi data"""
         data_points = []
-        
+
         # Collect protocols data
         protocols_data = await self.collect_protocols()
         if protocols_data:
             data_points.extend(protocols_data)
-        
+
         # Collect yield opportunities
         yields_data = await self.collect_yields()
         if yields_data:
             data_points.extend(yields_data)
-        
+
         # Collect TVL data
         tvl_data = await self.collect_tvl()
         if tvl_data:
             data_points.extend(tvl_data)
-        
+
         self.logger.info(f"Collected {len(data_points)} DeFi data points")
         return data_points
-    
+
     async def collect_protocols(self) -> List[Dict[str, Any]]:
         """Collect protocols overview"""
         try:
             response = await self.make_request(self.endpoints['protocols'])
             if not response:
                 return []
-            
+
             # Filter for relevant protocols
             relevant_protocols = [
                 p for p in response 
                 if p.get('tvl', 0) > 10_000_000  # $10M+ TVL
             ]
-            
+
             data_points = []
             for protocol in relevant_protocols[:50]:  # Top 50
                 data_point = self.create_data_point(
@@ -611,20 +620,20 @@ class DeFiLlamaCollector(BaseCollector):
                     'protocol_overview'
                 )
                 data_points.append(data_point)
-            
+
             return data_points
-            
+
         except Exception as e:
             self.logger.error(f"Error collecting protocols: {e}")
             return []
-    
+
     async def collect_yields(self) -> List[Dict[str, Any]]:
         """Collect yield farming opportunities"""
         try:
             response = await self.make_request(self.endpoints['yields'])
             if not response or 'data' not in response:
                 return []
-            
+
             # Filter high-yield, low-risk opportunities
             good_yields = [
                 y for y in response['data']
@@ -632,7 +641,7 @@ class DeFiLlamaCollector(BaseCollector):
                     y.get('apy', 0) < 100 and  # <100% APY (realistic)
                     y.get('tvlUsd', 0) > 1_000_000)  # >$1M TVL
             ]
-            
+
             data_points = []
             for yield_opp in good_yields[:30]:  # Top 30 opportunities
                 data_point = self.create_data_point(
@@ -650,24 +659,24 @@ class DeFiLlamaCollector(BaseCollector):
                     'yield_opportunity'
                 )
                 data_points.append(data_point)
-            
+
             return data_points
-            
+
         except Exception as e:
             self.logger.error(f"Error collecting yields: {e}")
             return []
-    
+
     async def collect_tvl(self) -> List[Dict[str, Any]]:
         """Collect total value locked data"""
         try:
             # Get overall TVL
             overall_response = await self.make_request(self.endpoints['tvl'])
-            
+
             # Get chain-specific TVL
             chains_response = await self.make_request(f"{self.BASE_URL}/chains")
-            
+
             data_points = []
-            
+
             if overall_response:
                 data_point = self.create_data_point(
                     {
@@ -677,7 +686,7 @@ class DeFiLlamaCollector(BaseCollector):
                     'tvl_overview'
                 )
                 data_points.append(data_point)
-            
+
             if chains_response:
                 for chain in chains_response[:20]:  # Top 20 chains
                     data_point = self.create_data_point(
@@ -691,9 +700,9 @@ class DeFiLlamaCollector(BaseCollector):
                         'chain_tvl'
                     )
                     data_points.append(data_point)
-            
+
             return data_points
-            
+
         except Exception as e:
             self.logger.error(f"Error collecting TVL: {e}")
             return []
@@ -714,19 +723,19 @@ async def test_defillama():
         'rate_limit_calls': 60,
         'rate_limit_period': 60
     }
-    
+
     async with DeFiLlamaCollector(config) as collector:
         print("Testing DeFiLlama collector...")
-        
+
         data = await collector.collect()
-        
+
         print(f"Collected {len(data)} data points")
-        
+
         if data:
             print("\nSample data points:")
             for i, point in enumerate(data[:3]):
                 print(f"{i+1}. {point['source_type']}: {point['data']}")
-        
+
         print("\nDeFiLlama integration test completed!")
 
 if __name__ == "__main__":
@@ -734,9 +743,11 @@ if __name__ == "__main__":
 ```
 
 ### **🛡️ Semana 2: BingX AI + Enhanced Analytics**
+
 **Objetivos**: Integrar análisis AI único + mejorar capacidades analíticas
 
 #### **Días 6-7: BingX AI Scraper**
+
 ```python
 # File: src/data_market_agent/scrapers/bingx_scraper.py
 
@@ -750,17 +761,17 @@ from .base_scraper import BaseScraper
 
 class BingXAIScraper(BaseScraper):
     """BingX AI Chat scraper for unique market analysis"""
-    
+
     def __init__(self, config: Dict):
         super().__init__("bingx_ai", config)
         self.base_url = "https://bingx.com/en-us/markets"
         self.ai_chat_url = "https://bingx.com/en-us/ai-chat"
         self.browser: Optional[Browser] = None
         self.page: Optional[Page] = None
-        
+
         # Symbols to analyze
         self.symbols = config.get('symbols', ['BTC', 'ETH', 'BNB'])
-        
+
         # Analysis questions templates
         self.analysis_questions = [
             "Analyze {symbol} price chart and provide technical outlook for next 24-48 hours",
@@ -769,12 +780,12 @@ class BingXAIScraper(BaseScraper):
             "Identify any chart patterns forming in {symbol} and their implications",
             "What are the main drivers affecting {symbol} price movement today?"
         ]
-    
+
     async def setup(self):
         """Setup Playwright browser"""
         try:
             self.playwright = await async_playwright().start()
-            
+
             # Launch browser with stealth settings
             self.browser = await self.playwright.chromium.launch(
                 headless=True,
@@ -788,28 +799,28 @@ class BingXAIScraper(BaseScraper):
                     '--disable-gpu'
                 ]
             )
-            
+
             # Create context with realistic settings
             context = await self.browser.new_context(
                 viewport={'width': 1920, 'height': 1080},
                 user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
             )
-            
+
             self.page = await context.new_page()
-            
+
             # Add stealth techniques
             await self.page.add_init_script("""
                 Object.defineProperty(navigator, 'webdriver', {
                     get: () => undefined,
                 });
             """)
-            
+
             self.logger.info("BingX AI scraper setup completed")
-            
+
         except Exception as e:
             self.logger.error(f"Failed to setup BingX scraper: {e}")
             raise
-    
+
     async def cleanup(self):
         """Cleanup browser resources"""
         try:
@@ -821,54 +832,54 @@ class BingXAIScraper(BaseScraper):
                 await self.playwright.stop()
         except Exception as e:
             self.logger.error(f"Error during cleanup: {e}")
-    
+
     async def scrape(self) -> List[Dict[str, Any]]:
         """Scrape BingX AI analysis for all symbols"""
         data_points = []
-        
+
         try:
             # Navigate to AI chat
             await self.navigate_to_ai_chat()
-            
+
             # Analyze each symbol
             for symbol in self.symbols:
                 symbol_analysis = await self.analyze_symbol(symbol)
                 if symbol_analysis:
                     data_points.extend(symbol_analysis)
-                
+
                 # Delay between symbols to avoid rate limiting
                 await asyncio.sleep(10)
-            
+
             self.logger.info(f"Collected {len(data_points)} BingX AI insights")
             return data_points
-            
+
         except Exception as e:
             self.logger.error(f"Error scraping BingX AI: {e}")
             return []
-    
+
     async def navigate_to_ai_chat(self):
         """Navigate to BingX AI chat interface"""
         try:
             await self.page.goto(self.ai_chat_url, wait_until='networkidle')
             await asyncio.sleep(3)
-            
+
             # Check if login is required
             if await self.page.locator('text=Login').count() > 0:
                 await self.handle_login()
-            
+
             # Wait for AI chat to load
             await self.page.wait_for_selector('[data-testid="ai-chat-input"]', timeout=10000)
-            
+
         except Exception as e:
             self.logger.error(f"Failed to navigate to AI chat: {e}")
             raise
-    
+
     async def handle_login(self):
         """Handle BingX login if required"""
         # Implementation depends on whether you have BingX account
         # For now, we'll try to use the platform without login
         # or use guest mode if available
-        
+
         # Check for guest/demo mode
         guest_button = self.page.locator('text=Guest Mode')
         if await guest_button.count() > 0:
@@ -876,18 +887,18 @@ class BingXAIScraper(BaseScraper):
             await asyncio.sleep(2)
         else:
             self.logger.warning("BingX login required - using limited access")
-    
+
     async def analyze_symbol(self, symbol: str) -> List[Dict[str, Any]]:
         """Get AI analysis for a specific symbol"""
         analysis_results = []
-        
+
         try:
             for question_template in self.analysis_questions:
                 question = question_template.format(symbol=symbol)
-                
+
                 # Ask AI the question
                 response = await self.ask_ai_question(question)
-                
+
                 if response:
                     analysis_data = {
                         'symbol': symbol,
@@ -898,52 +909,52 @@ class BingXAIScraper(BaseScraper):
                         'key_insights': self.extract_insights(response),
                         'timestamp': datetime.now()
                     }
-                    
+
                     data_point = self.create_data_point(analysis_data, 'ai_analysis')
                     analysis_results.append(data_point)
-                
+
                 # Delay between questions
                 await asyncio.sleep(5)
-            
+
             return analysis_results
-            
+
         except Exception as e:
             self.logger.error(f"Error analyzing {symbol}: {e}")
             return []
-    
+
     async def ask_ai_question(self, question: str) -> Optional[str]:
         """Ask a question to BingX AI and get response"""
         try:
             # Find and clear input field
             input_selector = '[data-testid="ai-chat-input"]'
             await self.page.fill(input_selector, question)
-            
+
             # Send the question
             send_button = self.page.locator('[data-testid="send-button"]')
             await send_button.click()
-            
+
             # Wait for AI response
             await asyncio.sleep(8)  # AI processing time
-            
+
             # Extract the response
             response_selector = '[data-testid="ai-response"]:last-child'
             response_element = self.page.locator(response_selector)
-            
+
             if await response_element.count() > 0:
                 response_text = await response_element.inner_text()
                 return response_text.strip()
             else:
                 self.logger.warning(f"No AI response found for question: {question}")
                 return None
-                
+
         except Exception as e:
             self.logger.error(f"Error asking AI question: {e}")
             return None
-    
+
     def categorize_question(self, question: str) -> str:
         """Categorize the type of analysis question"""
         question_lower = question.lower()
-        
+
         if 'technical' in question_lower or 'chart' in question_lower:
             return 'technical_analysis'
         elif 'support' in question_lower or 'resistance' in question_lower:
@@ -956,7 +967,7 @@ class BingXAIScraper(BaseScraper):
             return 'fundamental_analysis'
         else:
             return 'general_analysis'
-    
+
     def extract_confidence(self, response: str) -> float:
         """Extract confidence score from AI response"""
         # Look for confidence indicators in the text
@@ -965,19 +976,19 @@ class BingXAIScraper(BaseScraper):
             r'confidence.*?(\d+)%',
             r'probability.*?(\d+)%'
         ]
-        
+
         for pattern in confidence_patterns:
             match = re.search(pattern, response, re.IGNORECASE)
             if match:
                 return float(match.group(1)) / 100
-        
+
         # Estimate confidence based on language used
         high_confidence_words = ['strongly', 'clearly', 'definitely', 'confirmed']
         medium_confidence_words = ['likely', 'probably', 'suggests', 'indicates']
         low_confidence_words = ['might', 'could', 'possibly', 'uncertain']
-        
+
         response_lower = response.lower()
-        
+
         if any(word in response_lower for word in high_confidence_words):
             return 0.8
         elif any(word in response_lower for word in medium_confidence_words):
@@ -986,14 +997,14 @@ class BingXAIScraper(BaseScraper):
             return 0.4
         else:
             return 0.5  # Default medium confidence
-    
+
     def extract_insights(self, response: str) -> List[str]:
         """Extract key insights from AI response"""
         insights = []
-        
+
         # Split into sentences and filter meaningful ones
         sentences = re.split(r'[.!?]+', response)
-        
+
         for sentence in sentences:
             sentence = sentence.strip()
             if (len(sentence) > 20 and  # Meaningful length
@@ -1002,7 +1013,7 @@ class BingXAIScraper(BaseScraper):
                     'breakout', 'pattern', 'signal', 'target', 'risk'
                 ])):
                 insights.append(sentence)
-        
+
         return insights[:5]  # Top 5 insights
 
 # Test script
@@ -1017,14 +1028,14 @@ async def test_bingx():
         'symbols': ['BTC', 'ETH'],
         'rate_limit_delay': 5
     }
-    
+
     async with BingXAIScraper(config) as scraper:
         print("Testing BingX AI scraper...")
-        
+
         data = await scraper.scrape()
-        
+
         print(f"Collected {len(data)} AI analysis points")
-        
+
         if data:
             print("\nSample AI analysis:")
             for point in data[:2]:
@@ -1038,12 +1049,15 @@ if __name__ == "__main__":
 ```
 
 ### **⚡ Semana 3: Premium APIs + Analytics Engine**
+
 **Objetivos**: Integrar Messari + CoinGlass + Engine de análisis avanzado
 
 ### **🧠 Semana 4: AI Enhancement + Sentiment Analysis**
+
 **Objetivos**: LLM integration + análisis de sentiment avanzado + correlaciones
 
 ### **🔗 Semana 5: DCA Integration + Testing + Deployment**
+
 **Objetivos**: Integración completa con DCA + testing exhaustivo + deployment
 
 ---
@@ -1051,6 +1065,7 @@ if __name__ == "__main__":
 ## 🚀 Scripts de Setup
 
 ### **Environment Setup Script**
+
 ```python
 # scripts/setup_environment.py
 
@@ -1061,17 +1076,17 @@ from pathlib import Path
 
 def setup_environment():
     """Complete environment setup"""
-    
+
     print("🚀 Setting up Trading DCA Enhanced Environment...")
-    
+
     # 1. Check Python version
     if sys.version_info < (3, 11):
         print("❌ Python 3.11+ required")
         sys.exit(1)
-    
+
     # 2. Create virtual environment
     subprocess.run([sys.executable, "-m", "venv", "venv-enhanced"])
-    
+
     # 3. Activate and install dependencies
     if os.name == 'nt':  # Windows
         activate_script = "venv-enhanced/Scripts/activate"
@@ -1079,31 +1094,31 @@ def setup_environment():
     else:  # Unix/Linux/Mac
         activate_script = "venv-enhanced/bin/activate"
         pip_path = "venv-enhanced/bin/pip"
-    
+
     # Install requirements
     subprocess.run([pip_path, "install", "--upgrade", "pip", "setuptools", "wheel"])
     subprocess.run([pip_path, "install", "-r", "requirements.txt"])
     subprocess.run([pip_path, "install", "-r", "requirements-dev.txt"])
-    
+
     # 4. Setup pre-commit hooks
     subprocess.run([f"venv-enhanced/bin/pre-commit", "install"])
-    
+
     # 5. Create necessary directories
     dirs_to_create = [
         "logs", "data", "backups", "exports", 
         "monitoring/logs", "docker/volumes"
     ]
-    
+
     for dir_path in dirs_to_create:
         Path(dir_path).mkdir(parents=True, exist_ok=True)
-    
+
     # 6. Copy environment template
     if not os.path.exists('.env'):
         if os.path.exists('.env.template'):
             import shutil
             shutil.copy('.env.template', '.env')
             print("📝 Created .env file from template - please configure your API keys")
-    
+
     print("✅ Environment setup completed!")
     print("📝 Next steps:")
     print("   1. Configure your API keys in .env file")
@@ -1115,6 +1130,7 @@ if __name__ == "__main__":
 ```
 
 ### **API Testing Script**
+
 ```python
 # scripts/test_apis.py
 
@@ -1125,24 +1141,24 @@ import aiohttp
 
 async def test_all_apis():
     """Test all API connections"""
-    
+
     print("🔍 Testing API connections...")
-    
+
     results = {}
-    
+
     # Test DeFiLlama (free)
     results['defillama'] = await test_defillama()
-    
+
     # Test other APIs if keys are provided
     if os.getenv('MESSARI_API_KEY'):
         results['messari'] = await test_messari()
-    
+
     if os.getenv('COINGLASS_API_KEY'):
         results['coinglass'] = await test_coinglass()
-    
+
     if os.getenv('NANSEN_API_KEY'):
         results['nansen'] = await test_nansen()
-    
+
     # Print results
     print("\n📊 API Test Results:")
     for api, status in results.items():
@@ -1177,12 +1193,14 @@ if __name__ == "__main__":
 ## 📈 Success Metrics
 
 ### **Week 1 Success Criteria**
+
 - ✅ DeFiLlama integration working
 - ✅ Agent framework operational  
 - ✅ Database schema updated
 - ✅ First insights generated
 
 ### **Week 5 Success Criteria**
+
 - ✅ All premium APIs integrated
 - ✅ AI analysis operational
 - ✅ DCA system enhanced
@@ -1190,10 +1208,11 @@ if __name__ == "__main__":
 - ✅ Production deployment ready
 
 ### **Performance Targets**
+
 - **Data Collection**: <30s per cycle
 - **Insight Generation**: <60s per cycle  
 - **API Response Time**: <2s average
 - **System Uptime**: >99.5%
 - **False Positive Rate**: <15%
 
-¿Quieres que comience con la implementación de la Semana 1 o prefieres que desarrolle alguna sección específica del plan?
+¿Quieres que comience con la implementación de la Semana 1 o prefieres que desarrolle alguna sección específica del plan
