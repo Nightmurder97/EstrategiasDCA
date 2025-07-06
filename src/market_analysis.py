@@ -9,7 +9,6 @@ from typing import Dict, Any, List, Tuple
 from dataclasses import dataclass
 import os
 import aiohttp
-from openbb import obb
 
 @dataclass
 class MarketCondition:
@@ -311,8 +310,10 @@ class MarketAnalyzer:
 
             return report
         except Exception as e:
-            logging.error(f"Error generando reporte: {e}")
+            logging.error(f"Error generating report: {e}")
             return f"Error generando reporte: {str(e)}"
+
+    from openbb import obb
 
     def _analyze_symbol(self, symbol: str, data: Dict) -> Dict:
         """Analiza un símbolo específico usando indicadores técnicos"""
