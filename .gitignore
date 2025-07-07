@@ -164,7 +164,6 @@ desktop.ini
 # Credentials
 *.env
 .env*
-!config/env.template
 
 # Logs
 logs/

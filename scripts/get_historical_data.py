@@ -27,7 +27,7 @@ class MultiSourceDataCollector:
         self.kucoin_base_url = "https://api.kucoin.com"
         
         # Inicializar clientes
-        self.binance_client = Client(None, None)
+        self.binance_client = Client(os.getenv('BINANCE_API_KEY'), os.getenv('BINANCE_API_SECRET'))
         
         # Cache para IDs de CoinGecko
         self.coingecko_ids = self._get_coingecko_ids()
