@@ -34,4 +34,9 @@ sphinx-rtd-theme>=0.5.0
 # Utilities
 tqdm>=4.62.0
 loguru>=0.5.0
-python-telegram-bot>=13.7  # Para notificaciones 
+python-telegram-bot>=13.7  # Para notificaciones
+
+# AI Agent Dependencies
+APScheduler==3.10.4
+pydantic==2.8.2
+pytest-asyncio>=0.15.0 # For running async tests with pytest
